@@ -1,0 +1,55 @@
+{
+  "slug": "h-1b",
+  "name": "H-1B Visa",
+  "tagline": "Specialty Occupation Work Visa",
+  "shortDescription": "The H-1B visa allows U.S. employers to temporarily employ foreign workers in specialty occupations requiring at least a bachelor's degree or equivalent.",
+  "metaTitle": "H-1B Visa Attorneys | Watson Immigration Law",
+  "metaDescription": "Expert H-1B visa counsel for employers and employees. Watson Immigration Law has helped hundreds of professionals secure H-1B status. Featured in NYT, Forbes, Bloomberg.",
+  "heroHeadline": "H-1B Visa Attorneys for Specialty Workers & Employers",
+  "heroSubheadline": "From lottery registration to status maintenance — we handle every stage of the H-1B process.",
+  "color": "#1a2e4a",
+  "icon": "briefcase",
+  "eligibility": {
+    "employer": "U.S. employer must sponsor and file the petition",
+    "degree": "Bachelor's degree or higher in a specialty field (or equivalent)",
+    "occupation": "Job must qualify as a 'specialty occupation' under USCIS standards",
+    "salary": "Employer must pay the prevailing wage for the occupation and location",
+    "cap": "Subject to annual H-1B cap (65,000 regular + 20,000 advanced degree exemption)"
+  },
+  "duration": "Initial 3-year period, extendable to 6 years (longer with green card sponsorship)",
+  "processingTimes": {
+    "regular": "3–6 months",
+    "premium": "15 business days (USCIS Premium Processing)"
+  },
+  "keyDates": {
+    "registrationWindow": "March 1–18 (approximate, varies by year)",
+    "lotteryResult": "Late March",
+    "filingDeadline": "June 30",
+    "statusBegins": "October 1 (start of fiscal year)"
+  },
+  "faqs": [
+    {
+      "question": "What is the H-1B visa lottery and how does it work?",
+      "answer": "The H-1B lottery (officially called 'H-1B registration') is a random selection process USCIS uses when it receives more registrations than available visa numbers. Employers first register electronically (fee: $215/registration) during a March window. USCIS then randomly selects registrations to fill the cap — 65,000 for the regular cap and 20,000 for the advanced degree exemption. Selected employers are then invited to file full H-1B petitions."
+    },
+    {
+      "question": "Can I change employers on an H-1B visa?",
+      "answer": "Yes. H-1B portability allows you to change employers as long as your new employer files an H-1B transfer petition before your current status expires. You can start working for the new employer as soon as the petition is filed — you don't need to wait for USCIS approval. This is one of the significant advantages of H-1B status."
+    },
+    {
+      "question": "What happens to my H-1B if I'm laid off?",
+      "answer": "If you lose your H-1B job, you have a 60-day grace period to find new sponsoring employment, change to a different visa status, or depart the U.S. This grace period applies once per authorized validity period. We strongly recommend consulting with an immigration attorney immediately after a layoff to evaluate all options."
+    },
+    {
+      "question": "Can my spouse and children accompany me on an H-1B visa?",
+      "answer": "Yes. Your spouse and unmarried children under 21 may apply for H-4 dependent visas. H-4 visa holders may attend school and in certain circumstances — if you have an approved I-140 immigrant petition — your H-4 spouse may be eligible for an H-4 EAD (Employment Authorization Document) to work in the U.S."
+    },
+    {
+      "question": "How does the H-1B visa lead to a green card?",
+      "answer": "The H-1B is a nonimmigrant visa, but it is 'dual intent,' meaning you can simultaneously pursue a green card. The typical path is: your employer sponsors you for PERM labor certification, then files an I-140 petition. Once your priority date is current, you file for adjustment of status (I-485). The H-1B can be extended beyond the 6-year cap while your green card is pending."
+    }
+  ],
+  "relatedVisas": ["eb-5", "o-1", "l-1"],
+  "industries": ["tech", "healthcare", "finance", "education"],
+  "countries": ["india", "china", "south-korea", "canada", "uk"]
+}

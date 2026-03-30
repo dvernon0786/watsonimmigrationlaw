@@ -1,0 +1,55 @@
+{
+  "slug": "eb-5",
+  "name": "EB-5 Immigrant Investor Visa",
+  "tagline": "Green Card Through Investment",
+  "shortDescription": "The EB-5 Immigrant Investor Program allows foreign investors to obtain U.S. permanent residency by investing in a new commercial enterprise that creates full-time jobs for U.S. workers.",
+  "metaTitle": "EB-5 Visa Attorneys | Immigrant Investor Program | Watson Immigration Law",
+  "metaDescription": "Expert EB-5 visa counsel for immigrant investors. Watson Immigration Law guides entrepreneurs through the EB-5 Immigrant Investor Program. Featured in NYT, Forbes, Bloomberg.",
+  "heroHeadline": "EB-5 Immigrant Investor Visa Attorneys",
+  "heroSubheadline": "Secure U.S. permanent residency through strategic business investment. We guide investors through the EB-5 Immigrant Investor Program.",
+  "color": "#1a2e4a",
+  "icon": "building",
+  "eligibility": {
+    "investment": "Minimum $1.05M investment in targeted employment area (TEA) or $800K in non-TEA",
+    "enterprise": "Must invest in a new commercial enterprise or expand existing business",
+    "jobs": "Must create or preserve at least 10 full-time jobs for U.S. workers",
+    "management": "Must be involved in the management/operations of the business",
+    "source": "Investment funds must come from lawful sources"
+  },
+  "duration": "Conditional green card for 2 years, then permanent residency",
+  "processingTimes": {
+    "i-526": "12–24 months",
+    "i-485": "6–12 months after I-526 approval",
+    "overall": "2–4 years from investment to permanent residency"
+  },
+  "keyDates": {
+    "application": "Ongoing — no annual cap",
+    "priority": "Based on filing date",
+    "renewal": "Every 2 years during conditional period"
+  },
+  "faqs": [
+    {
+      "question": "What is the minimum investment amount for EB-5?",
+      "answer": "The minimum investment is $800,000 for investments in targeted employment areas (high unemployment or rural areas). For investments outside these areas, the minimum is $1.05 million. These amounts are adjusted annually for inflation."
+    },
+    {
+      "question": "What qualifies as a 'targeted employment area' (TEA)?",
+      "answer": "A TEA is either a rural area (population under 50,000) or an area with unemployment at least 150% of the national average. USCIS designates TEAs, and they can be counties, cities, or specific census tracts. Investing in a TEA reduces the minimum investment amount."
+    },
+    {
+      "question": "How long does the EB-5 process take?",
+      "answer": "The EB-5 process typically takes 2–4 years from initial investment to permanent residency. This includes USCIS processing of Form I-526 (immigrant petition), USCIS processing of Form I-485 (adjustment of status), and the 2-year conditional residency period."
+    },
+    {
+      "question": "Can I work in the U.S. while my EB-5 application is pending?",
+      "answer": "Yes, you can apply for conditional permanent residency (green card) immediately after I-526 approval. This allows you to live and work in the U.S. while your application processes. Your spouse and unmarried children under 21 can accompany you as dependents."
+    },
+    {
+      "question": "What happens after the 2-year conditional period?",
+      "answer": "After 2 years, you must file Form I-829 to remove conditions. This requires proving that you made the required investment, created the required jobs, and maintained active involvement in the business. Successful completion grants permanent residency for you and your family."
+    }
+  ],
+  "relatedVisas": ["e-2", "o-1", "l-1"],
+  "industries": ["real-estate", "manufacturing", "hospitality", "healthcare"],
+  "countries": ["china", "india", "south-korea", "uk", "canada"]
+}

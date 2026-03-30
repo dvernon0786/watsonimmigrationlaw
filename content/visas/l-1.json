@@ -1,0 +1,54 @@
+{
+  "slug": "l-1",
+  "name": "L-1 Intracompany Transfer Visa",
+  "tagline": "Multinational Company Transfer Visa",
+  "shortDescription": "The L-1 visa allows multinational companies to transfer employees from foreign offices to U.S. offices in managerial, executive, or specialized knowledge positions.",
+  "metaTitle": "L-1 Visa Attorneys | Intracompany Transfer Visa | Watson Immigration Law",
+  "metaDescription": "Expert L-1 visa counsel for multinational companies. Watson Immigration Law helps businesses transfer key employees to the U.S. Featured in NYT, Forbes, Bloomberg.",
+  "heroHeadline": "L-1 Intracompany Transfer Visa Attorneys",
+  "heroSubheadline": "Transfer key employees from your foreign offices to the U.S. We guide multinational companies through the L-1 visa process.",
+  "color": "#1a2e4a",
+  "icon": "users",
+  "eligibility": {
+    "company": "U.S. and foreign entities must be related (parent/subsidiary/affiliate/branch)",
+    "employment": "Must have been employed by foreign entity for at least 1 year in past 3 years",
+    "position": "Must be transferred to managerial, executive, or specialized knowledge position",
+    "blanket": "Company may qualify for streamlined 'blanket' petition process",
+    "relationship": "Qualifying relationship between U.S. and foreign entities"
+  },
+  "duration": "L-1A: 7 years, L-1B: 5 years, extendable beyond limits with EB-1C",
+  "processingTimes": {
+    "blanket": "2–4 weeks",
+    "individual": "2–6 months",
+    "extension": "Similar processing times"
+  },
+  "keyDates": {
+    "renewal": "Apply 45 days before expiration",
+    "extension": "No limit on extensions"
+  },
+  "faqs": [
+    {
+      "question": "What is the difference between L-1A and L-1B visas?",
+      "answer": "L-1A is for managers and executives who primarily manage others or make policy decisions. L-1B is for employees with specialized knowledge of the company's products/services/processes. L-1A allows up to 7 years in the U.S., while L-1B allows up to 5 years."
+    },
+    {
+      "question": "What qualifies as a 'qualifying relationship' for L-1?",
+      "answer": "The U.S. and foreign entities must have one of these relationships: parent-subsidiary, affiliate (at least 50% ownership), or branch office. The foreign entity must be doing business (not just a shell company), and the relationship must exist at the time of filing."
+    },
+    {
+      "question": "Can my spouse and children accompany me on an L-1 visa?",
+      "answer": "Yes. Your spouse and unmarried children under 21 can accompany you as L-2 dependents. Your spouse can apply for work authorization (EAD) to work in the U.S. Children can attend school but cannot work until they obtain their own work authorization."
+    },
+    {
+      "question": "What is the 'blanket petition' process?",
+      "answer": "Large multinational companies can obtain pre-approval through USCIS's blanket petition process. This streamlines individual L-1 applications — instead of filing Form I-129 with USCIS, you file directly with the consulate. Blanket petitions require demonstrating substantial business presence in the U.S."
+    },
+    {
+      "question": "Can the L-1 lead to a green card?",
+      "answer": "Yes, L-1 can lead to permanent residency through EB-1C (multinational executive/manager). After 7 years on L-1A or 5 years on L-1B, you may be eligible for EB-1C if you continue in a qualifying managerial/executive position. The company must have been doing business in the U.S. for at least 1 year."
+    }
+  ],
+  "relatedVisas": ["eb-5", "e-2", "o-1"],
+  "industries": ["tech", "finance", "manufacturing", "healthcare", "consulting"],
+  "countries": ["india", "china", "canada", "uk", "germany", "japan", "brazil"]
+}

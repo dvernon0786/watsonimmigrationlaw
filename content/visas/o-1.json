@@ -1,0 +1,55 @@
+{
+  "slug": "o-1",
+  "name": "O-1 Extraordinary Ability Visa",
+  "tagline": "Extraordinary Talent Visa",
+  "shortDescription": "The O-1 visa is for individuals who possess extraordinary ability in the sciences, arts, education, business, or athletics, or who have demonstrated extraordinary ability in the motion picture or television industry.",
+  "metaTitle": "O-1 Visa Attorneys | Extraordinary Ability Visa | Watson Immigration Law",
+  "metaDescription": "Expert O-1 visa counsel for extraordinary talent. Watson Immigration Law helps artists, scientists, athletes, and business leaders obtain O-1 status. Featured in NYT, Forbes, Bloomberg.",
+  "heroHeadline": "O-1 Extraordinary Ability Visa Attorneys",
+  "heroSubheadline": "For individuals with extraordinary talent in their field. We help extraordinary ability beneficiaries obtain O-1 status and work in the U.S.",
+  "color": "#1a2e4a",
+  "icon": "star",
+  "eligibility": {
+    "ability": "Must demonstrate extraordinary ability in field (science, arts, education, business, athletics, or film/TV)",
+    "evidence": "Must provide evidence of extraordinary ability (awards, publications, high salary, etc.)",
+    "consultation": "Must obtain advisory opinion from peer group or labor organization",
+    "event": "Must be coming to participate in specific event or activity",
+    "benefit": "Must be coming to the U.S. to continue work of extraordinary merit"
+  },
+  "duration": "Initial 3-year period, extendable in 1-year increments, maximum 7 years for arts/sciences/business, no limit for athletics",
+  "processingTimes": {
+    "premium": "15 business days",
+    "regular": "2–4 months",
+    "extension": "Similar processing times"
+  },
+  "keyDates": {
+    "application": "No annual cap",
+    "extension": "Apply 45 days before expiration",
+    "renewal": "No limit on renewals"
+  },
+  "faqs": [
+    {
+      "question": "What qualifies as 'extraordinary ability' for O-1?",
+      "answer": "Extraordinary ability means a level of expertise indicating that you are among the top individuals in your field. Evidence includes receiving nationally or internationally recognized prizes/awards, membership in organizations requiring outstanding achievement, published material about you, high salary/compensation, or other substantial recognition."
+    },
+    {
+      "question": "What evidence do I need for an O-1 petition?",
+      "answer": "You need at least 3 of 6 possible criteria: official academic record, professional licenses, high salary, membership in professional associations, recognition in field, other significant contributions. You also need a consultation from a peer group or labor organization, and evidence that your work will substantially benefit the U.S."
+    },
+    {
+      "question": "Can my spouse and children accompany me on an O-1 visa?",
+      "answer": "Yes. Your spouse and unmarried children under 21 can accompany you as O-3 dependents. However, O-3 dependents cannot work in the U.S. — they can attend school but need separate work authorization. Your spouse cannot obtain work authorization through the O-1 petition."
+    },
+    {
+      "question": "How long can I stay on an O-1 visa?",
+      "answer": "O-1 visas are issued for up to 3 years initially, with 1-year extensions possible. The maximum is 7 years for those in arts, sciences, education, business, or athletics. There is no maximum limit for those in motion picture/television or athletics who receive acclaim."
+    },
+    {
+      "question": "Can the O-1 lead to a green card?",
+      "answer": "Yes, O-1 can lead to permanent residency through EB-1 (extraordinary ability) or EB-2/EB-3 employment-based categories. Many O-1 holders transition to EB-1 after demonstrating continued extraordinary ability. The O-1 provides valuable work experience and evidence for green card applications."
+    }
+  ],
+  "relatedVisas": ["eb-5", "e-2", "l-1"],
+  "industries": ["tech", "healthcare", "finance", "education", "entertainment"],
+  "countries": ["china", "india", "uk", "germany", "france", "japan", "canada"]
+}

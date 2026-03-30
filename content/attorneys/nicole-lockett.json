@@ -1,0 +1,22 @@
+{
+  "name": "Nicole Lockett",
+  "slug": "nicole-lockett",
+  "jobTitle": "Immigration Attorney",
+  "image": "/team/nicole-lockett.jpg",
+  "description": "Nicole Lockett is an immigration attorney at Watson Immigration Law, focused on employment-based immigration for companies and individuals.",
+  "barAdmissions": ["Washington State Bar"],
+  "education": [
+    { "degree": "J.D.", "institution": "Seattle University School of Law", "year": 2018 }
+  ],
+  "awards": [],
+  "credentials": [
+    "Employment-based immigration specialist",
+    "H-1B, L-1, and O-1 visa expertise",
+    "Corporate immigration compliance"
+  ],
+  "sameAs": ["https://www.linkedin.com/in/nicolelockett"],
+  "bio": [
+    "Nicole Lockett is an immigration attorney at Watson Immigration Law, where she advises both companies and individual clients on employment-based immigration matters.",
+    "Nicole focuses on nonimmigrant work visas including H-1B, L-1, and O-1 categories, helping employers navigate the increasingly complex landscape of U.S. immigration compliance."
+  ]
+}
