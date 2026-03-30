@@ -3,6 +3,7 @@
 // components/sections/AttorneyCard.tsx — Sidebar mini-bio
 
 import Link from 'next/link'
+import SafeImage from '@/components/ui/SafeImage'
 
 interface AttorneyCardProps {
   name: string
@@ -16,13 +17,11 @@ export default function AttorneyCard({ name, title, image, slug, credentials }: 
   return (
     <div className="bg-white rounded-xl2 border border-gray-100 shadow-card p-6">
       <div className="flex gap-4">
-        <img
+        <SafeImage
           src={image}
           alt={name}
           className="w-16 h-16 rounded-full object-cover flex-shrink-0"
-          onError={(e) => {
-            (e.target as HTMLImageElement).src = 'data:image/svg+xml,...'
-          }}
+          fallbackSrc="/team/default.jpg"
         />
         <div className="flex-1 min-w-0">
           <Link

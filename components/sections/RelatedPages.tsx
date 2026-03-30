@@ -1,6 +1,9 @@
 // components/sections/RelatedPages.tsx — Internal linking
 
+'use client'
+
 import Link from 'next/link'
+import SafeImage from '@/components/ui/SafeImage'
 
 interface RelatedPagesProps {
   visa?: string
@@ -33,14 +36,11 @@ export default function RelatedPages({ visa, location, country, industry, pages 
               >
                 {page.image && (
                   <div className="mb-4">
-                    <img
+                    <SafeImage
                       src={page.image}
                       alt={page.title}
                       className="w-full h-32 object-cover rounded-lg"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = '/visas/default.jpg';
-                      }}
+                      fallbackSrc="/visas/default.jpg"
                     />
                   </div>
                 )}

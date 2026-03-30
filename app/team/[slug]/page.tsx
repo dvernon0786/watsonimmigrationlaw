@@ -7,6 +7,7 @@ import LeadCapture from '@/components/sections/LeadCapture';
 import MediaLogos from '@/components/sections/MediaLogos';
 import { buildAttorneySchema, buildBreadcrumbSchema } from '@/lib/schemas';
 import { getAttorneyData, getAttorneys } from '@/lib/content';
+import AttorneyImage from '@/components/ui/AttorneyImage';
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const attorney = await getAttorneyData(params.slug);
@@ -44,14 +45,10 @@ export default async function AttorneyPage({ params }: { params: { slug: string 
           <div className="grid lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-start gap-8 mb-8">
-                <img
+                <AttorneyImage
                   src={attorney.image}
                   alt={attorney.name}
                   className="w-32 h-32 rounded-full object-cover"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = '/team/default.jpg';
-                  }}
                 />
                 <div>
                   <h1 className="text-4xl font-bold text-gray-900 mb-2">{attorney.name}</h1>
