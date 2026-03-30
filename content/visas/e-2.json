@@ -10,17 +10,31 @@
   "color": "#1a2e4a",
   "icon": "globe",
   "eligibility": {
-    "nationality": "Must be citizen of treaty country (over 80 countries qualify)",
-    "investment": "Substantial investment in bona fide U.S. business",
-    "ownership": "Must own at least 50% of the business",
-    "development": "Must develop and direct the business (cannot be passive investor)",
-    "business": "Business must be active and commercial, not marginal"
+    "requirements": [
+      "Must be citizen of treaty country (over 80 countries qualify)",
+      "Substantial investment in bona fide U.S. business",
+      "Must own at least 50% of the business",
+      "Must develop and direct the business (cannot be passive investor)",
+      "Business must be active and commercial, not marginal"
+    ],
+    "benefits": [
+      "Initial 2-year period, renewable indefinitely in 2-year increments",
+      "Spouse and unmarried children under 21 can accompany as dependents",
+      "Spouse can apply for work authorization (EAD)",
+      "No annual cap or backlogs for E-2 applications",
+      "Can lead to permanent residency through EB-5 or other paths"
+    ]
   },
-  "duration": "Initial 2-year period, renewable indefinitely in 2-year increments",
-  "processingTimes": {
-    "consular": "2–4 weeks",
-    "port": "Immediate upon arrival",
-    "overall": "1–3 months from application to entry"
+  "processing": {
+    "timeline": "1–3 months from application to entry",
+    "cost": "$8,000–$15,000 (including USCIS and consular fees)",
+    "documents": [
+      "Form DS-160 Nonimmigrant Visa Application",
+      "Form I-129 Petition Based on Blanket L Petition (if applicable)",
+      "Business plan and financial statements",
+      "Proof of investment and business ownership",
+      "Treaty country citizenship evidence"
+    ]
   },
   "keyDates": {
     "renewal": "Apply 2 months before expiration",

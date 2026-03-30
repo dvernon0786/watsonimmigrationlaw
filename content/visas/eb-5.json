@@ -10,17 +10,31 @@
   "color": "#1a2e4a",
   "icon": "building",
   "eligibility": {
-    "investment": "Minimum $1.05M investment in targeted employment area (TEA) or $800K in non-TEA",
-    "enterprise": "Must invest in a new commercial enterprise or expand existing business",
-    "jobs": "Must create or preserve at least 10 full-time jobs for U.S. workers",
-    "management": "Must be involved in the management/operations of the business",
-    "source": "Investment funds must come from lawful sources"
+    "requirements": [
+      "Minimum $1.05M investment in targeted employment area (TEA) or $800K in non-TEA",
+      "Must invest in a new commercial enterprise or expand existing business",
+      "Must create or preserve at least 10 full-time jobs for U.S. workers",
+      "Must be involved in the management/operations of the business",
+      "Investment funds must come from lawful sources"
+    ],
+    "benefits": [
+      "Conditional green card for 2 years, then permanent residency",
+      "Spouse and unmarried children under 21 receive green cards",
+      "No annual cap or backlogs for EB-5 applications",
+      "Path to U.S. citizenship after 3 years of permanent residency",
+      "Freedom to live and work anywhere in the U.S."
+    ]
   },
-  "duration": "Conditional green card for 2 years, then permanent residency",
-  "processingTimes": {
-    "i-526": "12–24 months",
-    "i-485": "6–12 months after I-526 approval",
-    "overall": "2–4 years from investment to permanent residency"
+  "processing": {
+    "timeline": "2–4 years from investment to permanent residency",
+    "cost": "$100,000–$150,000 (including USCIS fees and attorney fees)",
+    "documents": [
+      "Form I-526 Immigrant Petition Based on Alien Entrepreneur",
+      "Business plan and economic analysis",
+      "Source of funds documentation",
+      "Legal business structure documents",
+      "Job creation evidence and business licenses"
+    ]
   },
   "keyDates": {
     "application": "Ongoing — no annual cap",

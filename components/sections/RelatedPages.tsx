@@ -37,6 +37,10 @@ export default function RelatedPages({ visa, location, country, industry, pages 
                       src={page.image}
                       alt={page.title}
                       className="w-full h-32 object-cover rounded-lg"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = '/visas/default.jpg';
+                      }}
                     />
                   </div>
                 )}

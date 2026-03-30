@@ -10,16 +10,31 @@
   "color": "#1a2e4a",
   "icon": "briefcase",
   "eligibility": {
-    "employer": "U.S. employer must sponsor and file the petition",
-    "degree": "Bachelor's degree or higher in a specialty field (or equivalent)",
-    "occupation": "Job must qualify as a 'specialty occupation' under USCIS standards",
-    "salary": "Employer must pay the prevailing wage for the occupation and location",
-    "cap": "Subject to annual H-1B cap (65,000 regular + 20,000 advanced degree exemption)"
+    "requirements": [
+      "U.S. employer must sponsor and file the petition",
+      "Bachelor's degree or higher in a specialty field (or equivalent)",
+      "Job must qualify as a 'specialty occupation' under USCIS standards",
+      "Employer must pay the prevailing wage for the occupation and location",
+      "Subject to annual H-1B cap (65,000 regular + 20,000 advanced degree exemption)"
+    ],
+    "benefits": [
+      "Initial 3-year period, extendable to 6 years (longer with green card sponsorship)",
+      "Spouse and unmarried children under 21 may accompany on H-4 visas",
+      "H-4 dependents may attend school; spouses may work with approved I-140",
+      "Dual intent allows simultaneous pursuit of permanent residency",
+      "Portability allows changing employers without losing status"
+    ]
   },
-  "duration": "Initial 3-year period, extendable to 6 years (longer with green card sponsorship)",
-  "processingTimes": {
-    "regular": "3–6 months",
-    "premium": "15 business days (USCIS Premium Processing)"
+  "processing": {
+    "timeline": "3–6 months (15 business days with Premium Processing)",
+    "cost": "$4,600–$8,500 (including USCIS fees, attorney fees, and ACWIA fee)",
+    "documents": [
+      "Form I-129 Petition Based on Blanket L Petition",
+      "Labor Condition Application (LCA)",
+      "Degree equivalency evaluation (if needed)",
+      "Employer support letter",
+      "Prevailing wage determination"
+    ]
   },
   "keyDates": {
     "registrationWindow": "March 1–18 (approximate, varies by year)",

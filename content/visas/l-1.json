@@ -10,17 +10,31 @@
   "color": "#1a2e4a",
   "icon": "users",
   "eligibility": {
-    "company": "U.S. and foreign entities must be related (parent/subsidiary/affiliate/branch)",
-    "employment": "Must have been employed by foreign entity for at least 1 year in past 3 years",
-    "position": "Must be transferred to managerial, executive, or specialized knowledge position",
-    "blanket": "Company may qualify for streamlined 'blanket' petition process",
-    "relationship": "Qualifying relationship between U.S. and foreign entities"
+    "requirements": [
+      "U.S. and foreign entities must be related (parent/subsidiary/affiliate/branch)",
+      "Must have been employed by foreign entity for at least 1 year in past 3 years",
+      "Must be transferred to managerial, executive, or specialized knowledge position",
+      "Company may qualify for streamlined 'blanket' petition process",
+      "Qualifying relationship between U.S. and foreign entities"
+    ],
+    "benefits": [
+      "L-1A: 7 years, L-1B: 5 years, extendable beyond limits with EB-1C",
+      "Spouse and unmarried children under 21 can accompany as dependents",
+      "Spouse can apply for work authorization (EAD)",
+      "No annual cap or backlogs for L-1 applications",
+      "Can lead to permanent residency through EB-1C category"
+    ]
   },
-  "duration": "L-1A: 7 years, L-1B: 5 years, extendable beyond limits with EB-1C",
-  "processingTimes": {
-    "blanket": "2–4 weeks",
-    "individual": "2–6 months",
-    "extension": "Similar processing times"
+  "processing": {
+    "timeline": "2–6 months (2–4 weeks for blanket petitions)",
+    "cost": "$4,000–$8,000 (including USCIS fees and attorney fees)",
+    "documents": [
+      "Form I-129 Petition Based on Blanket L Petition",
+      "Business relationship evidence (articles of incorporation, etc.)",
+      "Employee qualifications and specialized knowledge evidence",
+      "Blanket petition approval (if applicable)",
+      "Nonimmigrant visa application (DS-160)"
+    ]
   },
   "keyDates": {
     "renewal": "Apply 45 days before expiration",

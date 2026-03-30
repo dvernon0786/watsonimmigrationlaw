@@ -48,6 +48,10 @@ export default async function AttorneyPage({ params }: { params: { slug: string 
                   src={attorney.image}
                   alt={attorney.name}
                   className="w-32 h-32 rounded-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = '/team/default.jpg';
+                  }}
                 />
                 <div>
                   <h1 className="text-4xl font-bold text-gray-900 mb-2">{attorney.name}</h1>

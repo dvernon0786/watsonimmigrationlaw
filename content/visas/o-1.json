@@ -10,17 +10,31 @@
   "color": "#1a2e4a",
   "icon": "star",
   "eligibility": {
-    "ability": "Must demonstrate extraordinary ability in field (science, arts, education, business, athletics, or film/TV)",
-    "evidence": "Must provide evidence of extraordinary ability (awards, publications, high salary, etc.)",
-    "consultation": "Must obtain advisory opinion from peer group or labor organization",
-    "event": "Must be coming to participate in specific event or activity",
-    "benefit": "Must be coming to the U.S. to continue work of extraordinary merit"
+    "requirements": [
+      "Must demonstrate extraordinary ability in field (science, arts, education, business, athletics, or film/TV)",
+      "Must provide evidence of extraordinary ability (awards, publications, high salary, etc.)",
+      "Must obtain advisory opinion from peer group or labor organization",
+      "Must be coming to participate in specific event or activity",
+      "Must be coming to the U.S. to continue work of extraordinary merit"
+    ],
+    "benefits": [
+      "Initial 3-year period, extendable in 1-year increments",
+      "Maximum 7 years for arts/sciences/business, no limit for athletics",
+      "Spouse and unmarried children under 21 can accompany as dependents",
+      "No annual cap or backlogs for O-1 applications",
+      "Can lead to permanent residency through EB-1 category"
+    ]
   },
-  "duration": "Initial 3-year period, extendable in 1-year increments, maximum 7 years for arts/sciences/business, no limit for athletics",
-  "processingTimes": {
-    "premium": "15 business days",
-    "regular": "2–4 months",
-    "extension": "Similar processing times"
+  "processing": {
+    "timeline": "2–4 months (15 business days with Premium Processing)",
+    "cost": "$5,000–$10,000 (including USCIS fees and attorney fees)",
+    "documents": [
+      "Form I-129 Petition Based on Blanket L Petition",
+      "Consultation from peer group or labor organization",
+      "Evidence of extraordinary ability (awards, publications, etc.)",
+      "Contract or offer letter for U.S. work",
+      "Proof of substantial merit and national importance"
+    ]
   },
   "keyDates": {
     "application": "No annual cap",
