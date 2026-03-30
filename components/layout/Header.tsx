@@ -2,7 +2,7 @@
 
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -18,6 +18,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isVisaDropdownOpen, setIsVisaDropdownOpen] = useState(false)
   const pathname = usePathname()
+  const dropdownTimeoutRef = useRef<NodeJS.Timeout>()
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
@@ -36,23 +37,24 @@ export default function Header() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
             {/* Visas Dropdown */}
-            <div className="relative">
-              <button
-                onMouseEnter={() => setIsVisaDropdownOpen(true)}
-                onMouseLeave={() => setIsVisaDropdownOpen(false)}
-                className="flex items-center space-x-1 text-gray-700 hover:text-navy transition-colors font-medium"
-              >
+            <div 
+              className="relative"
+              onMouseEnter={() => {
+                if (dropdownTimeoutRef.current) clearTimeout(dropdownTimeoutRef.current)
+                setIsVisaDropdownOpen(true)
+              }}
+              onMouseLeave={() => {
+                dropdownTimeoutRef.current = setTimeout(() => setIsVisaDropdownOpen(false), 150)
+              }}
+            >
+              <button className="flex items-center space-x-1 text-gray-700 hover:text-navy transition-colors font-medium">
                 <span>Visas</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               {isVisaDropdownOpen && (
-                <div
-                  className="absolute top-full left-0 mt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-10"
-                  onMouseEnter={() => setIsVisaDropdownOpen(true)}
-                  onMouseLeave={() => setIsVisaDropdownOpen(false)}
-                >
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-10">
                   {VISAS.map((visa) => (
                     <Link
                       key={visa.slug}

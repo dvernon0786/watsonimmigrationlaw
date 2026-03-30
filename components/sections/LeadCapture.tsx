@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface LeadCaptureProps {
   visaName?: string
@@ -14,6 +14,16 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
   const [formState, setFormState] = useState({
     name: '', email: '', phone: '', message: '', submitted: false, loading: false,
   })
+
+  // Load Calendly script only once
+  useEffect(() => {
+    if (typeof window !== 'undefined' && !document.querySelector('script[src*="calendly"]')) {
+      const script = document.createElement('script')
+      script.src = 'https://assets.calendly.com/assets/external/widget.js'
+      script.async = true
+      document.head.appendChild(script)
+    }
+  }, [])
 
   const tabs: { id: Tab; label: string; icon: string }[] = [
     { id: 'calendly', label: 'Book Call',    icon: '📅' },
@@ -86,11 +96,6 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
               className="calendly-inline-widget rounded-lg overflow-hidden"
               data-url="https://calendly.com/watsonimmigrationlaw/consultation?hide_gdpr_banner=1&primary_color=1a2e4a"
               style={{ minWidth: '100%', height: '380px' }}
-            />
-            <script
-              type="text/javascript"
-              src="https://assets.calendly.com/assets/external/widget.js"
-              async
             />
           </div>
         )}
