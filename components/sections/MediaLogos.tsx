@@ -10,7 +10,7 @@ export default function MediaLogos() {
   ]
 
   return (
-    <section className="py-8 bg-white border-b border-gray-100">
+    <section className="py-8 bg-white border-b border-border">
       <div className="max-w-content mx-auto px-6 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-semibold text-charcoal/60 uppercase tracking-widest mb-6">

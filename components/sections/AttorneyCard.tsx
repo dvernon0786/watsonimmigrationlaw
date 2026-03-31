@@ -15,7 +15,7 @@ interface AttorneyCardProps {
 
 export default function AttorneyCard({ name, title, image, slug, credentials }: AttorneyCardProps) {
   return (
-    <div className="bg-white rounded-xl2 border border-gray-100 shadow-card p-6">
+    <div className="bg-white rounded-xl2 border border-border shadow-card p-6">
       <div className="flex gap-4">
         <SafeImage
           src={image}

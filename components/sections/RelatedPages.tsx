@@ -22,7 +22,7 @@ export default function RelatedPages({ visa, location, country, industry, pages 
   // If custom pages are provided, use them instead of generating
   if (pages && pages.length > 0) {
     return (
-      <section className="py-section bg-gray-50">
+      <section className="py-section bg-cream">
         <div className="max-w-content mx-auto px-6 lg:px-8">
           <h2 className="font-display text-display-sm text-navy text-center mb-12">
             Related Pages
@@ -32,7 +32,7 @@ export default function RelatedPages({ visa, location, country, industry, pages 
               <Link
                 key={index}
                 href={page.href}
-                className="group bg-white rounded-xl2 border border-gray-100 shadow-card hover:shadow-card-hover transition-all p-6 block"
+                className="group bg-white rounded-xl2 border border-border shadow-card hover:shadow-card-hover transition-all p-6 block"
               >
                 {page.image && (
                   <div className="mb-4">
@@ -80,7 +80,7 @@ export default function RelatedPages({ visa, location, country, industry, pages 
   if (relatedPages.length === 0) return null
 
   return (
-    <section className="py-section bg-gray-50">
+    <section className="py-section bg-cream">
       <div className="max-w-content mx-auto px-6 lg:px-8">
         <h2 className="font-display text-display-sm text-navy text-center mb-12">
           Related Pages
@@ -90,7 +90,7 @@ export default function RelatedPages({ visa, location, country, industry, pages 
             <Link
               key={index}
               href={page.path}
-              className="group bg-white rounded-xl2 border border-gray-100 shadow-card hover:shadow-card-hover transition-all p-6 block"
+              className="group bg-white rounded-xl2 border border-border shadow-card hover:shadow-card-hover transition-all p-6 block"
             >
               <h3 className="font-semibold text-navy group-hover:text-gold-400 transition-colors mb-2">
                 {page.title}

@@ -48,7 +48,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
   }
 
   return (
-    <div className="bg-white rounded-xl3 border border-gray-100 shadow-card overflow-hidden mb-6">
+    <div className="bg-white rounded-xl3 border border-border shadow-card overflow-hidden mb-6">
       {/* Header */}
       <div className="bg-navy px-6 py-5">
         <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-1">
@@ -65,7 +65,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
       </div>
 
       {/* Tabs */}
-      <div className="flex border-b border-gray-100">
+      <div className="flex border-b border-border">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -125,7 +125,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
                   required
                   value={formState.name}
                   onChange={(e) => setFormState((s) => ({ ...s, name: e.target.value }))}
-                  className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors"
+                  className="w-full px-3 py-2 text-sm border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors"
                   placeholder="Your full name"
                 />
               </div>
@@ -138,7 +138,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
                   required
                   value={formState.email}
                   onChange={(e) => setFormState((s) => ({ ...s, email: e.target.value }))}
-                  className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors"
+                  className="w-full px-3 py-2 text-sm border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors"
                   placeholder="you@company.com"
                 />
               </div>
@@ -150,7 +150,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
                   type="tel"
                   value={formState.phone}
                   onChange={(e) => setFormState((s) => ({ ...s, phone: e.target.value }))}
-                  className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors"
+                  className="w-full px-3 py-2 text-sm border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors"
                   placeholder="+1 (---) --- ----"
                 />
               </div>
@@ -163,7 +163,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
                   rows={4}
                   value={formState.message}
                   onChange={(e) => setFormState((s) => ({ ...s, message: e.target.value }))}
-                  className="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors resize-none"
+                  className="w-full px-3 py-2 text-sm border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400 transition-colors resize-none"
                   placeholder={`I'm looking for help with ${visaName || 'immigration'}...`}
                 />
               </div>
@@ -196,7 +196,7 @@ export default function LeadCapture({ visaName, locationName }: LeadCaptureProps
               </svg>
               (206) 292-5237
             </a>
-            <div className="mt-4 pt-4 border-t border-gray-100">
+            <div className="mt-4 pt-4 border-t border-border">
               <p className="text-xs text-gray-400 mb-2">Or email us at</p>
               <a
                 href="mailto:info@watsonimmigrationlaw.com"

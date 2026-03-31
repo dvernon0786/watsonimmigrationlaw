@@ -9,47 +9,29 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Watson Immigration Law — exact brand palette
         navy: {
-          DEFAULT: '#1a2e4a',
-          50:  '#eef1f6',
-          100: '#d4dce8',
-          200: '#a9b9d1',
-          300: '#7e96ba',
-          400: '#5373a3',
-          500: '#2d5490',  // slightly lighter for hover
-          600: '#1a2e4a',  // brand primary
-          700: '#142439',
-          800: '#0e1a28',
-          900: '#080f17',
+          DEFAULT: '#0B1F3A',
+          500: '#142C52', // hover
         },
         gold: {
-          DEFAULT: '#c9a84c',
-          50:  '#fdf8ec',
-          100: '#f9edca',
-          200: '#f2d995',
-          300: '#ecc560',
-          400: '#c9a84c',  // brand accent
-          500: '#a8893a',
-          600: '#876a28',
-          700: '#664c18',
-          800: '#452e0a',
-          900: '#241500',
+          DEFAULT: '#C9A24A',
+          400: '#C9A24A',
+          500: '#B8913F',
         },
-        cream: '#f5f5f0',
-        charcoal: '#1c1c1c',
+        cream: '#F7F5F0',
+        charcoal: '#2B2B2B',
+        white: '#FFFFFF',
+        border: '#E5E7EB',
       },
       fontFamily: {
-        // Refined: editorial serif for headings, humanist sans for body
         display: ['Playfair Display', 'Georgia', 'serif'],
         body:    ['DM Sans', 'system-ui', 'sans-serif'],
-        mono:    ['JetBrains Mono', 'monospace'],
       },
       fontSize: {
-        'display-xl': ['4.5rem',  { lineHeight: '1.05', letterSpacing: '-0.02em' }],
-        'display-lg': ['3.5rem',  { lineHeight: '1.1',  letterSpacing: '-0.01em' }],
-        'display-md': ['2.5rem',  { lineHeight: '1.15', letterSpacing: '-0.01em' }],
-        'display-sm': ['2rem',    { lineHeight: '1.2',  letterSpacing: '-0.01em' }],
+        'display-xl': ['3.25rem', { lineHeight: '1.1' }], // ~52px
+        'display-lg': ['2.25rem', { lineHeight: '1.2' }], // ~36px
+        'display-md': ['1.75rem', { lineHeight: '1.3' }], // ~28px
+        'display-sm': ['1.5rem',  { lineHeight: '1.4' }], // ~24px
       },
       spacing: {
         'section': '5rem',
@@ -60,18 +42,13 @@ const config: Config = {
         'content': '1200px',
       },
       boxShadow: {
-        'card':   '0 1px 3px rgba(26,46,74,0.08), 0 4px 16px rgba(26,46,74,0.06)',
-        'card-hover': '0 4px 12px rgba(26,46,74,0.12), 0 16px 40px rgba(26,46,74,0.08)',
-        'cta':    '0 8px 32px rgba(201,168,76,0.25)',
+        card: '0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)',
+        'card-hover': '0 4px 12px rgba(0,0,0,0.1), 0 16px 40px rgba(0,0,0,0.08)',
+        cta: '0 8px 24px rgba(201,162,74,0.25)',
       },
       borderRadius: {
         'xl2': '1rem',
         'xl3': '1.5rem',
-      },
-      backgroundImage: {
-        'navy-gradient': 'linear-gradient(135deg, #1a2e4a 0%, #0e1a28 100%)',
-        'gold-gradient': 'linear-gradient(135deg, #c9a84c 0%, #a8893a 100%)',
-        'hero-texture':  'radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.08) 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, rgba(26,46,74,0.04) 0%, transparent 60%)',
       },
       animation: {
         'fade-up':   'fadeUp 0.6s ease-out forwards',

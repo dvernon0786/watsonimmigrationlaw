@@ -25,7 +25,7 @@ export default function ContactPage() {
       <Breadcrumbs items={breadcrumbs} />
 
       {/* Hero Section */}
-      <section className="py-section bg-navy-gradient text-white">
+      <section className="py-section bg-navy text-white">
         <div className="max-w-content mx-auto px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="font-display text-display-xl text-white mb-6 leading-tight">

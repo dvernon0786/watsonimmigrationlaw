@@ -21,7 +21,7 @@ export default function Header() {
   const dropdownTimeoutRef = useRef<NodeJS.Timeout>()
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+    <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       <div className="max-w-content mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -37,7 +37,7 @@ export default function Header() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
             {/* Visas Dropdown */}
-            <div 
+            <div
               className="relative"
               onMouseEnter={() => {
                 if (dropdownTimeoutRef.current) clearTimeout(dropdownTimeoutRef.current)
@@ -54,7 +54,7 @@ export default function Header() {
                 </svg>
               </button>
               {isVisaDropdownOpen && (
-                <div className="absolute top-full left-0 mt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-10">
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white border border-border rounded-lg shadow-lg py-2 z-10">
                   {VISAS.map((visa) => (
                     <Link
                       key={visa.slug}
@@ -118,8 +118,8 @@ export default function Header() {
         </div>
 
         {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden border-t border-gray-100 py-4">
+          {isMenuOpen && (
+          <div className="md:hidden border-t border-border py-4">
             <nav className="space-y-4">
               <div>
                 <div className="font-medium text-gray-900 mb-2">Visas</div>
