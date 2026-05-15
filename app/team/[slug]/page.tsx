@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const attorney = await getAttorneyData(slug)
   if (!attorney) return {}
   return {
-    title: `${attorney.name} | Immigration Attorney | Watson Immigration Law`,
+    title: `${attorney.name} | ${attorney.title} | Watson Immigration Law`,
     description: attorney.bio.split('\n')[0].slice(0, 160),
     alternates: { canonical: `https://watsonimmigrationlaw.com/team/${slug}` },
   }
@@ -45,7 +45,7 @@ export default async function AttorneyPage({ params }: Props) {
               <img src={attorney.image || '/team/default.jpg'} alt={attorney.name} className="w-36 h-36 rounded-full object-cover shadow-xl border-4 border-gold-400" />
             </div>
             <div>
-              <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-2">Immigration Attorney</p>
+              <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-2">{attorney.title}</p>
               <h1 className="font-display text-display-lg text-white mb-2 leading-tight">{attorney.name}</h1>
               <p className="text-white/70 text-lg mb-4">{attorney.title}</p>
               <div className="flex flex-wrap gap-3">
@@ -77,14 +77,16 @@ export default async function AttorneyPage({ params }: Props) {
               </div>
 
               {/* Bar admissions */}
-              <div className="bg-cream rounded-xl2 p-5">
-                <h3 className="font-semibold text-navy mb-3">Bar Admissions</h3>
-                <ul className="space-y-1">
-                  {attorney.barAdmissions.map((bar: string, i: number) => (
-                    <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{bar}</li>
-                  ))}
-                </ul>
-              </div>
+              {attorney.barAdmissions?.length > 0 && (
+                <div className="bg-cream rounded-xl2 p-5">
+                  <h3 className="font-semibold text-navy mb-3">Bar Admissions</h3>
+                  <ul className="space-y-1">
+                    {attorney.barAdmissions.map((bar: string, i: number) => (
+                      <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{bar}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {/* Education */}
               <div className="bg-cream rounded-xl2 p-5">
@@ -93,7 +95,7 @@ export default async function AttorneyPage({ params }: Props) {
                   {attorney.education.map((edu: any, i: number) => (
                     <div key={i}>
                       <p className="text-sm font-semibold text-navy">{edu.degree}</p>
-                      <p className="text-sm text-charcoal/70">{edu.institution} · {edu.year}</p>
+                      <p className="text-sm text-charcoal/70">{edu.institution}{edu.year ? ` · ${edu.year}` : ''}</p>
                     </div>
                   ))}
                 </div>
@@ -124,14 +126,16 @@ export default async function AttorneyPage({ params }: Props) {
               )}
 
               {/* Credentials */}
-              <div className="bg-cream rounded-xl2 p-5">
-                <h3 className="font-semibold text-navy mb-3">Professional Affiliations</h3>
-                <ul className="space-y-1">
-                  {attorney.credentials.map((cred: string, i: number) => (
-                    <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{cred}</li>
-                  ))}
-                </ul>
-              </div>
+              {attorney.credentials?.length > 0 && (
+                <div className="bg-cream rounded-xl2 p-5">
+                  <h3 className="font-semibold text-navy mb-3">Professional Affiliations</h3>
+                  <ul className="space-y-1">
+                    {attorney.credentials.map((cred: string, i: number) => (
+                      <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{cred}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
 
             {/* Sidebar */}

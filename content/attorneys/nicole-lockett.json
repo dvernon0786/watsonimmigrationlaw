@@ -1,24 +1,23 @@
 {
   "name": "Nicole Lockett",
   "slug": "nicole-lockett",
-  "title": "Immigration Attorney",
-  "bio": "Nicole Lockett is an immigration attorney at Watson Immigration Law with a deep commitment to helping individuals and businesses navigate the complexities of U.S. immigration law. She brings a client-centered approach to every case, ensuring that each client fully understands their options and feels supported throughout the immigration process.\n\nNicole works closely with employers, professionals, and families across a wide range of immigration matters, including employment-based visas, investor visas, and adjustment of status proceedings. Her attention to detail and thorough case preparation have earned her a reputation for excellence among clients and colleagues alike.\n\nPrior to joining Watson Immigration Law, Nicole gained valuable experience in immigration law that has equipped her to handle both straightforward and complex immigration cases with confidence and precision.",
-  "credentials": [
-    "Washington State Bar Association",
-    "American Immigration Lawyers Association (AILA)"
-  ],
-  "barAdmissions": [
-    "Washington State"
-  ],
+  "title": "Paralegal",
+  "bio": "Nicole received her Associate of Applied Sciences in Paralegal Studies from Highline Community College in 2010. She holds an Associate of Arts degree with an emphasis on Performance Arts, English, and Anthropology from Green River Community College, where she graduated with honors and as a member of Phi Theta Kappa. In addition to these degrees, she is pursuing her Bachelor of Arts at The Evergreen State College.\n\nNicole has extensive experience in customer service and administration having worked at a number of corporations before pursuing her interest in the legal field.\n\nNicole is a passionate animal lover having volunteered for Action For Animals in Seattle, Washington and Cats Protection in London, England. She has also volunteered at animal shelters in Nepal and India during her travels.\n\nIn her spare time, Nicole likes to travel. She recently traveled extensively throughout South Asia and Europe. She is an enthusiastic and avid actor who performs regularly at local community theatres. Multi-talented Nicole is additionally a semi-professional choreographer in the Puget Sound Area.",
+  "credentials": [],
+  "barAdmissions": [],
   "education": [
-    { "degree": "J.D., Law", "institution": "Seattle University School of Law", "year": 2018 },
-    { "degree": "B.A.", "institution": "University of Washington", "year": 2015 }
+    { "degree": "A.A.S., Paralegal Studies", "institution": "Highline Community College", "year": 2010 },
+    { "degree": "A.A. (Honors), Performance Arts, English & Anthropology", "institution": "Green River Community College", "year": null },
+    { "degree": "B.A. (In Progress)", "institution": "The Evergreen State College", "year": null }
+  ],
+  "languages": [
+    "American Sign Language (ASL) — Proficient",
+    "Spanish — Fluent (read & write)",
+    "French — Basic (read & write)"
   ],
   "image": "/Nicole.jpg",
   "email": "nicole@watsonimmigrationlaw.com",
   "phone": "+12062925237",
   "awards": [],
-  "sameAs": [
-    "https://www.linkedin.com/in/nicole-lockett-immigration"
-  ]
+  "sameAs": []
 }
