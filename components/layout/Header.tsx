@@ -4,6 +4,7 @@
 
 import { useState, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 
 const VISAS = [
@@ -25,13 +26,15 @@ export default function Header() {
       <div className="max-w-content mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-navy rounded flex items-center justify-center">
-              <span className="text-gold-400 font-bold text-sm">WIL</span>
-            </div>
-            <span className="font-display font-bold text-navy text-lg">
-              Watson Immigration Law
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/watsonimmigrationlaw-logo.png"
+              alt="Watson Immigration Law"
+              width={180}
+              height={48}
+              className="h-10 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}

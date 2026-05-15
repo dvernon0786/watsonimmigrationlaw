@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function AboutFounder() {
   const credentials = [
@@ -23,19 +24,14 @@ export default function AboutFounder() {
 
           {/* Image column */}
           <div className="relative hidden lg:block">
-            <div className="rounded-xl3 overflow-hidden aspect-[4/5] bg-navy relative">
-              <img
-                src="/team/tahmina-watson.jpg"
+            <div className="rounded-xl3 overflow-hidden aspect-[475/533] bg-navy relative">
+              <Image
+                src="/Tahmina.png"
                 alt="Tahmina Watson, Founder of Watson Immigration Law"
-                className="w-full h-full object-cover object-top"
-                onError={(e) => {
-                  ;(e.target as HTMLImageElement).style.display = 'none'
-                }}
+                fill
+                className="object-contain object-center"
+                priority
               />
-              {/* Fallback initials */}
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <span className="font-display text-8xl text-gold-400/20 italic select-none">TW</span>
-              </div>
             </div>
             {/* Badge */}
             <div className="absolute -bottom-6 -right-6 bg-gold-400 text-navy rounded-xl2 px-6 py-4 shadow-cta">
