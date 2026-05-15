@@ -1,0 +1,48 @@
+{
+  "name": "EB-1",
+  "slug": "eb-1",
+  "fullName": "EB-1 Priority Worker Green Card",
+  "tagline": "The fastest employment-based green card — no PERM labor certification required",
+  "description": "The EB-1 is the first preference employment-based immigrant visa category, reserved for individuals with extraordinary ability (EB-1A), outstanding professors and researchers (EB-1B), and multinational managers and executives (EB-1C). It is the fastest path to a green card for most nationalities because it does not require PERM labor certification.",
+  "eligibility": {
+    "requirements": [
+      "EB-1A: Demonstrate extraordinary ability in sciences, arts, education, business, or athletics through sustained national/international acclaim. Can self-petition.",
+      "EB-1B: Outstanding professor or researcher with international recognition and a job offer from a university or private employer. Requires employer petition.",
+      "EB-1C: Multinational manager or executive who has worked for the petitioning company for 1 of the last 3 years. Requires employer petition.",
+      "All categories: no PERM labor certification required (unlike EB-2 and EB-3)"
+    ],
+    "benefits": [
+      "No PERM labor certification — much faster than EB-2 or EB-3",
+      "EB-1A allows self-petition — no employer required",
+      "Priority dates are current for most nationalities (except India and China backlogs)",
+      "Leads directly to lawful permanent residence (green card)",
+      "Spouse and children under 21 receive green cards as dependents",
+      "EB-1A uses same standard as O-1A visa — strong overlap in evidence"
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Evidence preparation (EB-1A/B)", "description": "Gather extraordinary ability or outstanding researcher evidence: awards, publications, citations, high salary, critical roles, media coverage.", "duration": "4–8 weeks" },
+      { "step": 2, "title": "File I-140 petition", "description": "File Form I-140 Immigrant Petition with USCIS. Premium processing available for 15-business-day decision.", "duration": "2–6 months" },
+      { "step": 3, "title": "Adjustment of status or consular processing", "description": "If in the U.S. and priority date is current, file I-485 adjustment of status concurrently or after I-140 approval. If abroad, consular processing.", "duration": "8–24 months" }
+    ]
+  },
+  "processing": {
+    "timeline": "I-140: 4–6 months standard, 15 business days with premium. Adjustment of status: 8–24 months after I-140 approval (if priority date current)",
+    "cost": "Government fees: $715 (I-140) + $1,440 (I-485) + filing fee. Premium processing for I-140: $2,805. Attorney fees additional.",
+    "documents": [
+      "For EB-1A: Evidence meeting at least 3 of the USCIS criteria for extraordinary ability",
+      "For EB-1B: Offer letter from university or qualifying private employer, evidence of international recognition",
+      "For EB-1C: Corporate ownership documentation, job description, evidence of managerial/executive role",
+      "Personal documents: passport, birth certificate, marriage certificate (if applicable)",
+      "Medical exam (I-693) for adjustment of status"
+    ]
+  },
+  "faqs": [
+    { "question": "What is the difference between EB-1A and EB-1B?", "answer": "EB-1A is for individuals with extraordinary ability in any field — sciences, arts, education, business, or athletics. It requires no employer and no PERM. You must demonstrate sustained national or international acclaim meeting at least 3 of 10 USCIS criteria. EB-1B is specifically for outstanding professors and researchers and requires an offer of a tenured or tenure-track teaching position or a comparable research position, plus international recognition in the academic field." },
+    { "question": "Can I self-petition for EB-1A?", "answer": "Yes. EB-1A is unique in that it allows self-petition — you do not need a U.S. employer to sponsor you. You can file Form I-140 on your own behalf, demonstrating that you intend to continue working in your area of extraordinary ability. This makes EB-1A ideal for entrepreneurs, independent researchers, artists, and athletes who do not have a traditional employer." },
+    { "question": "How does EB-1C relate to L-1A?", "answer": "EB-1C is designed for multinational managers and executives — the same category as L-1A nonimmigrant status. If you have been in the U.S. on L-1A status and your company wants to sponsor you for a green card, EB-1C is typically the fastest pathway. It does not require PERM labor certification and uses the same qualifying relationship standards as L-1." },
+    { "question": "What is the EB-1 priority date situation for Indian and Chinese nationals?", "answer": "Unlike most other nationalities, Indian and Chinese nationals face significant backlogs in the EB-1 category due to per-country caps. The wait for Indian nationals especially can be several years even in EB-1. We help clients understand their current priority date situation and evaluate whether simultaneous EB-2 NIW filings make strategic sense." },
+    { "question": "Is EB-1A harder to get than O-1A?", "answer": "EB-1A and O-1A use very similar evidentiary standards, but EB-1A is generally considered slightly more demanding because it leads to permanent residence rather than a temporary visa. A successful O-1A is a very positive signal for an EB-1A case, but USCIS adjudicators may apply additional scrutiny. We help clients build the strongest possible record for both categories simultaneously." }
+  ]
+}

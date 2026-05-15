@@ -1,36 +1,35 @@
 {
   "name": "Tahmina Watson",
   "slug": "tahmina-watson",
-  "jobTitle": "Founder & Managing Attorney",
-  "image": "/team/tahmina-watson.jpg",
-  "description": "Tahmina Watson is a nationally recognized immigration attorney, author, and advocate who has dedicated her career to helping entrepreneurs, investors, and businesses navigate U.S. immigration law.",
-  "barAdmissions": ["Washington State Bar", "U.S. District Court, Western District of Washington"],
-  "education": [
-    { "degree": "LL.M. International Commercial Law", "institution": "University of Northumbria", "year": 2003 },
-    { "degree": "LL.B. Law", "institution": "University of Northumbria", "year": 2002 }
-  ],
-  "awards": [
-    "Puget Sound Business Journal Women of Influence",
-    "Named Top Immigration Lawyer by Seattle Met"
-  ],
+  "title": "Founder & Immigration Attorney",
+  "bio": "Tahmina Watson is the founder of Watson Immigration Law and one of the most recognized immigration attorneys in the United States. With over 15 years of experience, she has built a reputation as a fierce advocate for entrepreneurs, investors, and businesses navigating U.S. immigration law.\n\nTahmina is the author of four books on immigration, including The Startup Visa (now in its second edition), which has become an essential resource for founders and immigration professionals worldwide. She hosts the Tahmina Talks Immigration® podcast, where she interviews thought leaders, policymakers, and innovators at the intersection of immigration and entrepreneurship.\n\nShe has been featured in The New York Times, Forbes, Bloomberg, The Guardian, CNN, NPR, The Washington Post, The Seattle Times, and Business Insider. A Forbes Business Council Member and Puget Sound Business Journal Women of Influence honoree, Tahmina is a tireless advocate for immigration reform and a startup visa for international founders.",
   "credentials": [
-    "15+ years of U.S. immigration law practice",
-    "Author of The Startup Visa (two editions)",
-    "Host of Tahmina Talks Immigration® Podcast",
-    "Featured in New York Times, Forbes, Bloomberg, The Guardian, NPR",
-    "SelectUSA ASEAN Speaker",
-    "Legal Foundation of Washington board member"
+    "Washington State Bar Association",
+    "American Immigration Lawyers Association (AILA)",
+    "Forbes Business Council Member",
+    "AILA Washington/Alaska Chapter — Past Chair",
+    "Puget Sound Business Journal Women of Influence Honoree",
+    "Top 60 Immigration Blog in the US"
+  ],
+  "barAdmissions": [
+    "Washington State",
+    "U.S. District Court, Western District of Washington"
+  ],
+  "education": [
+    { "degree": "LL.M., International and Comparative Law", "institution": "University of Durham, UK", "year": 2002 },
+    { "degree": "LL.B., Law", "institution": "University of Dhaka, Bangladesh", "year": 2000 }
+  ],
+  "image": "/team/tahmina-watson.jpg",
+  "email": "tahmina@watsonimmigrationlaw.com",
+  "phone": "+12062925237",
+  "awards": [
+    "Forbes Business Council Member",
+    "Puget Sound Business Journal Women of Influence 2020",
+    "Top 60 Immigration Blog in the US"
   ],
   "sameAs": [
     "https://www.linkedin.com/in/tahminawatson",
     "https://twitter.com/tahminawatson",
-    "https://www.amazon.com/author/tahminawatson"
-  ],
-  "bio": [
-    "Tahmina Watson is the founder and managing attorney of Watson Immigration Law, a Seattle-based immigration law firm she established to serve entrepreneurs, investors, and multinational companies navigating the U.S. immigration system.",
-    "Born in Bangladesh and educated in the United Kingdom, Tahmina brings a deeply personal understanding of the immigrant experience to her practice. She earned her LL.B. and LL.M. in International Commercial Law from the University of Northumbria before building her career in U.S. immigration law.",
-    "Tahmina has become one of the country's leading voices on startup and entrepreneur immigration. Her book, The Startup Visa, is considered essential reading for international founders seeking a U.S. immigration pathway. She has testified before Congress, spoken at SelectUSA summits, and been quoted extensively in major publications including the New York Times, Forbes, Bloomberg Law, The Guardian, and NPR.",
-    "She is the host of Tahmina Talks Immigration®, a podcast featuring conversations with policymakers, attorneys, entrepreneurs, and advocates. The show explores the intersection of immigration law, entrepreneurship, and policy.",
-    "Tahmina practices across all employment-based visa categories with particular depth in EB-5, E-2, H-1B, O-1, and L-1 visas. She represents clients from over 50 countries and is known for her innovative, strategic approach to complex cases."
+    "https://www.instagram.com/tahmina.watson/"
   ]
 }

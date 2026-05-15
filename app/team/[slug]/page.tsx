@@ -1,133 +1,134 @@
-import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import JsonLd from '@/components/seo/JsonLd';
-import Breadcrumbs from '@/components/layout/Breadcrumbs';
-import AttorneyCard from '@/components/sections/AttorneyCard';
-import LeadCapture from '@/components/sections/LeadCapture';
-import MediaLogos from '@/components/sections/MediaLogos';
-import { buildAttorneySchema, buildBreadcrumbSchema } from '@/lib/schemas';
-import { getAttorneyData, getAttorneys } from '@/lib/content';
-import AttorneyImage from '@/components/ui/AttorneyImage';
+import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+import JsonLd from '@/components/seo/JsonLd'
+import Breadcrumbs from '@/components/layout/Breadcrumbs'
+import LeadCapture from '@/components/sections/LeadCapture'
+import { buildAttorneySchema, buildBreadcrumbSchema } from '@/lib/schemas'
+import { getAttorneyData } from '@/lib/content'
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const attorney = await getAttorneyData(params.slug);
-  if (!attorney) return {};
+interface Props { params: Promise<{ slug: string }> }
 
-  return {
-    title: `${attorney.name} | ${attorney.title} | Watson Immigration Law`,
-    description: attorney.bio,
-    keywords: `${attorney.name}, immigration attorney, ${attorney.title}, Seattle`,
-  };
+export async function generateStaticParams() {
+  return [{ slug: 'tahmina-watson' }, { slug: 'nicole-lockett' }]
 }
 
-export default async function AttorneyPage({ params }: { params: { slug: string } }) {
-  const attorney = await getAttorneyData(params.slug);
-  if (!attorney) notFound();
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params
+  const attorney = await getAttorneyData(slug)
+  if (!attorney) return {}
+  return {
+    title: `${attorney.name} | Immigration Attorney | Watson Immigration Law`,
+    description: attorney.bio.split('\n')[0].slice(0, 160),
+    alternates: { canonical: `https://watsonimmigrationlaw.com/team/${slug}` },
+  }
+}
 
-  const allAttorneys = await getAttorneys();
-  const otherAttorneys = allAttorneys.filter(a => a.slug !== params.slug);
+export default async function AttorneyPage({ params }: Props) {
+  const { slug } = await params
+  const attorney = await getAttorneyData(slug)
+  if (!attorney) notFound()
 
-  const breadcrumbs = [
-    { name: 'Home', path: '/' },
-    { name: 'Team', path: '/team' },
-    { name: attorney.name, path: `/team/${params.slug}` },
-  ];
+  const breadcrumbs = [{ name: 'Home', path: '/' }, { name: 'Our Team', path: '/team' }, { name: attorney.name, path: `/team/${slug}` }]
 
   return (
     <>
-      <JsonLd schema={buildAttorneySchema(attorney)} />
+      <JsonLd schema={buildAttorneySchema({ name: attorney.name, slug: attorney.slug, jobTitle: attorney.title, description: attorney.bio.split('\n')[0], image: attorney.image, barAdmissions: attorney.barAdmissions, education: attorney.education, awards: attorney.awards, sameAs: attorney.sameAs })} />
       <JsonLd schema={buildBreadcrumbSchema(breadcrumbs)} />
 
       <Breadcrumbs items={breadcrumbs} />
 
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-12">
-            <div className="lg:col-span-2">
-              <div className="flex items-start gap-8 mb-8">
-                <AttorneyImage
-                  src={attorney.image}
-                  alt={attorney.name}
-                  className="w-32 h-32 rounded-full object-cover"
-                />
-                <div>
-                  <h1 className="text-4xl font-bold text-gray-900 mb-2">{attorney.name}</h1>
-                  <p className="text-xl text-gray-600 mb-4">{attorney.title}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {attorney.credentials.map((credential: string, index: number) => (
-                      <span key={index} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                        {credential}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              <div className="prose prose-lg max-w-none">
-                <p className="text-lg leading-relaxed mb-8">{attorney.bio}</p>
-
-                <h2>Contact Information</h2>
-                <div className="grid md:grid-cols-2 gap-4 mb-8">
-                  <div>
-                    <p><strong>Email:</strong> {attorney.email}</p>
-                    <p><strong>Phone:</strong> {attorney.phone}</p>
-                  </div>
-                  <div>
-                    <p><strong>Office:</strong> Seattle, Washington</p>
-                    <p><strong>Languages:</strong> English</p>
-                  </div>
-                </div>
-
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-4">Schedule a Consultation</h3>
-                  <p className="mb-4">
-                    Ready to discuss your immigration needs? Contact {attorney.name.split(' ')[0]} directly
-                    to schedule a consultation.
-                  </p>
-                  <div className="flex gap-4">
-                    <a
-                      href={`mailto:${attorney.email}`}
-                      className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                    >
-                      Email {attorney.name.split(' ')[0]}
-                    </a>
-                    <a
-                      href={`tel:${attorney.phone}`}
-                      className="px-6 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors"
-                    >
-                      Call {attorney.phone}
-                    </a>
-                  </div>
-                </div>
-              </div>
+      {/* Attorney hero */}
+      <section className="py-section bg-navy text-white">
+        <div className="max-w-content mx-auto px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row gap-8 items-start">
+            <div className="flex-shrink-0">
+              <img src={attorney.image || '/team/default.jpg'} alt={attorney.name} className="w-36 h-36 rounded-full object-cover shadow-xl border-4 border-gold-400" />
             </div>
-
-            <div className="space-y-8">
-              <LeadCapture />
-
-              {otherAttorneys.length > 0 && (
-                <div>
-                  <h3 className="text-lg font-semibold mb-4">Meet Our Other Attorneys</h3>
-                  <div className="space-y-4">
-                    {otherAttorneys.map((otherAttorney) => (
-                      <AttorneyCard
-                        key={otherAttorney.slug}
-                        name={otherAttorney.name}
-                        title={otherAttorney.title}
-                        image={otherAttorney.image}
-                        slug={otherAttorney.slug}
-                        credentials={otherAttorney.credentials}
-                      />
-                    ))}
-                  </div>
-                </div>
-              )}
+            <div>
+              <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-2">Immigration Attorney</p>
+              <h1 className="font-display text-display-lg text-white mb-2 leading-tight">{attorney.name}</h1>
+              <p className="text-white/70 text-lg mb-4">{attorney.title}</p>
+              <div className="flex flex-wrap gap-3">
+                {attorney.sameAs?.map((url: string) => {
+                  const label = url.includes('linkedin') ? 'LinkedIn' : url.includes('twitter') ? 'Twitter/X' : url.includes('instagram') ? 'Instagram' : 'Profile'
+                  return (
+                    <a key={url} href={url} target="_blank" rel="noopener noreferrer" className="text-xs text-white/60 hover:text-gold-400 transition-colors border border-white/20 px-3 py-1 rounded-full">
+                      {label}
+                    </a>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <MediaLogos />
+      <section className="py-section bg-white">
+        <div className="max-w-content mx-auto px-6 lg:px-8">
+          <div className="grid lg:grid-cols-3 gap-12">
+
+            {/* Bio */}
+            <div className="lg:col-span-2 space-y-8">
+              <div>
+                <h2 className="font-display text-display-sm text-navy mb-5">About {attorney.name.split(' ')[0]}</h2>
+                {attorney.bio.split('\n\n').map((para: string, i: number) => (
+                  <p key={i} className="text-charcoal/80 leading-relaxed mb-4">{para}</p>
+                ))}
+              </div>
+
+              {/* Bar admissions */}
+              <div className="bg-cream rounded-xl2 p-5">
+                <h3 className="font-semibold text-navy mb-3">Bar Admissions</h3>
+                <ul className="space-y-1">
+                  {attorney.barAdmissions.map((bar: string, i: number) => (
+                    <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{bar}</li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Education */}
+              <div className="bg-cream rounded-xl2 p-5">
+                <h3 className="font-semibold text-navy mb-3">Education</h3>
+                <div className="space-y-3">
+                  {attorney.education.map((edu: any, i: number) => (
+                    <div key={i}>
+                      <p className="text-sm font-semibold text-navy">{edu.degree}</p>
+                      <p className="text-sm text-charcoal/70">{edu.institution} · {edu.year}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Awards */}
+              {attorney.awards?.length > 0 && (
+                <div className="bg-cream rounded-xl2 p-5">
+                  <h3 className="font-semibold text-navy mb-3">Awards & Recognition</h3>
+                  <ul className="space-y-1">
+                    {attorney.awards.map((award: string, i: number) => (
+                      <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">★</span>{award}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Credentials */}
+              <div className="bg-cream rounded-xl2 p-5">
+                <h3 className="font-semibold text-navy mb-3">Professional Affiliations</h3>
+                <ul className="space-y-1">
+                  {attorney.credentials.map((cred: string, i: number) => (
+                    <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{cred}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Sidebar */}
+            <div>
+              <LeadCapture />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
-  );
+  )
 }

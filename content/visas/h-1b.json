@@ -1,70 +1,53 @@
 {
+  "name": "H-1B",
   "slug": "h-1b",
-  "name": "H-1B Visa",
-  "tagline": "Specialty Occupation Work Visa",
-  "shortDescription": "The H-1B visa allows U.S. employers to temporarily employ foreign workers in specialty occupations requiring at least a bachelor's degree or equivalent.",
-  "metaTitle": "H-1B Visa Attorneys | Watson Immigration Law",
-  "metaDescription": "Expert H-1B visa counsel for employers and employees. Watson Immigration Law has helped hundreds of professionals secure H-1B status. Featured in NYT, Forbes, Bloomberg.",
-  "heroHeadline": "H-1B Visa Attorneys for Specialty Workers & Employers",
-  "heroSubheadline": "From lottery registration to status maintenance — we handle every stage of the H-1B process.",
-  "color": "#1a2e4a",
-  "icon": "briefcase",
+  "fullName": "H-1B Specialty Occupation Visa",
+  "tagline": "The most common path for skilled professionals to work in the United States",
+  "description": "The H-1B visa allows U.S. employers to temporarily employ foreign workers in specialty occupation roles that require at least a bachelor's degree or equivalent. It is the primary visa category for tech workers, engineers, scientists, financial analysts, architects, and other highly skilled professionals.",
   "eligibility": {
     "requirements": [
-      "U.S. employer must sponsor and file the petition",
-      "Bachelor's degree or higher in a specialty field (or equivalent)",
-      "Job must qualify as a 'specialty occupation' under USCIS standards",
-      "Employer must pay the prevailing wage for the occupation and location",
-      "Subject to annual H-1B cap (65,000 regular + 20,000 advanced degree exemption)"
+      "Position must qualify as a 'specialty occupation' requiring at least a bachelor's degree in a specific field",
+      "Applicant must hold a U.S. bachelor's degree or foreign equivalent in the relevant field",
+      "A U.S. employer must sponsor the petition — self-employment is not permitted",
+      "Employer must file a Labor Condition Application (LCA) with the Department of Labor",
+      "Subject to an annual cap of 65,000 visas (plus 20,000 for U.S. master's degree holders)",
+      "Cap-exempt employers (universities, nonprofits affiliated with universities, government research organizations) can file year-round"
     ],
     "benefits": [
-      "Initial 3-year period, extendable to 6 years (longer with green card sponsorship)",
-      "Spouse and unmarried children under 21 may accompany on H-4 visas",
-      "H-4 dependents may attend school; spouses may work with approved I-140",
-      "Dual intent allows simultaneous pursuit of permanent residency",
-      "Portability allows changing employers without losing status"
+      "Valid for 3 years, extendable to 6 years",
+      "Can be extended beyond 6 years if a green card application is pending",
+      "Allows dual intent — you can pursue permanent residency while on H-1B",
+      "Spouse and children under 21 may accompany on H-4 visa",
+      "H-4 EAD allows spouses to work in many circumstances",
+      "Can transfer to a new employer without leaving the U.S."
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Employer files LCA", "description": "Labor Condition Application submitted to Department of Labor. Typically takes 7 business days.", "duration": "1–2 weeks" },
+      { "step": 2, "title": "Lottery registration", "description": "For cap-subject petitions, USCIS conducts a lottery in March each year. Registration window is typically March 1–18.", "duration": "March window" },
+      { "step": 3, "title": "Petition filing", "description": "If selected in lottery, employer files Form I-129 with supporting documents. Premium processing available for 15-business-day adjudication.", "duration": "1–6 months" },
+      { "step": 4, "title": "Approval & start date", "description": "H-1B cap-subject employment can begin October 1 of the fiscal year.", "duration": "October 1 start" }
     ]
   },
   "processing": {
-    "timeline": "3–6 months (15 business days with Premium Processing)",
-    "cost": "$4,600–$8,500 (including USCIS fees, attorney fees, and ACWIA fee)",
+    "timeline": "3–6 months standard; 15 business days with premium processing",
+    "cost": "Government fees range from $1,710–$6,460 depending on employer size and options. Attorney fees additional.",
     "documents": [
-      "Form I-129 Petition Based on Blanket L Petition",
-      "Labor Condition Application (LCA)",
-      "Degree equivalency evaluation (if needed)",
-      "Employer support letter",
-      "Prevailing wage determination"
+      "Signed job offer letter with job description and salary",
+      "Educational credentials (transcripts, degree certificates)",
+      "Resume and work history",
+      "Employer documentation (EIN, company description, financial records)",
+      "Labor Condition Application approval",
+      "If applicable: credential evaluation for foreign degrees"
     ]
   },
-  "keyDates": {
-    "registrationWindow": "March 1–18 (approximate, varies by year)",
-    "lotteryResult": "Late March",
-    "filingDeadline": "June 30",
-    "statusBegins": "October 1 (start of fiscal year)"
-  },
   "faqs": [
-    {
-      "question": "What is the H-1B visa lottery and how does it work?",
-      "answer": "The H-1B lottery (officially called 'H-1B registration') is a random selection process USCIS uses when it receives more registrations than available visa numbers. Employers first register electronically (fee: $215/registration) during a March window. USCIS then randomly selects registrations to fill the cap — 65,000 for the regular cap and 20,000 for the advanced degree exemption. Selected employers are then invited to file full H-1B petitions."
-    },
-    {
-      "question": "Can I change employers on an H-1B visa?",
-      "answer": "Yes. H-1B portability allows you to change employers as long as your new employer files an H-1B transfer petition before your current status expires. You can start working for the new employer as soon as the petition is filed — you don't need to wait for USCIS approval. This is one of the significant advantages of H-1B status."
-    },
-    {
-      "question": "What happens to my H-1B if I'm laid off?",
-      "answer": "If you lose your H-1B job, you have a 60-day grace period to find new sponsoring employment, change to a different visa status, or depart the U.S. This grace period applies once per authorized validity period. We strongly recommend consulting with an immigration attorney immediately after a layoff to evaluate all options."
-    },
-    {
-      "question": "Can my spouse and children accompany me on an H-1B visa?",
-      "answer": "Yes. Your spouse and unmarried children under 21 may apply for H-4 dependent visas. H-4 visa holders may attend school and in certain circumstances — if you have an approved I-140 immigrant petition — your H-4 spouse may be eligible for an H-4 EAD (Employment Authorization Document) to work in the U.S."
-    },
-    {
-      "question": "How does the H-1B visa lead to a green card?",
-      "answer": "The H-1B is a nonimmigrant visa, but it is 'dual intent,' meaning you can simultaneously pursue a green card. The typical path is: your employer sponsors you for PERM labor certification, then files an I-140 petition. Once your priority date is current, you file for adjustment of status (I-485). The H-1B can be extended beyond the 6-year cap while your green card is pending."
-    }
-  ],
-  "relatedVisas": ["eb-5", "o-1", "l-1"],
-  "industries": ["tech", "healthcare", "finance", "education"],
-  "countries": ["india", "china", "south-korea", "canada", "uk"]
+    { "question": "Can a startup or small company sponsor an H-1B?", "answer": "Yes. Even early-stage startups with few or no employees can sponsor an H-1B visa. The key requirements are that the company is a legitimate U.S. employer, there is a valid employer-employee relationship, and the position qualifies as a specialty occupation. We regularly help startups navigate this process." },
+    { "question": "What happens if I'm not selected in the H-1B lottery?", "answer": "If you're not selected, there are several alternatives: O-1 visa for extraordinary ability (no lottery, no employer cap), L-1 for intracompany transfers, TN for Canadian and Mexican nationals, cap-exempt H-1B through a qualifying nonprofit or university, or pursuing an EB-2 National Interest Waiver if you qualify. We offer free webinars each year on post-lottery options." },
+    { "question": "How does H-1B transfer work when changing jobs?", "answer": "H-1B portability allows you to start working for a new employer as soon as the new employer files an H-1B transfer petition — you don't have to wait for approval. The new employer must be a legitimate U.S. employer and the role must qualify as a specialty occupation." },
+    { "question": "Can my spouse work on an H-4 visa?", "answer": "H-4 visa holders whose spouse has an approved I-140 immigrant petition (the first step toward a green card) may apply for H-4 EAD (Employment Authorization Document), which allows unrestricted work authorization. This is currently under regulatory review, so we recommend consulting with us for the latest rules." },
+    { "question": "What is cap-exempt H-1B and who qualifies?", "answer": "Cap-exempt H-1B petitions are not subject to the annual 65,000 lottery cap. They can be filed at any time of year. Qualifying employers include universities, nonprofit research organizations, and government research entities. If you work at or have a job offer from such an employer, you may file immediately without waiting for the lottery." },
+    { "question": "How long can I stay on H-1B status?", "answer": "The initial H-1B is granted for 3 years and can be extended for another 3 years, for a total of 6 years. If you have an approved I-140 petition or a pending labor certification that has been filed for more than 365 days, you may be eligible for 1-year extensions beyond the 6-year limit until your green card case is resolved." }
+  ]
 }

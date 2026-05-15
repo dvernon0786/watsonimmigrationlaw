@@ -1,129 +1,80 @@
-// app/sitemap.ts
-// Generates XML sitemap for all 200+ programmatic pages
+import { MetadataRoute } from 'next'
+import { getBlogPosts } from '@/lib/content'
 
-import type { MetadataRoute } from 'next'
+const BASE = 'https://watsonimmigrationlaw.com'
 
-const BASE_URL = 'https://watsonimmigrationlaw.com'
-
-const VISAS = ['h-1b', 'eb-5', 'e-2', 'o-1', 'l-1']
-
-const CITIES = [
-  'seattle', 'new-york', 'san-francisco', 'los-angeles',
-  'miami', 'chicago', 'houston', 'austin', 'boston', 'washington-dc',
-]
-
-const COUNTRIES = [
-  'india', 'china', 'canada', 'uk', 'germany',
-  'france', 'brazil', 'south-korea', 'japan', 'australia',
-]
-
-const INDUSTRIES = [
-  'tech', 'healthcare', 'finance', 'real-estate',
-  'manufacturing', 'hospitality', 'education',
-]
-
-const ATTORNEYS = ['tahmina-watson', 'nicole-lockett']
+const VISAS = ['h-1b', 'eb-5', 'e-2', 'o-1', 'l-1', 'eb-1', 'eb-2-niw']
+const CITIES = ['seattle', 'bellevue', 'redmond', 'kirkland', 'renton', 'tacoma', 'olympia', 'spokane', 'vancouver-wa', 'portland']
+const COUNTRIES = ['india', 'china', 'canada', 'uk', 'australia', 'mexico', 'south-korea']
+const PERSONAS = ['founders', 'investors', 'employees', 'companies']
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date()
+  const posts = await getBlogPosts()
 
-  const urls: MetadataRoute.Sitemap = []
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: BASE, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${BASE}/visas`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE}/team`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/team/tahmina-watson`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/team/nicole-lockett`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.8 },
+    { url: `${BASE}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/books`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/podcast`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/media`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/events`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.6 },
+    { url: `${BASE}/resources`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/how-we-work`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/privacy-policy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE}/disclaimer`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+  ]
 
-  // ── Static pages ──────────────────────────────────────────────────────────
-  const staticPages = [
-    { path: '/',              priority: 1.0,  changeFrequency: 'weekly'  },
-    { path: '/visas',         priority: 0.9,  changeFrequency: 'monthly' },
-    { path: '/team',          priority: 0.8,  changeFrequency: 'monthly' },
-    { path: '/blog',          priority: 0.8,  changeFrequency: 'daily'   },
-    { path: '/case-studies',  priority: 0.7,  changeFrequency: 'monthly' },
-    { path: '/contact',       priority: 0.9,  changeFrequency: 'monthly' },
-    { path: '/events',        priority: 0.6,  changeFrequency: 'weekly'  },
-    { path: '/books',         priority: 0.6,  changeFrequency: 'monthly' },
-    { path: '/podcast',       priority: 0.6,  changeFrequency: 'weekly'  },
-    { path: '/media',         priority: 0.5,  changeFrequency: 'monthly' },
-  ] as const
+  const visaPages: MetadataRoute.Sitemap = VISAS.map(slug => ({
+    url: `${BASE}/visas/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }))
 
-  for (const page of staticPages) {
-    urls.push({
-      url: `${BASE_URL}${page.path}`,
-      lastModified: now,
-      changeFrequency: page.changeFrequency as MetadataRoute.Sitemap[0]['changeFrequency'],
-      priority: page.priority,
-    })
-  }
+  const visaCityPages: MetadataRoute.Sitemap = VISAS.flatMap(slug =>
+    CITIES.map(city => ({
+      url: `${BASE}/visas/${slug}/${city}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }))
+  )
 
-  // ── Visa overview pages ───────────────────────────────────────────────────
-  for (const visa of VISAS) {
-    urls.push({
-      url: `${BASE_URL}/visas/${visa}`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    })
-  }
+  const visaCountryPages: MetadataRoute.Sitemap = VISAS.flatMap(slug =>
+    COUNTRIES.map(country => ({
+      url: `${BASE}/visas/${slug}/for/${country}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }))
+  )
 
-  // ── Visa × City pages ─────────────────────────────────────────────────────
-  for (const visa of VISAS) {
-    for (const city of CITIES) {
-      urls.push({
-        url: `${BASE_URL}/visas/${visa}/${city}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
-        priority: 0.85,
-      })
-    }
-  }
+  const personaPages: MetadataRoute.Sitemap = PERSONAS.map(persona => ({
+    url: `${BASE}/for/${persona}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
 
-  // ── Visa × Country pages ──────────────────────────────────────────────────
-  for (const visa of VISAS) {
-    for (const country of COUNTRIES) {
-      urls.push({
-        url: `${BASE_URL}/visas/${visa}/for/${country}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
-        priority: 0.8,
-      })
-    }
-  }
+  const blogPostPages: MetadataRoute.Sitemap = posts.map(post => ({
+    url: `${BASE}/blog/${post.slug}`,
+    lastModified: post.modified ? new Date(post.modified) : new Date(post.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
 
-  // ── Visa × Industry pages ─────────────────────────────────────────────────
-  for (const visa of VISAS) {
-    for (const industry of INDUSTRIES) {
-      urls.push({
-        url: `${BASE_URL}/visas/${visa}/industry/${industry}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
-        priority: 0.8,
-      })
-    }
-  }
-
-  // ── Attorney bio pages ────────────────────────────────────────────────────
-  for (const attorney of ATTORNEYS) {
-    urls.push({
-      url: `${BASE_URL}/team/${attorney}`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    })
-  }
-
-  // ── Blog posts (dynamic — read from content/blog/) ────────────────────────
-  try {
-    const { glob } = await import('glob')
-    const blogFiles = await glob('content/blog/*.mdx', { cwd: process.cwd() })
-    for (const file of blogFiles) {
-      const slug = file.replace('content/blog/', '').replace('.mdx', '')
-      urls.push({
-        url: `${BASE_URL}/blog/${slug}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
-        priority: 0.7,
-      })
-    }
-  } catch {
-    // Blog files not found — skip
-  }
-
-  return urls
+  return [
+    ...staticPages,
+    ...visaPages,
+    ...visaCityPages,
+    ...visaCountryPages,
+    ...personaPages,
+    ...blogPostPages,
+  ]
 }

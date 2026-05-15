@@ -1,69 +1,51 @@
 {
+  "name": "O-1",
   "slug": "o-1",
-  "name": "O-1 Extraordinary Ability Visa",
-  "tagline": "Extraordinary Talent Visa",
-  "shortDescription": "The O-1 visa is for individuals who possess extraordinary ability in the sciences, arts, education, business, or athletics, or who have demonstrated extraordinary ability in the motion picture or television industry.",
-  "metaTitle": "O-1 Visa Attorneys | Extraordinary Ability Visa | Watson Immigration Law",
-  "metaDescription": "Expert O-1 visa counsel for extraordinary talent. Watson Immigration Law helps artists, scientists, athletes, and business leaders obtain O-1 status. Featured in NYT, Forbes, Bloomberg.",
-  "heroHeadline": "O-1 Extraordinary Ability Visa Attorneys",
-  "heroSubheadline": "For individuals with extraordinary talent in their field. We help extraordinary ability beneficiaries obtain O-1 status and work in the U.S.",
-  "color": "#1a2e4a",
-  "icon": "star",
+  "fullName": "O-1 Extraordinary Ability Visa",
+  "tagline": "For individuals with extraordinary achievement in their field — no lottery, no employer cap",
+  "description": "The O-1 visa is for individuals who have demonstrated extraordinary ability in the sciences, arts, education, business, or athletics (O-1A), or extraordinary achievement in the motion picture or television industry (O-1B). Unlike H-1B, there is no annual cap or lottery — petitions can be filed at any time of year and are not subject to numerical limitations.",
   "eligibility": {
     "requirements": [
-      "Must demonstrate extraordinary ability in field (science, arts, education, business, athletics, or film/TV)",
-      "Must provide evidence of extraordinary ability (awards, publications, high salary, etc.)",
-      "Must obtain advisory opinion from peer group or labor organization",
-      "Must be coming to participate in specific event or activity",
-      "Must be coming to the U.S. to continue work of extraordinary merit"
+      "Must demonstrate sustained national or international acclaim in your field",
+      "For O-1A (sciences, business, education, athletics): must meet at least 3 of 8 USCIS criteria, or demonstrate a major internationally recognized award (e.g., Nobel Prize, Olympic medal)",
+      "A U.S. employer or agent must file the petition on your behalf",
+      "The position must require someone of extraordinary ability",
+      "Must have a job offer, consulting contract, or series of engagements"
     ],
     "benefits": [
-      "Initial 3-year period, extendable in 1-year increments",
-      "Maximum 7 years for arts/sciences/business, no limit for athletics",
-      "Spouse and unmarried children under 21 can accompany as dependents",
-      "No annual cap or backlogs for O-1 applications",
-      "Can lead to permanent residency through EB-1 category"
+      "No annual cap or lottery — file any time of year",
+      "Initial period of up to 3 years, extendable in 1-year increments with no limit",
+      "Allows dual intent — you can pursue a green card (EB-1A) while on O-1",
+      "Spouse and children receive O-3 dependent status (not authorized to work)",
+      "Can work for multiple employers simultaneously if filed properly",
+      "Strong pathway to EB-1A green card for extraordinary ability individuals"
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Evidence gathering", "description": "Compile evidence of extraordinary ability: awards, publications, high salary, critical roles, judging peers, press coverage, etc.", "duration": "2–6 weeks" },
+      { "step": 2, "title": "Advisory opinion", "description": "For most O-1 cases, a written advisory opinion from a relevant peer group or labor organization is required.", "duration": "1–3 weeks" },
+      { "step": 3, "title": "Petition filing", "description": "Employer or agent files Form I-129 with O supplement, evidence package, and advisory opinion. Premium processing available.", "duration": "1–3 months" },
+      { "step": 4, "title": "Visa stamp (if abroad)", "description": "If outside the U.S., attend consular interview. If inside the U.S., change of status is included in the petition.", "duration": "2–8 weeks" }
     ]
   },
   "processing": {
-    "timeline": "2–4 months (15 business days with Premium Processing)",
-    "cost": "$5,000–$10,000 (including USCIS fees and attorney fees)",
+    "timeline": "2–4 months standard; 15 business days with premium processing ($2,805)",
+    "cost": "Government fees: $460–$3,265 depending on options. Premium processing: $2,805. Attorney fees additional.",
     "documents": [
-      "Form I-129 Petition Based on Blanket L Petition",
-      "Consultation from peer group or labor organization",
-      "Evidence of extraordinary ability (awards, publications, etc.)",
-      "Contract or offer letter for U.S. work",
-      "Proof of substantial merit and national importance"
+      "Evidence meeting at least 3 of the 8 O-1A criteria",
+      "Advisory opinion from peer organization",
+      "Itinerary or description of services",
+      "Contracts or letters of engagement",
+      "Employer support letter",
+      "Agent agreement (if using an agent)"
     ]
   },
-  "keyDates": {
-    "application": "No annual cap",
-    "extension": "Apply 45 days before expiration",
-    "renewal": "No limit on renewals"
-  },
   "faqs": [
-    {
-      "question": "What qualifies as 'extraordinary ability' for O-1?",
-      "answer": "Extraordinary ability means a level of expertise indicating that you are among the top individuals in your field. Evidence includes receiving nationally or internationally recognized prizes/awards, membership in organizations requiring outstanding achievement, published material about you, high salary/compensation, or other substantial recognition."
-    },
-    {
-      "question": "What evidence do I need for an O-1 petition?",
-      "answer": "You need at least 3 of 6 possible criteria: official academic record, professional licenses, high salary, membership in professional associations, recognition in field, other significant contributions. You also need a consultation from a peer group or labor organization, and evidence that your work will substantially benefit the U.S."
-    },
-    {
-      "question": "Can my spouse and children accompany me on an O-1 visa?",
-      "answer": "Yes. Your spouse and unmarried children under 21 can accompany you as O-3 dependents. However, O-3 dependents cannot work in the U.S. — they can attend school but need separate work authorization. Your spouse cannot obtain work authorization through the O-1 petition."
-    },
-    {
-      "question": "How long can I stay on an O-1 visa?",
-      "answer": "O-1 visas are issued for up to 3 years initially, with 1-year extensions possible. The maximum is 7 years for those in arts, sciences, education, business, or athletics. There is no maximum limit for those in motion picture/television or athletics who receive acclaim."
-    },
-    {
-      "question": "Can the O-1 lead to a green card?",
-      "answer": "Yes, O-1 can lead to permanent residency through EB-1 (extraordinary ability) or EB-2/EB-3 employment-based categories. Many O-1 holders transition to EB-1 after demonstrating continued extraordinary ability. The O-1 provides valuable work experience and evidence for green card applications."
-    }
-  ],
-  "relatedVisas": ["eb-5", "e-2", "l-1"],
-  "industries": ["tech", "healthcare", "finance", "education", "entertainment"],
-  "countries": ["china", "india", "uk", "germany", "france", "japan", "canada"]
+    { "question": "What are the 8 criteria for O-1A extraordinary ability?", "answer": "USCIS evaluates O-1A petitions using 8 criteria. You must meet at least 3: (1) receipt of nationally or internationally recognized prizes or awards, (2) membership in associations requiring outstanding achievement, (3) published material about you in professional publications or major media, (4) participation as a judge of others' work, (5) original contributions of major significance, (6) authorship of scholarly articles, (7) critical role at distinguished organizations, and (8) high salary relative to peers. Meeting more criteria strengthens the petition." },
+    { "question": "Can a startup founder self-petition for O-1?", "answer": "Not directly — O-1 requires a U.S. employer or agent to file the petition. However, founders can use an immigration agent (a third-party entity authorized to act as petitioner) or structure a separate U.S. entity to be the petitioner. We help founders navigate this structure regularly. The O-1A is one of the best visa options for startup founders because it has no lottery and no employer dependency once the agent structure is established." },
+    { "question": "How does O-1A relate to EB-1A green card?", "answer": "O-1A and EB-1A use very similar standards — both require extraordinary ability. An approved O-1A petition is strong evidence for an EB-1A green card application, though the two processes are separate. Many clients pursue O-1A first while building their EB-1A case. The EB-1A allows self-petition (no employer required) and leads to a green card." },
+    { "question": "I'm a tech professional — do I qualify for O-1A?", "answer": "Many tech professionals qualify for O-1A, especially those who have contributed to open source projects, published research, been cited by peers, spoken at major conferences, received industry awards, or held critical roles at recognized tech companies. The standard requires more than just being good at your job — you need to demonstrate national or international recognition. We offer case evaluations to help you understand your eligibility." },
+    { "question": "Can I change jobs on O-1 status?", "answer": "Unlike H-1B, O-1 portability is more restricted. If you change employers, the new employer must file a new O-1 petition before you begin working. Premium processing ensures a quick turnaround. If using an agent, the agent can file a new petition to cover the new engagement." }
+  ]
 }

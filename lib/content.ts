@@ -1,4 +1,4 @@
-// lib/content.ts — Content loader utilities
+// lib/content.ts — Content loader utilities (updated with categories support)
 
 import fs from 'fs/promises'
 import path from 'path'
@@ -69,7 +69,9 @@ export interface BlogPost {
   modified?: string
   author: string
   authorName: string
-  tags: string[]
+  /** WP-migrated posts use 'categories'; new posts may use 'tags' — code handles both */
+  categories?: string[]
+  tags?: string[]
   image?: string
   visa?: string
 }
@@ -88,6 +90,9 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
           return {
             slug: file.replace('.mdx', ''),
             ...data,
+            // Normalize: if only tags exist, also set categories (and vice versa)
+            categories: data.categories || data.tags || [],
+            tags: data.tags || data.categories || [],
           } as BlogPost
         })
     )
@@ -102,7 +107,14 @@ export async function getBlogPost(slug: string) {
     const filePath = path.join(process.cwd(), 'content/blog', `${slug}.mdx`)
     const raw = await fs.readFile(filePath, 'utf-8')
     const { data, content } = matter(raw)
-    return { frontmatter: data as BlogPost, content }
+    return {
+      frontmatter: {
+        ...data,
+        categories: data.categories || data.tags || [],
+        tags: data.tags || data.categories || [],
+      } as BlogPost,
+      content,
+    }
   } catch {
     return null
   }

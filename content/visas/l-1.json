@@ -1,68 +1,50 @@
 {
+  "name": "L-1",
   "slug": "l-1",
-  "name": "L-1 Intracompany Transfer Visa",
-  "tagline": "Multinational Company Transfer Visa",
-  "shortDescription": "The L-1 visa allows multinational companies to transfer employees from foreign offices to U.S. offices in managerial, executive, or specialized knowledge positions.",
-  "metaTitle": "L-1 Visa Attorneys | Intracompany Transfer Visa | Watson Immigration Law",
-  "metaDescription": "Expert L-1 visa counsel for multinational companies. Watson Immigration Law helps businesses transfer key employees to the U.S. Featured in NYT, Forbes, Bloomberg.",
-  "heroHeadline": "L-1 Intracompany Transfer Visa Attorneys",
-  "heroSubheadline": "Transfer key employees from your foreign offices to the U.S. We guide multinational companies through the L-1 visa process.",
-  "color": "#1a2e4a",
-  "icon": "users",
+  "fullName": "L-1 Intracompany Transfer Visa",
+  "tagline": "Transfer key employees from your global office to the United States",
+  "description": "The L-1 visa allows multinational companies to transfer employees from a foreign affiliate, subsidiary, or parent company to a U.S. office. It is available for managers and executives (L-1A) and employees with specialized knowledge (L-1B). It is also used to establish new U.S. offices for foreign companies expanding into the American market.",
   "eligibility": {
     "requirements": [
-      "U.S. and foreign entities must be related (parent/subsidiary/affiliate/branch)",
-      "Must have been employed by foreign entity for at least 1 year in past 3 years",
-      "Must be transferred to managerial, executive, or specialized knowledge position",
-      "Company may qualify for streamlined 'blanket' petition process",
-      "Qualifying relationship between U.S. and foreign entities"
+      "Must have worked for the foreign qualifying organization for at least 1 continuous year within the last 3 years",
+      "The U.S. and foreign entities must have a qualifying relationship (parent, subsidiary, affiliate, or branch)",
+      "For L-1A: must be coming to work in a managerial or executive capacity",
+      "For L-1B: must possess specialized knowledge of the company's products, services, research, systems, or procedures",
+      "Both the U.S. and foreign entities must be doing business actively"
     ],
     "benefits": [
-      "L-1A: 7 years, L-1B: 5 years, extendable beyond limits with EB-1C",
-      "Spouse and unmarried children under 21 can accompany as dependents",
-      "Spouse can apply for work authorization (EAD)",
-      "No annual cap or backlogs for L-1 applications",
-      "Can lead to permanent residency through EB-1C category"
+      "L-1A valid for 3 years (new office: 1 year), extendable to 7 years total",
+      "L-1B valid for 3 years (new office: 1 year), extendable to 5 years total",
+      "No annual cap or lottery — file any time",
+      "Dual intent allowed — strong pathway to EB-1C green card for L-1A managers/executives",
+      "Spouse and children receive L-2 status; L-2 spouses have automatic work authorization",
+      "Can establish a new U.S. office on L-1 — ideal for foreign companies entering the U.S. market"
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Establish qualifying relationship", "description": "Document the corporate relationship between U.S. and foreign entities (ownership charts, articles of incorporation, financials).", "duration": "1–2 weeks" },
+      { "step": 2, "title": "Petition filing", "description": "Employer files Form I-129 with L supplement. Blanket L petitions available for large multinationals.", "duration": "1–6 months" },
+      { "step": 3, "title": "Consular processing or status change", "description": "Employee obtains L-1 visa stamp at U.S. consulate abroad, or changes status if already in the U.S.", "duration": "2–8 weeks" }
     ]
   },
   "processing": {
-    "timeline": "2–6 months (2–4 weeks for blanket petitions)",
-    "cost": "$4,000–$8,000 (including USCIS fees and attorney fees)",
+    "timeline": "1–6 months standard; 15 business days with premium processing",
+    "cost": "Government fees: $960–$5,460 depending on company size and options. Premium processing: $2,805. Attorney fees additional.",
     "documents": [
-      "Form I-129 Petition Based on Blanket L Petition",
-      "Business relationship evidence (articles of incorporation, etc.)",
-      "Employee qualifications and specialized knowledge evidence",
-      "Blanket petition approval (if applicable)",
-      "Nonimmigrant visa application (DS-160)"
+      "Corporate organizational charts and ownership documentation",
+      "Foreign entity's business records (registration, financials)",
+      "Evidence of qualifying relationship between U.S. and foreign entities",
+      "Employee's job description and evidence of managerial/executive role or specialized knowledge",
+      "Evidence of 1 year continuous employment with foreign entity",
+      "For new offices: business plan, office lease, proof of capitalization"
     ]
   },
-  "keyDates": {
-    "renewal": "Apply 45 days before expiration",
-    "extension": "No limit on extensions"
-  },
   "faqs": [
-    {
-      "question": "What is the difference between L-1A and L-1B visas?",
-      "answer": "L-1A is for managers and executives who primarily manage others or make policy decisions. L-1B is for employees with specialized knowledge of the company's products/services/processes. L-1A allows up to 7 years in the U.S., while L-1B allows up to 5 years."
-    },
-    {
-      "question": "What qualifies as a 'qualifying relationship' for L-1?",
-      "answer": "The U.S. and foreign entities must have one of these relationships: parent-subsidiary, affiliate (at least 50% ownership), or branch office. The foreign entity must be doing business (not just a shell company), and the relationship must exist at the time of filing."
-    },
-    {
-      "question": "Can my spouse and children accompany me on an L-1 visa?",
-      "answer": "Yes. Your spouse and unmarried children under 21 can accompany you as L-2 dependents. Your spouse can apply for work authorization (EAD) to work in the U.S. Children can attend school but cannot work until they obtain their own work authorization."
-    },
-    {
-      "question": "What is the 'blanket petition' process?",
-      "answer": "Large multinational companies can obtain pre-approval through USCIS's blanket petition process. This streamlines individual L-1 applications — instead of filing Form I-129 with USCIS, you file directly with the consulate. Blanket petitions require demonstrating substantial business presence in the U.S."
-    },
-    {
-      "question": "Can the L-1 lead to a green card?",
-      "answer": "Yes, L-1 can lead to permanent residency through EB-1C (multinational executive/manager). After 7 years on L-1A or 5 years on L-1B, you may be eligible for EB-1C if you continue in a qualifying managerial/executive position. The company must have been doing business in the U.S. for at least 1 year."
-    }
-  ],
-  "relatedVisas": ["eb-5", "e-2", "o-1"],
-  "industries": ["tech", "finance", "manufacturing", "healthcare", "consulting"],
-  "countries": ["india", "china", "canada", "uk", "germany", "japan", "brazil"]
+    { "question": "What is the difference between L-1A and L-1B?", "answer": "L-1A is for managers and executives — those who manage an organization, department, function, or component, or who direct the organization at the highest levels. L-1A can lead to an EB-1C green card (multinational manager/executive) without a PERM labor certification. L-1B is for employees with 'specialized knowledge' — deep knowledge of the company's proprietary products, services, research, or procedures. L-1B does not have the same direct green card pathway." },
+    { "question": "Can I use L-1 to open a new U.S. office?", "answer": "Yes. L-1 is frequently used by foreign companies establishing a U.S. presence. The initial visa for a new office is granted for only 1 year, giving the company time to demonstrate the U.S. office is operational and growing. After 1 year, the visa can be extended for 2-year increments. A business plan and evidence of funding/office space are required." },
+    { "question": "How does L-1A lead to a green card?", "answer": "L-1A managers and executives are eligible for the EB-1C immigrant category, which does not require a PERM labor certification (a lengthy and uncertain process). This is one of the fastest employment-based green card pathways available. To qualify, the person must have been employed as a manager/executive for at least 1 year by the petitioning U.S. employer." },
+    { "question": "What is a blanket L petition?", "answer": "Large multinational companies with a history of L-1 approvals can obtain a 'blanket L' petition from USCIS, which pre-approves the company for L-1 transfers. Individual employees can then obtain L-1 visas at U.S. consulates more quickly by referencing the blanket approval, without filing a separate I-129 for each transfer." },
+    { "question": "Can my spouse work on L-2 status?", "answer": "Yes. L-2 spouses have automatic work authorization incident to their L-2 status — they do not need to file a separate EAD application. This is a significant benefit compared to H-4 dependent spouses, who must apply for H-4 EAD separately." }
+  ]
 }

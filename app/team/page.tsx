@@ -1,96 +1,81 @@
-import type { Metadata } from 'next';
-import AttorneyCard from '@/components/sections/AttorneyCard';
-import LeadCapture from '@/components/sections/LeadCapture';
-import MediaLogos from '@/components/sections/MediaLogos';
-import JsonLd from '@/components/seo/JsonLd';
-import { buildBreadcrumbSchema } from '@/lib/schemas';
-import { getAttorneys } from '@/lib/content';
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import JsonLd from '@/components/seo/JsonLd'
+import Breadcrumbs from '@/components/layout/Breadcrumbs'
+import LeadCapture from '@/components/sections/LeadCapture'
+import { buildBreadcrumbSchema } from '@/lib/schemas'
+import { getAttorneys } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Our Team | Immigration Attorneys | Watson Immigration Law',
-  description: 'Meet our experienced immigration attorneys in Seattle. Expert counsel on H-1B, EB-5, E-2, O-1, and L-1 visas with 15+ years combined experience.',
-  keywords: 'immigration attorneys, lawyers, Seattle, Tahmina Watson, Nicole Lockett',
-};
+  title: 'Our Immigration Attorneys | Watson Immigration Law',
+  description: 'Meet Tahmina Watson and the team at Watson Immigration Law. Expert immigration attorneys based in Seattle serving clients worldwide.',
+  alternates: { canonical: 'https://watsonimmigrationlaw.com/team' },
+}
+
+const breadcrumbs = [{ name: 'Home', path: '/' }, { name: 'Our Team', path: '/team' }]
 
 export default async function TeamPage() {
-  const attorneys = await getAttorneys();
+  const attorneys = await getAttorneys()
 
   return (
     <>
-      <JsonLd schema={buildBreadcrumbSchema([
-        { name: 'Home', path: '/' },
-        { name: 'Team', path: '/team' },
-      ])} />
+      <JsonLd schema={buildBreadcrumbSchema(breadcrumbs)} />
+      <Breadcrumbs items={breadcrumbs} />
 
-      <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Immigration Attorneys</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our experienced team combines deep legal expertise with a passion for helping clients
-              achieve their immigration goals. With over 15 years of combined experience, we provide
-              trusted counsel for individuals and businesses navigating U.S. immigration law.
-            </p>
+      <section className="py-section bg-navy text-white">
+        <div className="max-w-content mx-auto px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-4">Our Team</p>
+            <h1 className="font-display text-display-lg text-white mb-6 leading-tight">Attorneys who genuinely care about your future</h1>
+            <p className="text-xl text-white/80 leading-relaxed">Every person who walks through our door — virtually or in person — is dealing with something deeply personal. We bring 15+ years of experience and real human commitment to every case.</p>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 mb-16">
-            {attorneys.map((attorney) => (
-              <div key={attorney.slug} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <AttorneyCard
-                    name={attorney.name}
-                    title={attorney.title}
-                    image={attorney.image}
-                    slug={attorney.slug}
-                    credentials={attorney.credentials}
-                  />
+      <section className="py-section bg-cream">
+        <div className="max-w-content mx-auto px-6 lg:px-8">
+          <div className="space-y-8">
+            {attorneys.map((attorney: any) => (
+              <div key={attorney.slug} className="bg-white border border-border rounded-xl2 shadow-card overflow-hidden">
+                <div className="flex flex-col sm:flex-row">
+                  <div className="sm:w-48 bg-cream flex items-center justify-center p-6 flex-shrink-0">
+                    <img
+                      src={attorney.image || '/team/default.jpg'}
+                      alt={attorney.name}
+                      className="w-32 h-32 rounded-full object-cover shadow-lg"
+                    />
+                  </div>
+                  <div className="p-6 flex-1">
+                    <div className="flex flex-wrap items-start justify-between gap-2 mb-1">
+                      <h2 className="font-display font-bold text-navy text-2xl">{attorney.name}</h2>
+                      <Link href={`/team/${attorney.slug}`} className="text-sm text-gold-400 font-semibold hover:text-gold-500">
+                        Full bio →
+                      </Link>
+                    </div>
+                    <p className="text-charcoal/60 mb-4">{attorney.title}</p>
+                    <p className="text-sm text-charcoal/80 leading-relaxed mb-4 line-clamp-3">{attorney.bio.split('\n')[0]}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {attorney.credentials.slice(0, 3).map((cred: string, i: number) => (
+                        <span key={i} className="text-xs bg-cream border border-border px-3 py-1 rounded-full text-charcoal/70">{cred}</span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
-
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Team?</h2>
-            <div className="grid md:grid-cols-3 gap-8 mt-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Proven Track Record</h3>
-                <p className="text-gray-600">Successfully handled thousands of immigration cases with high approval rates.</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Deep Expertise</h3>
-                <p className="text-gray-600">Specialized knowledge in complex visa categories and immigration law.</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Client-Focused</h3>
-                <p className="text-gray-600">Personalized service with clear communication throughout your case.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
-      <LeadCapture />
-
-      <MediaLogos />
+      <section className="py-section bg-white">
+        <div className="max-w-lg mx-auto px-6">
+          <div className="text-center mb-8">
+            <h2 className="font-display text-display-sm text-navy mb-3">Ready to speak with our team?</h2>
+            <p className="text-charcoal/70 text-sm">Book a free consultation — virtually or by phone.</p>
+          </div>
+          <LeadCapture />
+        </div>
+      </section>
     </>
-  );
+  )
 }

@@ -1,0 +1,49 @@
+{
+  "name": "EB-2 NIW",
+  "slug": "eb-2-niw",
+  "fullName": "EB-2 National Interest Waiver",
+  "tagline": "Self-petition for a green card if your work benefits the United States — no employer required",
+  "description": "The EB-2 National Interest Waiver (NIW) allows foreign nationals with advanced degrees or exceptional ability to self-petition for a U.S. green card by demonstrating that their work is in the national interest of the United States. Unlike standard EB-2, NIW waives the requirement for a PERM labor certification and a job offer, making it accessible to entrepreneurs, researchers, and independent professionals.",
+  "eligibility": {
+    "requirements": [
+      "Must qualify for EB-2 base: either hold an advanced degree (master's or higher, or bachelor's + 5 years progressive experience) OR demonstrate exceptional ability in sciences, arts, or business",
+      "Must satisfy the 3-prong Dhanasar test: (1) proposed endeavor has substantial merit and national importance, (2) well-positioned to advance the endeavor, (3) balance of factors favors waiving the job offer requirement",
+      "No specific employer required — can self-petition",
+      "No PERM labor certification required"
+    ],
+    "benefits": [
+      "No employer sponsor required — full self-petition",
+      "No PERM labor certification — bypasses the most time-consuming step in most green card processes",
+      "Ideal for entrepreneurs, researchers, scientists, engineers, healthcare workers, and educators",
+      "Concurrent filing of I-140 and I-485 possible if priority date is current",
+      "Spouse and children under 21 receive green cards as dependents",
+      "Work authorization (EAD) available while adjustment of status is pending"
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Eligibility assessment", "description": "Evaluate advanced degree and exceptional ability evidence. Build the national interest argument under the Dhanasar framework.", "duration": "2–4 weeks" },
+      { "step": 2, "title": "File I-140 with NIW request", "description": "File Form I-140 with a detailed cover letter arguing national interest. Premium processing available.", "duration": "2–8 months" },
+      { "step": 3, "title": "Adjustment of status or consular processing", "description": "File I-485 if in the U.S. and priority date current. Or apply for immigrant visa at U.S. consulate if abroad.", "duration": "8–24 months" }
+    ]
+  },
+  "processing": {
+    "timeline": "I-140: 4–8 months standard, 15 business days with premium. Total process 12–36 months depending on nationality and visa bulletin",
+    "cost": "Government fees: $715 (I-140) + $1,440 (I-485) + biometrics. Premium processing: $2,805. Attorney fees additional.",
+    "documents": [
+      "Advanced degree certificates and transcripts (or exceptional ability evidence)",
+      "Detailed personal statement on the national importance of your work",
+      "Evidence of impact: citations, publications, media coverage, letters from experts",
+      "Letters of support from recognized experts in your field (strongly recommended)",
+      "Resume/CV with complete work history",
+      "Evidence of ongoing work/project plans in the U.S."
+    ]
+  },
+  "faqs": [
+    { "question": "What is the Dhanasar test for NIW?", "answer": "The Dhanasar framework (established in 2016) requires USCIS to evaluate three prongs: (1) the proposed endeavor has both substantial merit (is it important in its field?) and national importance (does it have broad implications for the U.S., not just local impact?); (2) the applicant is well-positioned to advance the endeavor (education, skills, track record, plan); and (3) it would be beneficial to the U.S. to waive the job offer requirement (self-sufficiency, unique contributions, U.S. interest in attracting this person). Meeting all three prongs is required for approval." },
+    { "question": "Can startup founders use EB-2 NIW?", "answer": "Yes — and USCIS explicitly acknowledged in Dhanasar that entrepreneurs and startup founders can qualify for NIW. The key is framing the proposed endeavor (your startup and its mission) as having national importance, and demonstrating you are well-positioned to execute it. Evidence of funding, patents, letters from investors or industry experts, and a clear business plan all strengthen the case. We have helped many startup founders obtain NIW approvals." },
+    { "question": "What fields most commonly get NIW approval?", "answer": "NIW has historically favored STEM fields, healthcare, and academia — areas with clear national importance. However, USCIS adjudicates NIW petitions across many fields including business, education, law, journalism, social work, and the arts. The key is not the field itself but the quality of the argument for national importance and the strength of evidence showing you are well-positioned and uniquely valuable to U.S. interests." },
+    { "question": "How strong does my EB-2 NIW case need to be versus EB-1A?", "answer": "NIW requires meeting the EB-2 standard (advanced degree or exceptional ability) plus demonstrating national interest. EB-1A requires demonstrating extraordinary ability (a higher standard than EB-2 exceptional ability). In practice, many applicants pursue both NIW and EB-1A simultaneously — NIW as a more accessible backup and EB-1A as the premium option. We evaluate which strategy makes most sense based on your background." },
+    { "question": "What is the priority date situation for EB-2 NIW?", "answer": "For most nationalities, EB-2 priority dates are current (meaning you can file I-485 immediately after I-140 approval). For Indian and Chinese nationals, significant backlogs exist — sometimes decades long. In such cases, we help clients plan accordingly, including exploring EB-1A (which has a separate quota), maintaining valid nonimmigrant status, or considering alternative immigration strategies." }
+  ]
+}

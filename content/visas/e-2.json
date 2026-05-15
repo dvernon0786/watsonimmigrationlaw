@@ -1,68 +1,54 @@
 {
+  "name": "E-2",
   "slug": "e-2",
-  "name": "E-2 Investor Visa",
-  "tagline": "Treaty Investor Visa",
-  "shortDescription": "The E-2 visa allows citizens of treaty countries to invest a substantial amount of capital in a bona fide U.S. business and enter the U.S. to direct and develop that business.",
-  "metaTitle": "E-2 Investor Visa Attorneys | Treaty Investor Program | Watson Immigration Law",
-  "metaDescription": "Expert E-2 visa counsel for treaty country investors. Watson Immigration Law helps entrepreneurs establish and manage U.S. businesses. Featured in NYT, Forbes, Bloomberg.",
-  "heroHeadline": "E-2 Treaty Investor Visa Attorneys",
-  "heroSubheadline": "Invest in a U.S. business and obtain E-2 status. We guide treaty country nationals through the investor visa process.",
-  "color": "#1a2e4a",
-  "icon": "globe",
+  "fullName": "E-2 Treaty Investor Visa",
+  "tagline": "Start or buy a business in the United States — no green card required",
+  "description": "The E-2 Treaty Investor Visa allows nationals of treaty countries to enter and work in the United States based on a substantial investment in a U.S. business they own and operate. Unlike EB-5, the E-2 is a non-immigrant visa with no set minimum investment and no job creation quota — making it a faster, more flexible option for entrepreneurs and investors.",
   "eligibility": {
     "requirements": [
-      "Must be citizen of treaty country (over 80 countries qualify)",
-      "Substantial investment in bona fide U.S. business",
-      "Must own at least 50% of the business",
-      "Must develop and direct the business (cannot be passive investor)",
-      "Business must be active and commercial, not marginal"
+      "Must be a national of a country that has a qualifying treaty with the United States",
+      "Must have invested, or be actively in the process of investing, a 'substantial' amount of capital in a bona fide U.S. enterprise",
+      "Investment must be at risk — not passive or idle",
+      "Must own at least 50% of the enterprise or have operational control",
+      "The enterprise must be more than marginal — capable of generating significantly more income than a living for the investor",
+      "Must intend to depart the U.S. when the visa expires (though renewal is available)"
     ],
     "benefits": [
-      "Initial 2-year period, renewable indefinitely in 2-year increments",
-      "Spouse and unmarried children under 21 can accompany as dependents",
-      "Spouse can apply for work authorization (EAD)",
-      "No annual cap or backlogs for E-2 applications",
-      "Can lead to permanent residency through EB-5 or other paths"
+      "No minimum investment threshold set by law — typically $100,000–$200,000 is considered substantial",
+      "No annual cap or lottery — can apply at any time",
+      "Initial visa valid up to 5 years, renewable indefinitely in 2-year increments",
+      "Spouse receives E-2 dependent visa with full work authorization",
+      "Children under 21 may accompany as dependents",
+      "Available for both new business startups and acquisitions of existing businesses",
+      "Faster processing than EB-5 — often approved within weeks at U.S. consulates"
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Business plan & investment", "description": "Develop a comprehensive business plan. Make the qualifying investment (or show funds are irrevocably committed).", "duration": "1–3 months" },
+      { "step": 2, "title": "Application preparation", "description": "Compile the visa application package: DS-160, business plan, investment documentation, source of funds.", "duration": "2–4 weeks" },
+      { "step": 3, "title": "Consular interview", "description": "Attend interview at U.S. embassy or consulate in your country. Most E-2 visas are processed at consulates, not through USCIS.", "duration": "2–8 weeks" },
+      { "step": 4, "title": "Entry & business operation", "description": "Enter the U.S. and begin operating your business. Maintain E-2 status by continuing to operate the qualifying enterprise.", "duration": "Ongoing" }
     ]
   },
   "processing": {
-    "timeline": "1–3 months from application to entry",
-    "cost": "$8,000–$15,000 (including USCIS and consular fees)",
+    "timeline": "2–8 weeks at most U.S. consulates. Some consulates offer expedited processing.",
+    "cost": "Visa application fee: $315. No minimum investment set by law — typically $100,000+ is required to demonstrate 'substantial' investment. Attorney fees additional.",
     "documents": [
-      "Form DS-160 Nonimmigrant Visa Application",
-      "Form I-129 Petition Based on Blanket L Petition (if applicable)",
-      "Business plan and financial statements",
-      "Proof of investment and business ownership",
-      "Treaty country citizenship evidence"
+      "Detailed business plan with 5-year financial projections",
+      "Proof of investment funds (bank statements, wire transfer records)",
+      "Source of funds documentation",
+      "Business registration documents, lease, licenses",
+      "Organizational chart and ownership documents",
+      "Passport and personal financial statements"
     ]
   },
-  "keyDates": {
-    "renewal": "Apply 2 months before expiration",
-    "extension": "No limit on number of extensions"
-  },
   "faqs": [
-    {
-      "question": "Which countries qualify for the E-2 visa?",
-      "answer": "Over 80 countries have E-2 treaties with the U.S., including major economies like Canada, UK, Germany, France, Japan, South Korea, Australia, and many others. The U.S. must also have an E-2 treaty with your country — check the State Department website for the current list."
-    },
-    {
-      "question": "What constitutes a 'substantial investment' for E-2?",
-      "answer": "There is no fixed minimum investment amount, but USCIS considers the cost of acquiring or establishing the business. Investments typically range from $100,000 to $500,000 or more, depending on the business type and location. The investment must be substantial relative to the business's needs."
-    },
-    {
-      "question": "Can my spouse and children accompany me on an E-2 visa?",
-      "answer": "Yes. Your spouse and unmarried children under 21 can accompany you as E-2 dependents. Your spouse can apply for work authorization (EAD) to work in the U.S. Children can attend school but cannot work until they turn 21 or obtain their own work visa."
-    },
-    {
-      "question": "How long can I stay on an E-2 visa?",
-      "answer": "The E-2 visa is issued for 2 years initially and can be renewed indefinitely in 2-year increments, as long as the business remains viable and you maintain your role in directing it. There is no maximum duration limit for E-2 status."
-    },
-    {
-      "question": "Can the E-2 visa lead to a green card?",
-      "answer": "Yes, the E-2 can be a stepping stone to permanent residency. After 2 years, you may be eligible for EB-5 if you meet the investment and job creation requirements. Some E-2 investors also qualify for O-1 or other employment-based green cards through their business activities."
-    }
-  ],
-  "relatedVisas": ["eb-5", "o-1", "l-1"],
-  "industries": ["tech", "finance", "real-estate", "manufacturing", "hospitality"],
-  "countries": ["canada", "uk", "germany", "france", "japan", "south-korea", "australia"]
+    { "question": "Which countries qualify for the E-2 visa?", "answer": "The U.S. has E-2 treaties with over 80 countries, including the UK, Germany, France, Japan, South Korea, Australia, Italy, Spain, Turkey, and many others. Notably, India, China, Brazil, and Russia do not have E-2 treaties. If your country is not on the treaty list, EB-5 or other visa categories may be alternatives." },
+    { "question": "How much do I need to invest for an E-2 visa?", "answer": "There is no statutory minimum investment. USCIS and consular officers use a 'proportionality test' — the investment must be substantial relative to the total cost of establishing the enterprise. For a business requiring $500,000 in total capital, an investment of $300,000+ would typically be considered substantial. For lower-cost businesses, a higher percentage of the total is required. In practice, $100,000–$200,000 is often a reasonable starting point." },
+    { "question": "Can I buy an existing business for an E-2 visa?", "answer": "Yes. Purchasing an existing U.S. business is a common E-2 strategy. The business must be a bona fide commercial enterprise (not marginal), and the purchase price must represent a substantial investment. Franchise businesses are also commonly used for E-2 purposes." },
+    { "question": "Can E-2 lead to a green card?", "answer": "The E-2 itself does not lead directly to a green card — it is a non-immigrant visa. However, E-2 investors often pursue parallel green card strategies, such as EB-5 (using the business as the qualifying EB-5 enterprise if it meets the requirements), EB-1C (multinational manager/executive), or sponsoring employees for green cards. We help clients structure their immigration strategy to keep green card options open." },
+    { "question": "How long can I stay on E-2 status?", "answer": "E-2 status is typically granted in 2-year increments when entering the U.S., with the underlying visa valid for up to 5 years (depending on your treaty country). There is no maximum number of renewals — you can remain in E-2 status indefinitely as long as you maintain a qualifying investment and the enterprise remains operational and non-marginal." },
+    { "question": "Can my spouse work on E-2?", "answer": "Yes. E-2 dependent spouses are automatically granted work authorization — they do not need to file a separate EAD application. This is one of the significant advantages of the E-2 visa over many other categories." }
+  ]
 }

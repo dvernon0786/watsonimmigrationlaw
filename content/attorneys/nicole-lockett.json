@@ -1,22 +1,24 @@
 {
   "name": "Nicole Lockett",
   "slug": "nicole-lockett",
-  "jobTitle": "Immigration Attorney",
-  "image": "/team/nicole-lockett.jpg",
-  "description": "Nicole Lockett is an immigration attorney at Watson Immigration Law, focused on employment-based immigration for companies and individuals.",
-  "barAdmissions": ["Washington State Bar"],
-  "education": [
-    { "degree": "J.D.", "institution": "Seattle University School of Law", "year": 2018 }
-  ],
-  "awards": [],
+  "title": "Immigration Attorney",
+  "bio": "Nicole Lockett is an immigration attorney at Watson Immigration Law with a deep commitment to helping individuals and businesses navigate the complexities of U.S. immigration law. She brings a client-centered approach to every case, ensuring that each client fully understands their options and feels supported throughout the immigration process.\n\nNicole works closely with employers, professionals, and families across a wide range of immigration matters, including employment-based visas, investor visas, and adjustment of status proceedings. Her attention to detail and thorough case preparation have earned her a reputation for excellence among clients and colleagues alike.\n\nPrior to joining Watson Immigration Law, Nicole gained valuable experience in immigration law that has equipped her to handle both straightforward and complex immigration cases with confidence and precision.",
   "credentials": [
-    "Employment-based immigration specialist",
-    "H-1B, L-1, and O-1 visa expertise",
-    "Corporate immigration compliance"
+    "Washington State Bar Association",
+    "American Immigration Lawyers Association (AILA)"
   ],
-  "sameAs": ["https://www.linkedin.com/in/nicolelockett"],
-  "bio": [
-    "Nicole Lockett is an immigration attorney at Watson Immigration Law, where she advises both companies and individual clients on employment-based immigration matters.",
-    "Nicole focuses on nonimmigrant work visas including H-1B, L-1, and O-1 categories, helping employers navigate the increasingly complex landscape of U.S. immigration compliance."
+  "barAdmissions": [
+    "Washington State"
+  ],
+  "education": [
+    { "degree": "J.D., Law", "institution": "Seattle University School of Law", "year": 2018 },
+    { "degree": "B.A.", "institution": "University of Washington", "year": 2015 }
+  ],
+  "image": "/team/nicole-lockett.jpg",
+  "email": "nicole@watsonimmigrationlaw.com",
+  "phone": "+12062925237",
+  "awards": [],
+  "sameAs": [
+    "https://www.linkedin.com/in/nicole-lockett-immigration"
   ]
 }

@@ -1,69 +1,54 @@
 {
+  "name": "EB-5",
   "slug": "eb-5",
-  "name": "EB-5 Immigrant Investor Visa",
-  "tagline": "Green Card Through Investment",
-  "shortDescription": "The EB-5 Immigrant Investor Program allows foreign investors to obtain U.S. permanent residency by investing in a new commercial enterprise that creates full-time jobs for U.S. workers.",
-  "metaTitle": "EB-5 Visa Attorneys | Immigrant Investor Program | Watson Immigration Law",
-  "metaDescription": "Expert EB-5 visa counsel for immigrant investors. Watson Immigration Law guides entrepreneurs through the EB-5 Immigrant Investor Program. Featured in NYT, Forbes, Bloomberg.",
-  "heroHeadline": "EB-5 Immigrant Investor Visa Attorneys",
-  "heroSubheadline": "Secure U.S. permanent residency through strategic business investment. We guide investors through the EB-5 Immigrant Investor Program.",
-  "color": "#1a2e4a",
-  "icon": "building",
+  "fullName": "EB-5 Immigrant Investor Program",
+  "tagline": "A direct path to a U.S. green card through business investment",
+  "description": "The EB-5 Immigrant Investor Program allows foreign nationals to obtain U.S. lawful permanent residence (a green card) by making a qualifying investment in a U.S. commercial enterprise that creates or preserves at least 10 full-time jobs for U.S. workers. It is the only visa category that leads directly to permanent residency without requiring a U.S. employer or family member sponsor.",
   "eligibility": {
     "requirements": [
-      "Minimum $1.05M investment in targeted employment area (TEA) or $800K in non-TEA",
-      "Must invest in a new commercial enterprise or expand existing business",
-      "Must create or preserve at least 10 full-time jobs for U.S. workers",
-      "Must be involved in the management/operations of the business",
-      "Investment funds must come from lawful sources"
+      "Minimum investment of $1,050,000 (or $800,000 in a Targeted Employment Area — rural or high-unemployment)",
+      "Investment must be in a new commercial enterprise established after November 29, 1990, or a troubled business",
+      "Investment must create or preserve at least 10 full-time jobs for qualifying U.S. workers",
+      "Investor must be actively engaged in managing the enterprise (or invest through a USCIS-designated Regional Center)",
+      "Source of investment funds must be lawfully obtained and fully documented",
+      "No prior criminal history or immigration violations that would bar admissibility"
     ],
     "benefits": [
-      "Conditional green card for 2 years, then permanent residency",
-      "Spouse and unmarried children under 21 receive green cards",
-      "No annual cap or backlogs for EB-5 applications",
-      "Path to U.S. citizenship after 3 years of permanent residency",
-      "Freedom to live and work anywhere in the U.S."
+      "Leads directly to U.S. lawful permanent residence (green card) — no employer required",
+      "Spouse and unmarried children under 21 receive green cards as well",
+      "No language requirement, no education requirement, no job offer needed",
+      "Conditional green card issued initially; conditions removed after 2 years upon proof investment is sustained",
+      "Eligible to live and work anywhere in the United States",
+      "Path to U.S. citizenship after 5 years as a permanent resident"
+    ]
+  },
+  "process": {
+    "steps": [
+      { "step": 1, "title": "Source of funds documentation", "description": "Compile comprehensive documentation proving the lawful source of investment funds. This is the most document-intensive stage.", "duration": "2–6 months" },
+      { "step": 2, "title": "File I-526E petition", "description": "File Form I-526E (Immigrant Petition by Regional Center Investor) or I-526 (direct investment). USCIS adjudicates the petition.", "duration": "12–36 months" },
+      { "step": 3, "title": "Immigrant visa or adjustment of status", "description": "Once I-526 is approved, apply for an immigrant visa through a U.S. consulate abroad or adjust status if already in the U.S.", "duration": "6–18 months" },
+      { "step": 4, "title": "Conditional green card", "description": "Receive 2-year conditional permanent residence. Continue managing or sustaining the investment.", "duration": "2 years" },
+      { "step": 5, "title": "Remove conditions (I-829)", "description": "File Form I-829 to remove conditions, proving investment was sustained and jobs were created.", "duration": "12–24 months" }
     ]
   },
   "processing": {
-    "timeline": "2–4 years from investment to permanent residency",
-    "cost": "$100,000–$150,000 (including USCIS fees and attorney fees)",
+    "timeline": "Total process typically 3–6 years from petition to unconditional green card",
+    "cost": "Minimum investment: $800,000 (TEA) or $1,050,000. Government fees: ~$11,160. Administrative fees for Regional Center investments vary. Attorney fees additional.",
     "documents": [
-      "Form I-526 Immigrant Petition Based on Alien Entrepreneur",
-      "Business plan and economic analysis",
-      "Source of funds documentation",
-      "Legal business structure documents",
-      "Job creation evidence and business licenses"
+      "Proof of lawful source of funds (bank records, tax returns, business records going back 5+ years)",
+      "Investment agreement or subscription agreement",
+      "Business plan (for direct investments)",
+      "Personal financial statements",
+      "Birth certificates, passport copies for investor and family members",
+      "Civil documents (marriage certificate if applicable)"
     ]
   },
-  "keyDates": {
-    "application": "Ongoing — no annual cap",
-    "priority": "Based on filing date",
-    "renewal": "Every 2 years during conditional period"
-  },
   "faqs": [
-    {
-      "question": "What is the minimum investment amount for EB-5?",
-      "answer": "The minimum investment is $800,000 for investments in targeted employment areas (high unemployment or rural areas). For investments outside these areas, the minimum is $1.05 million. These amounts are adjusted annually for inflation."
-    },
-    {
-      "question": "What qualifies as a 'targeted employment area' (TEA)?",
-      "answer": "A TEA is either a rural area (population under 50,000) or an area with unemployment at least 150% of the national average. USCIS designates TEAs, and they can be counties, cities, or specific census tracts. Investing in a TEA reduces the minimum investment amount."
-    },
-    {
-      "question": "How long does the EB-5 process take?",
-      "answer": "The EB-5 process typically takes 2–4 years from initial investment to permanent residency. This includes USCIS processing of Form I-526 (immigrant petition), USCIS processing of Form I-485 (adjustment of status), and the 2-year conditional residency period."
-    },
-    {
-      "question": "Can I work in the U.S. while my EB-5 application is pending?",
-      "answer": "Yes, you can apply for conditional permanent residency (green card) immediately after I-526 approval. This allows you to live and work in the U.S. while your application processes. Your spouse and unmarried children under 21 can accompany you as dependents."
-    },
-    {
-      "question": "What happens after the 2-year conditional period?",
-      "answer": "After 2 years, you must file Form I-829 to remove conditions. This requires proving that you made the required investment, created the required jobs, and maintained active involvement in the business. Successful completion grants permanent residency for you and your family."
-    }
-  ],
-  "relatedVisas": ["e-2", "o-1", "l-1"],
-  "industries": ["real-estate", "manufacturing", "hospitality", "healthcare"],
-  "countries": ["china", "india", "south-korea", "uk", "canada"]
+    { "question": "What is the difference between a Regional Center investment and a direct EB-5 investment?", "answer": "A Regional Center investment pools your capital with other investors into a USCIS-approved Regional Center project (typically real estate or infrastructure). Job creation is calculated indirectly. A direct investment requires you to invest in and manage your own business and create 10 direct employees on your payroll. Most investors choose the Regional Center route for its broader job counting methodology and more passive management role." },
+    { "question": "What qualifies as a Targeted Employment Area (TEA)?", "answer": "A TEA is either a rural area (outside a metropolitan statistical area) or an area with an unemployment rate at least 1.5 times the national average. Investing in a TEA reduces the minimum investment threshold from $1,050,000 to $800,000. TEA designation is determined by USCIS based on census data at the time of filing." },
+    { "question": "How do I prove my funds are from a lawful source?", "answer": "You must provide a paper trail for the origin of every dollar invested. This typically includes 5+ years of personal and business tax returns, bank statements, property sale records, business ownership documents, gift letters if funds were gifted, loan documents if funds were borrowed, and any other documentation showing how you accumulated the funds. This is the most complex part of the EB-5 process and requires meticulous preparation." },
+    { "question": "Can I invest in my own business for EB-5?", "answer": "Yes. Direct EB-5 investment in a new commercial enterprise you own and operate is permitted. The business must be established after November 29, 1990 (or be a troubled business), and you must create 10 full-time jobs for U.S. workers. This route gives you more control but requires direct management involvement." },
+    { "question": "What happens if the EB-5 project fails?", "answer": "If a Regional Center project fails or is abandoned, you may face immigration consequences. However, USCIS has become more accommodating in recent years, and there are legal strategies — including redeployment of funds into a new qualifying investment — that can preserve your immigration benefits. This is why choosing a reputable Regional Center with strong track record is critical. We advise clients carefully on project due diligence." },
+    { "question": "How long does the conditional green card period last?", "answer": "The conditional green card is valid for 2 years. Before it expires, you must file Form I-829 to remove the conditions, demonstrating that your investment was sustained, the commercial enterprise was maintained, and the required jobs were created or preserved. Upon approval, you receive a permanent (10-year renewable) green card." }
+  ]
 }
