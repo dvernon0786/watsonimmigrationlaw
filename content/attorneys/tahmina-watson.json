@@ -2,34 +2,60 @@
   "name": "Tahmina Watson",
   "slug": "tahmina-watson",
   "title": "Founder & Immigration Attorney",
-  "bio": "Tahmina Watson is the founder of Watson Immigration Law and one of the most recognized immigration attorneys in the United States. With over 15 years of experience, she has built a reputation as a fierce advocate for entrepreneurs, investors, and businesses navigating U.S. immigration law.\n\nTahmina is the author of four books on immigration, including The Startup Visa (now in its second edition), which has become an essential resource for founders and immigration professionals worldwide. She hosts the Tahmina Talks Immigration® podcast, where she interviews thought leaders, policymakers, and innovators at the intersection of immigration and entrepreneurship.\n\nShe has been featured in The New York Times, Forbes, Bloomberg, The Guardian, CNN, NPR, The Washington Post, The Seattle Times, and Business Insider. A Forbes Business Council Member and Puget Sound Business Journal Women of Influence honoree, Tahmina is a tireless advocate for immigration reform and a startup visa for international founders.",
+  "bio": "Tahmina Watson obtained her law degree and graduated from Brunel University, London, England in 2000. She was Called to the Bar in 2002 (became a barrister) as a member of the Middle Temple Inn. After completing her pupillage (apprenticeship) from Bridewell Chambers in London in 2004, Tahmina continued as a practicing barrister, handling mainly criminal defense matters, before relocating to the United States in 2005.\n\nTahmina was admitted to the New York Bar in 2006. Prior to founding Watson Immigration Law, Tahmina was a partner at White & Watson from July 2006 to December 2008 practicing exclusively in the area of U.S. Immigration and Naturalization law. Before that, Tahmina externed with His Honor Judge Ricardo Martinez at the District Court of Western Washington in downtown Seattle. She also interned for multiple terms at the Northwest Women's Law Center (now known as Legal Voice).\n\nTahmina is an Adjunct Fellow at The Niskanen Center, a Washington DC-based think tank, where she advises on immigration policy issues. She serves as Chair of the Legal Advisory Committee of the Global Entrepreneur in Residence Coalition. She is also a columnist with Above the Law and a contributor to Entrepreneur Magazine.\n\nTahmina is the author of four books on immigration, including The Startup Visa (now in its second edition, also available in Spanish). She hosts Tahmina Talks Immigration®, a podcast available on iTunes and all major streaming platforms. She is a passionate advocate for immigration reform and a startup visa for international founders.",
   "credentials": [
     "Washington State Bar Association",
+    "New York State Bar Association",
+    "Member of the Middle Temple, London, UK",
     "American Immigration Lawyers Association (AILA)",
-    "Forbes Business Council Member",
-    "AILA Washington/Alaska Chapter — Past Chair",
-    "Puget Sound Business Journal Women of Influence Honoree",
-    "Top 60 Immigration Blog in the US"
+    "King County Bar Association",
+    "Adjunct Fellow, The Niskanen Center (Washington DC)",
+    "Chair, Legal Advisory Committee — Global Entrepreneur in Residence Coalition",
+    "Columnist, Above the Law",
+    "Contributor, Entrepreneur Magazine",
+    "AILA WA Response Committee Chair",
+    "AILA National Media Spokesperson"
   ],
   "barAdmissions": [
     "Washington State",
-    "U.S. District Court, Western District of Washington"
+    "New York State",
+    "U.S. District Court, Western District of Washington",
+    "Bar of England and Wales (unregistered member)",
+    "Middle Temple Inn of Court, London"
   ],
   "education": [
-    { "degree": "LL.M., International and Comparative Law", "institution": "University of Durham, UK", "year": 2002 },
-    { "degree": "LL.B., Law", "institution": "University of Dhaka, Bangladesh", "year": 2000 }
+    {
+      "degree": "LL.B., Law",
+      "institution": "Brunel University, London, England",
+      "year": 2000
+    },
+    {
+      "degree": "Called to the Bar (Barrister)",
+      "institution": "Middle Temple Inn of Court, London",
+      "year": 2002
+    },
+    {
+      "degree": "Pupillage (Apprenticeship)",
+      "institution": "Bridewell Chambers, London",
+      "year": 2004
+    }
   ],
   "image": "/tahmina-2.jpg",
-  "email": "tahmina@watsonimmigrationlaw.com",
+  "email": "info@watsonimmigrationlaw.com",
   "phone": "+12062925237",
   "awards": [
-    "Forbes Business Council Member",
-    "Puget Sound Business Journal Women of Influence 2020",
-    "Top 60 Immigration Blog in the US"
+    "Adjunct Fellow, The Niskanen Center",
+    "2009-2010 President, King County Washington Women Lawyers (KCWWL)",
+    "Advocacy Consultant, feature film 'For Here or To Go?'",
+    "Above the Law Columnist"
   ],
+  "languages": ["English", "Bengali (fluent)", "Hindi (conversational)", "Urdu (conversational)"],
   "sameAs": [
     "https://www.linkedin.com/in/tahminawatson",
     "https://twitter.com/tahminawatson",
-    "https://www.instagram.com/tahmina.watson/"
+    "https://www.instagram.com/tahmina.watson/",
+    "https://www.facebook.com/pages/Watson-Immigration-Law/36327429955",
+    "https://abovethelaw.com/author/twatson/",
+    "https://tahmina-watson.pixels.com/"
   ]
 }

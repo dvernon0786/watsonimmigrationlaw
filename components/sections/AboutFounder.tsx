@@ -29,6 +29,7 @@ export default function AboutFounder() {
                 src="/Tahmina.png"
                 alt="Tahmina Watson, Founder of Watson Immigration Law"
                 fill
+                sizes="(max-width: 1024px) 0px, 475px"
                 className="object-contain object-center"
                 priority
               />

@@ -50,7 +50,7 @@ export default async function AttorneyPage({ params }: Props) {
               <p className="text-white/70 text-lg mb-4">{attorney.title}</p>
               <div className="flex flex-wrap gap-3">
                 {attorney.sameAs?.map((url: string) => {
-                  const label = url.includes('linkedin') ? 'LinkedIn' : url.includes('twitter') ? 'Twitter/X' : url.includes('instagram') ? 'Instagram' : 'Profile'
+                  const label = url.includes('linkedin') ? 'LinkedIn' : url.includes('twitter') ? 'Twitter/X' : url.includes('instagram') ? 'Instagram' : url.includes('facebook') ? 'Facebook' : url.includes('abovethelaw') ? 'Above the Law' : url.includes('pixels.com') ? 'Photography' : 'Profile'
                   return (
                     <a key={url} href={url} target="_blank" rel="noopener noreferrer" className="text-xs text-white/60 hover:text-gold-400 transition-colors border border-white/20 px-3 py-1 rounded-full">
                       {label}
@@ -106,6 +106,18 @@ export default async function AttorneyPage({ params }: Props) {
                   <ul className="space-y-1">
                     {attorney.awards.map((award: string, i: number) => (
                       <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">★</span>{award}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Languages */}
+              {attorney.languages?.length > 0 && (
+                <div className="bg-cream rounded-xl2 p-5">
+                  <h3 className="font-semibold text-navy mb-3">Languages</h3>
+                  <ul className="space-y-1">
+                    {attorney.languages.map((lang: string, i: number) => (
+                      <li key={i} className="text-sm text-charcoal/80 flex gap-2"><span className="text-gold-400">•</span>{lang}</li>
                     ))}
                   </ul>
                 </div>
