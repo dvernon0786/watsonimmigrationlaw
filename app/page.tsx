@@ -12,6 +12,7 @@ import PersonaTile from '@/components/sections/PersonaTile'
 import BlogPostCard from '@/components/sections/BlogPostCard'
 import BookCard from '@/components/sections/BookCard'
 import PodcastEpisodeCard from '@/components/sections/PodcastEpisodeCard'
+import AboutFounder from '@/components/sections/AboutFounder'
 import { buildFaqSchema, buildBreadcrumbSchema } from '@/lib/schemas'
 import { getAttorneys, getBlogPosts } from '@/lib/content'
 
@@ -134,6 +135,9 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* About Founder */}
+      <AboutFounder />
 
       {/* Books */}
       <section className="py-section bg-white">
