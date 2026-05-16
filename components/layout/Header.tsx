@@ -15,11 +15,19 @@ const VISAS = [
   { slug: 'l-1', name: 'L-1 Intracompany Transfer Visa' },
 ]
 
+const MEDIA_LINKS = [
+  { href: '/media', name: 'In the Media' },
+  { href: '/media/publications', name: 'Publications' },
+  { href: '/media/presentations', name: 'Presentations' },
+]
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isVisaDropdownOpen, setIsVisaDropdownOpen] = useState(false)
+  const [isMediaDropdownOpen, setIsMediaDropdownOpen] = useState(false)
   const pathname = usePathname()
-  const dropdownTimeoutRef = useRef<NodeJS.Timeout>()
+  const visaDropdownTimeoutRef = useRef<NodeJS.Timeout>()
+  const mediaDropdownTimeoutRef = useRef<NodeJS.Timeout>()
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
@@ -43,11 +51,11 @@ export default function Header() {
             <div
               className="relative"
               onMouseEnter={() => {
-                if (dropdownTimeoutRef.current) clearTimeout(dropdownTimeoutRef.current)
+                if (visaDropdownTimeoutRef.current) clearTimeout(visaDropdownTimeoutRef.current)
                 setIsVisaDropdownOpen(true)
               }}
               onMouseLeave={() => {
-                dropdownTimeoutRef.current = setTimeout(() => setIsVisaDropdownOpen(false), 150)
+                visaDropdownTimeoutRef.current = setTimeout(() => setIsVisaDropdownOpen(false), 150)
               }}
             >
               <button className="flex items-center space-x-1 text-gray-700 hover:text-navy transition-colors font-medium">
@@ -88,6 +96,40 @@ export default function Header() {
             >
               Blog
             </Link>
+
+            {/* Media Dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => {
+                if (mediaDropdownTimeoutRef.current) clearTimeout(mediaDropdownTimeoutRef.current)
+                setIsMediaDropdownOpen(true)
+              }}
+              onMouseLeave={() => {
+                mediaDropdownTimeoutRef.current = setTimeout(() => setIsMediaDropdownOpen(false), 150)
+              }}
+            >
+              <button className={`flex items-center space-x-1 font-medium transition-colors ${
+                pathname.startsWith('/media') ? 'text-navy' : 'text-gray-700 hover:text-navy'
+              }`}>
+                <span>Media</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {isMediaDropdownOpen && (
+                <div className="absolute top-full left-0 mt-1 w-48 bg-white border border-border rounded-lg shadow-lg py-2 z-10">
+                  {MEDIA_LINKS.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-navy"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
 
             <Link
               href="/contact"
@@ -155,6 +197,22 @@ export default function Header() {
               >
                 Blog
               </Link>
+
+              <div>
+                <div className="font-medium text-gray-900 mb-2">Media</div>
+                <div className="pl-4 space-y-2">
+                  {MEDIA_LINKS.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="block text-sm text-gray-700 hover:text-navy"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
 
               <Link
                 href="/contact"

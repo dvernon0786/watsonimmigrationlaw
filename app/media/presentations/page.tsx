@@ -8,51 +8,54 @@ import MediaLogos from '@/components/sections/MediaLogos'
 import { buildBreadcrumbSchema } from '@/lib/schemas'
 
 export const metadata: Metadata = {
-  title: 'In the Media | Watson Immigration Law',
-  description: 'Tahmina Watson has been featured in Forbes, Bloomberg, CNN, NPR, The Washington Post, The Guardian, and many other national and international publications.',
-  alternates: { canonical: 'https://watsonimmigrationlaw.com/media' },
+  title: 'Presentations & Speaking | Tahmina Watson in the Media | Watson Immigration Law',
+  description: 'Tahmina Watson\'s speaking engagements, podcast appearances, webinars, and conference presentations on U.S. immigration law and policy.',
+  alternates: { canonical: 'https://watsonimmigrationlaw.com/media/presentations' },
 }
 
-const breadcrumbs = [{ name: 'Home', path: '/' }, { name: 'In the Media', path: '/media' }]
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'In the Media', path: '/media' },
+  { name: 'Presentations', path: '/media/presentations' },
+]
 
-interface PressItem {
+interface Presentation {
   title: string
-  outlet: string
+  host: string
   date: string
   url: string | null
   format: string
-  category: string
+  description: string | null
 }
 
-async function getPress(): Promise<PressItem[]> {
-  const filePath = path.join(process.cwd(), 'content/media/press.json')
+async function getPresentations(): Promise<Presentation[]> {
+  const filePath = path.join(process.cwd(), 'content/media/presentations.json')
   const raw = await fs.readFile(filePath, 'utf-8')
   return JSON.parse(raw)
 }
 
 const FORMAT_LABELS: Record<string, string> = {
-  article: 'Articles & Print',
-  tv: 'TV Appearances',
-  radio: 'Radio & Broadcast',
   podcast: 'Podcasts',
+  webinar: 'Webinars',
+  conference: 'Conferences & CLEs',
+  'in-person-event': 'Events & Speaking Engagements',
+  radio: 'Radio',
+  video: 'Video',
+  interview: 'Interviews',
   award: 'Awards & Recognition',
-  recognition: 'Awards & Recognition',
-  'book-review': 'Book Reviews',
-  congressional: 'Congressional & Government',
   other: 'Other',
 }
 
-const FORMAT_ORDER = ['article', 'tv', 'radio', 'podcast', 'recognition', 'award', 'book-review', 'congressional', 'other']
+const FORMAT_ORDER = ['podcast', 'webinar', 'conference', 'in-person-event', 'radio', 'video', 'interview', 'award', 'other']
 
-export default async function MediaPage() {
-  const press = await getPress()
+export default async function PresentationsPage() {
+  const presentations = await getPresentations()
 
-  const grouped = FORMAT_ORDER.reduce<Record<string, PressItem[]>>((acc, fmt) => {
-    const merged = fmt === 'award' ? ['award', 'recognition'] : [fmt]
-    const key = FORMAT_LABELS[fmt] ?? fmt
-    if (!acc[key]) {
-      const items = press.filter(p => merged.includes(p.format))
-      if (items.length > 0) acc[key] = items
+  const grouped = FORMAT_ORDER.reduce<Record<string, Presentation[]>>((acc, fmt) => {
+    const label = FORMAT_LABELS[fmt] ?? fmt
+    if (!acc[label]) {
+      const items = presentations.filter(p => p.format === fmt)
+      if (items.length > 0) acc[label] = items
     }
     return acc
   }, {})
@@ -66,8 +69,8 @@ export default async function MediaPage() {
         <div className="max-w-content mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-4">Press & Media</p>
-            <h1 className="font-display text-display-lg text-white mb-6 leading-tight">Tahmina Watson in the media</h1>
-            <p className="text-white/80 leading-relaxed">Tahmina Watson is a nationally recognized voice on U.S. immigration law, regularly quoted in major national publications and featured on radio and podcast programs.</p>
+            <h1 className="font-display text-display-lg text-white mb-6 leading-tight">Presentations & Speaking</h1>
+            <p className="text-white/80 leading-relaxed">Tahmina Watson is a sought-after speaker on immigration law, entrepreneur visas, and advocacy. She has spoken at conferences, universities, bar associations, and appeared on dozens of podcasts and webinars nationwide.</p>
           </div>
         </div>
       </section>
@@ -94,8 +97,11 @@ export default async function MediaPage() {
                         >
                           <div className="flex items-start justify-between gap-3">
                             <div className="flex-1">
-                              <p className="text-xs font-semibold text-gold-400 mb-1">{item.outlet} · {item.date}</p>
+                              <p className="text-xs font-semibold text-gold-400 mb-1">{item.host} · {item.date}</p>
                               <h3 className="text-sm font-semibold text-navy group-hover:text-gold-400 transition-colors leading-snug">{item.title}</h3>
+                              {item.description && (
+                                <p className="text-xs text-charcoal/60 mt-1">{item.description}</p>
+                              )}
                             </div>
                             <svg className="w-4 h-4 text-charcoal/30 group-hover:text-gold-400 flex-shrink-0 mt-0.5 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -107,8 +113,11 @@ export default async function MediaPage() {
                           key={i}
                           className="block bg-white border border-border rounded-xl2 p-4 shadow-card"
                         >
-                          <p className="text-xs font-semibold text-gold-400 mb-1">{item.outlet} · {item.date}</p>
+                          <p className="text-xs font-semibold text-gold-400 mb-1">{item.host} · {item.date}</p>
                           <h3 className="text-sm font-semibold text-navy leading-snug">{item.title}</h3>
+                          {item.description && (
+                            <p className="text-xs text-charcoal/60 mt-1">{item.description}</p>
+                          )}
                         </div>
                       )
                     ))}
@@ -117,9 +126,9 @@ export default async function MediaPage() {
               ))}
 
               <div className="bg-white border border-border rounded-xl2 p-6">
-                <h2 className="font-semibold text-navy mb-2">Press inquiries</h2>
-                <p className="text-sm text-charcoal/70 leading-relaxed mb-3">For media inquiries, interview requests, or expert commentary on U.S. immigration law, please contact us directly.</p>
-                <a href="mailto:info@watsonimmigrationlaw.com?subject=Press Inquiry" className="inline-flex items-center gap-2 text-gold-400 font-semibold text-sm hover:text-gold-500">
+                <h2 className="font-semibold text-navy mb-2">Speaking inquiries</h2>
+                <p className="text-sm text-charcoal/70 leading-relaxed mb-3">To invite Tahmina Watson to speak at your event, conference, or podcast, please contact us directly.</p>
+                <a href="mailto:info@watsonimmigrationlaw.com?subject=Speaking Inquiry" className="inline-flex items-center gap-2 text-gold-400 font-semibold text-sm hover:text-gold-500">
                   info@watsonimmigrationlaw.com →
                 </a>
               </div>

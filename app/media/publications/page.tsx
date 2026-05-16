@@ -8,51 +8,53 @@ import MediaLogos from '@/components/sections/MediaLogos'
 import { buildBreadcrumbSchema } from '@/lib/schemas'
 
 export const metadata: Metadata = {
-  title: 'In the Media | Watson Immigration Law',
-  description: 'Tahmina Watson has been featured in Forbes, Bloomberg, CNN, NPR, The Washington Post, The Guardian, and many other national and international publications.',
-  alternates: { canonical: 'https://watsonimmigrationlaw.com/media' },
+  title: 'Publications | Tahmina Watson in the Media | Watson Immigration Law',
+  description: 'Tahmina Watson\'s written publications including articles in Above the Law, Entrepreneur Magazine, Yes! Magazine, Puget Sound Business Journal, and more.',
+  alternates: { canonical: 'https://watsonimmigrationlaw.com/media/publications' },
 }
 
-const breadcrumbs = [{ name: 'Home', path: '/' }, { name: 'In the Media', path: '/media' }]
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'In the Media', path: '/media' },
+  { name: 'Publications', path: '/media/publications' },
+]
 
-interface PressItem {
+interface Publication {
   title: string
   outlet: string
   date: string
   url: string | null
-  format: string
-  category: string
+  type: string
 }
 
-async function getPress(): Promise<PressItem[]> {
-  const filePath = path.join(process.cwd(), 'content/media/press.json')
+async function getPublications(): Promise<Publication[]> {
+  const filePath = path.join(process.cwd(), 'content/media/publications.json')
   const raw = await fs.readFile(filePath, 'utf-8')
   return JSON.parse(raw)
 }
 
-const FORMAT_LABELS: Record<string, string> = {
-  article: 'Articles & Print',
-  tv: 'TV Appearances',
-  radio: 'Radio & Broadcast',
-  podcast: 'Podcasts',
-  award: 'Awards & Recognition',
-  recognition: 'Awards & Recognition',
-  'book-review': 'Book Reviews',
-  congressional: 'Congressional & Government',
-  other: 'Other',
+const TYPE_LABELS: Record<string, string> = {
+  article: 'Articles',
+  opinion: 'Opinion Pieces',
+  book: 'Books',
+  'book-chapter': 'Book Chapters',
+  'blog-post': 'Blog Posts',
+  'open-letter': 'Open Letters',
+  'guest-post': 'Guest Posts',
+  editorial: 'Editorial',
+  newsletter: 'Newsletter',
 }
 
-const FORMAT_ORDER = ['article', 'tv', 'radio', 'podcast', 'recognition', 'award', 'book-review', 'congressional', 'other']
+const TYPE_ORDER = ['article', 'opinion', 'book', 'book-chapter', 'blog-post', 'open-letter', 'guest-post', 'newsletter', 'editorial']
 
-export default async function MediaPage() {
-  const press = await getPress()
+export default async function PublicationsPage() {
+  const publications = await getPublications()
 
-  const grouped = FORMAT_ORDER.reduce<Record<string, PressItem[]>>((acc, fmt) => {
-    const merged = fmt === 'award' ? ['award', 'recognition'] : [fmt]
-    const key = FORMAT_LABELS[fmt] ?? fmt
-    if (!acc[key]) {
-      const items = press.filter(p => merged.includes(p.format))
-      if (items.length > 0) acc[key] = items
+  const grouped = TYPE_ORDER.reduce<Record<string, Publication[]>>((acc, type) => {
+    const label = TYPE_LABELS[type] ?? type
+    if (!acc[label]) {
+      const items = publications.filter(p => p.type === type)
+      if (items.length > 0) acc[label] = items
     }
     return acc
   }, {})
@@ -66,8 +68,8 @@ export default async function MediaPage() {
         <div className="max-w-content mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-4">Press & Media</p>
-            <h1 className="font-display text-display-lg text-white mb-6 leading-tight">Tahmina Watson in the media</h1>
-            <p className="text-white/80 leading-relaxed">Tahmina Watson is a nationally recognized voice on U.S. immigration law, regularly quoted in major national publications and featured on radio and podcast programs.</p>
+            <h1 className="font-display text-display-lg text-white mb-6 leading-tight">Publications</h1>
+            <p className="text-white/80 leading-relaxed">Tahmina Watson writes regularly on U.S. immigration law, entrepreneur visas, and immigration policy reform. Her work appears in Above the Law, Entrepreneur Magazine, Yes! Magazine, and publications across the country.</p>
           </div>
         </div>
       </section>
