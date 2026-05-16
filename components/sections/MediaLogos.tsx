@@ -44,8 +44,9 @@ export default function MediaLogos() {
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                width={logo.w}
-                height={44}
+                width={0}
+                height={0}
+                sizes="200px"
                 className="object-contain grayscale opacity-40 hover:opacity-70 transition-opacity duration-200"
                 style={{ height: 44, width: 'auto' }}
               />
