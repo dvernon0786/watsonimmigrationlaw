@@ -11,9 +11,13 @@ interface AttorneyCardProps {
   image: string
   slug: string
   credentials: string[]
+  cardSummary?: string
+  bio?: string
 }
 
-export default function AttorneyCard({ name, title, image, slug, credentials }: AttorneyCardProps) {
+export default function AttorneyCard({ name, title, image, slug, credentials, cardSummary, bio }: AttorneyCardProps) {
+  const summary = cardSummary || bio?.split('\n\n')[0]
+
   return (
     <div className="bg-white rounded-xl2 border border-border shadow-card p-6">
       <div className="flex gap-4">
@@ -31,6 +35,9 @@ export default function AttorneyCard({ name, title, image, slug, credentials }: 
             {name}
           </Link>
           <p className="text-sm text-charcoal/60 mb-2">{title}</p>
+          {summary && (
+            <p className="text-xs text-charcoal/70 leading-relaxed line-clamp-3 mb-2">{summary}</p>
+          )}
           <ul className="space-y-1">
             {credentials.slice(0, 2).map((cred, i) => (
               <li key={i} className="text-xs text-charcoal/70 flex items-center gap-1">

@@ -214,6 +214,8 @@ export default async function HomePage() {
                   image={attorney.image}
                   slug={attorney.slug}
                   credentials={attorney.credentials}
+                  cardSummary={attorney.cardSummary}
+                  bio={attorney.bio}
                 />
               ))}
             </div>

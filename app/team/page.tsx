@@ -53,7 +53,7 @@ export default async function TeamPage() {
                       </Link>
                     </div>
                     <p className="text-charcoal/60 mb-4">{attorney.title}</p>
-                    <p className="text-sm text-charcoal/80 leading-relaxed mb-4 line-clamp-3">{attorney.bio.split('\n')[0]}</p>
+                    <p className="text-sm text-charcoal/80 leading-relaxed mb-4 line-clamp-3">{attorney.cardSummary || attorney.bio.split('\n\n')[0]}</p>
                     <div className="flex flex-wrap gap-2">
                       {attorney.credentials.slice(0, 3).map((cred: string, i: number) => (
                         <span key={i} className="text-xs bg-cream border border-border px-3 py-1 rounded-full text-charcoal/70">{cred}</span>

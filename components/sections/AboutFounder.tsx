@@ -1,21 +1,13 @@
-'use client'
-
 import Link from 'next/link'
 import Image from 'next/image'
+import { getAttorneyData } from '@/lib/content'
 
-export default function AboutFounder() {
-  const credentials = [
-    'Founder of Watson Immigration Law — practicing U.S. immigration law since 2006',
-    'LL.B., Brunel University, London · Called to the Bar, Middle Temple Inn of Court (2002)',
-    'Admitted in Washington State, New York State, and U.S. District Court (W.D. Wash.)',
-    'Author of four books including The Startup Visa (2nd ed., also in Spanish)',
-    'Host of Tahmina Talks Immigration® podcast',
-    'Adjunct Fellow, The Niskanen Center (Washington DC)',
-    'Chair, Legal Advisory Committee — Global Entrepreneur in Residence Coalition',
-    'Columnist, Above the Law · Contributor, Entrepreneur Magazine',
-    'AILA National Media Spokesperson · AILA WA Response Committee Chair',
-    'Fluent in Bengali · Conversational Hindi and Urdu',
-  ]
+export default async function AboutFounder() {
+  const attorney = await getAttorneyData('tahmina-watson')
+  if (!attorney) return null
+
+  const yearsActive = new Date().getFullYear() - 2006
+  const paragraphs = attorney.bio.split('\n\n').filter(Boolean)
 
   return (
     <section className="py-section bg-cream">
@@ -27,16 +19,16 @@ export default function AboutFounder() {
             <div className="rounded-xl3 overflow-hidden aspect-[475/533] bg-navy relative">
               <Image
                 src="/Tahmina.png"
-                alt="Tahmina Watson, Founder of Watson Immigration Law"
+                alt={`${attorney.name}, Founder of Watson Immigration Law`}
                 fill
                 sizes="(max-width: 1024px) 0px, 475px"
                 className="object-contain object-center"
                 priority
               />
             </div>
-            {/* Badge */}
+            {/* Dynamic years badge */}
             <div className="absolute -bottom-6 -right-6 bg-gold-400 text-navy rounded-xl2 px-6 py-4 shadow-cta">
-              <p className="font-display text-3xl font-bold leading-none">15+</p>
+              <p className="font-display text-3xl font-bold leading-none">{yearsActive}+</p>
               <p className="text-xs font-semibold uppercase tracking-widest mt-1">Years of Practice</p>
             </div>
           </div>
@@ -47,30 +39,35 @@ export default function AboutFounder() {
               About Our Founder
             </p>
             <h2 className="font-display text-display-lg text-navy mb-5 leading-tight">
-              Tahmina Watson —{' '}
+              {attorney.name} —{' '}
               <em className="italic text-gold-400">A Voice for Immigrants in America</em>
             </h2>
 
-            <p className="text-charcoal/70 leading-relaxed mb-4">
-              Tahmina Watson trained as a barrister in London, was Called to the Bar at the Middle Temple
-              in 2002, and completed her pupillage at Bridewell Chambers before relocating to the United
-              States in 2005. She has practiced U.S. immigration law exclusively since 2006 — first as
-              a partner at White & Watson, then as founder of Watson Immigration Law.
-            </p>
-            <p className="text-charcoal/70 leading-relaxed mb-6">
-              She is the author of four books on immigration, including{' '}
-              <em className="italic text-charcoal">The Startup Visa</em>{' '}
-              — available in English and Spanish — and the host of{' '}
-              <em className="italic text-charcoal">Tahmina Talks Immigration®</em>.
-              Her work has been cited in The New York Times, Forbes, Bloomberg, NPR, The Guardian,
-              and many other national publications. She advises on immigration policy as an Adjunct
-              Fellow at The Niskanen Center and chairs the Legal Advisory Committee of the Global
-              Entrepreneur in Residence Coalition.
-            </p>
+            {/* First 2 paragraphs from bio */}
+            {paragraphs.slice(0, 2).map((p: string, i: number) => (
+              <p key={i} className="text-charcoal/70 leading-relaxed mb-4">{p}</p>
+            ))}
+
+            {/* Media mentions */}
+            {attorney.mediaMentions?.length > 0 && (
+              <p className="text-charcoal/70 leading-relaxed mb-6">
+                Her work has been cited in{' '}
+                {attorney.mediaMentions.map((pub: string, i: number) => (
+                  <span key={pub}>
+                    <em className="not-italic font-medium text-charcoal">{pub}</em>
+                    {i < attorney.mediaMentions.length - 2
+                      ? ', '
+                      : i === attorney.mediaMentions.length - 2
+                      ? ', and '
+                      : ''}
+                  </span>
+                ))}.
+              </p>
+            )}
 
             {/* Credentials */}
             <ul className="space-y-2 mb-8">
-              {credentials.map((cred, i) => (
+              {attorney.credentials.map((cred: string, i: number) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-charcoal/80">
                   <span className="text-gold-400 mt-0.5 flex-shrink-0">•</span>
                   {cred}

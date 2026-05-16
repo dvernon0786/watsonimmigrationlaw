@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import JsonLd from '@/components/seo/JsonLd'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import LeadCapture from '@/components/sections/LeadCapture'
+import MediaLogos from '@/components/sections/MediaLogos'
 import { buildBreadcrumbSchema } from '@/lib/schemas'
 
 export const metadata: Metadata = {
@@ -53,14 +54,7 @@ export default function MediaPage() {
             <div className="lg:col-span-2 space-y-10">
 
               {/* Publication logo bar */}
-              <div className="bg-white border border-border rounded-xl2 p-6">
-                <p className="text-xs font-semibold text-charcoal/50 uppercase tracking-widest mb-5 text-center">Featured in</p>
-                <div className="flex flex-wrap justify-center items-center gap-6">
-                  {['New York Times', 'Forbes', 'Bloomberg', 'The Guardian', 'CNN', 'NPR', 'Washington Post', 'Business Insider'].map(pub => (
-                    <span key={pub} className="text-charcoal/40 font-display font-bold text-sm">{pub}</span>
-                  ))}
-                </div>
-              </div>
+              <MediaLogos />
 
               {/* Articles */}
               <div>

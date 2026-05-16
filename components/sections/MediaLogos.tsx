@@ -47,7 +47,7 @@ export default function MediaLogos() {
                 width={logo.w}
                 height={44}
                 className="object-contain grayscale opacity-40 hover:opacity-70 transition-opacity duration-200"
-                style={{ maxHeight: 44, width: 'auto' }}
+                style={{ height: 44, width: 'auto' }}
               />
             </div>
           ))}

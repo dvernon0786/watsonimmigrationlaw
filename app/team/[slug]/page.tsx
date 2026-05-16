@@ -74,6 +74,16 @@ export default async function AttorneyPage({ params }: Props) {
                 {attorney.bio.split('\n\n').map((para: string, i: number) => (
                   <p key={i} className="text-charcoal/80 leading-relaxed mb-4">{para}</p>
                 ))}
+                {attorney.mediaMentions?.length > 0 && (
+                  <div className="mt-6 p-5 bg-cream rounded-xl2 border border-border">
+                    <p className="text-xs font-semibold uppercase tracking-widest text-charcoal/50 mb-3">As Cited In</p>
+                    <div className="flex flex-wrap gap-x-5 gap-y-2">
+                      {attorney.mediaMentions.map((pub: string) => (
+                        <span key={pub} className="font-display font-bold text-charcoal/40 text-lg">{pub}</span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Bar admissions */}
