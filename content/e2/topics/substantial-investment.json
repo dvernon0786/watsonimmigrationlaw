@@ -1,0 +1,60 @@
+{
+  "slug": "substantial-investment",
+  "metaTitle": "What Is a 'Substantial Investment' for the E-2 Visa? | Watson Immigration Law",
+  "metaDescription": "The E-2 visa requires a 'substantial' investment — but what does that mean legally? Learn how USCIS evaluates the proportionality test, at-risk requirement, and what qualifies in 2025.",
+  "h1": "What Counts as a 'Substantial Investment' for the E-2 Visa?",
+  "intro": "The word 'substantial' appears throughout E-2 visa law without being defined by a specific dollar amount — a source of confusion for prospective investors worldwide. Unlike the EB-5 investor visa, which has a clear $800,000 minimum, the E-2 uses a qualitative standard: your investment must be substantial in relation to the total cost of the enterprise you are investing in, must be irrevocably committed and at risk, and must be of sufficient magnitude to ensure the successful development and direction of the business. Understanding precisely how USCIS and consular officers evaluate this standard is essential before you structure your investment or file your application.",
+  "sections": [
+    {
+      "heading": "The Inverted Sliding Scale — The Core Test",
+      "body": "The primary method used by USCIS and consular officers to evaluate substantiality is called the inverted sliding scale or proportionality test. The concept works as follows: the lower the total cost of the business, the higher the percentage of investment you must contribute to demonstrate genuine commitment. For a business that costs $100,000 to acquire or launch, an investment of $80,000 (80%) is strong and will generally satisfy the proportionality test. For a business valued at $500,000, a $100,000 investment (20%) may not meet the threshold. For a business worth several million dollars, a $300,000 investment (a small percentage) may still qualify because the absolute dollar amount demonstrates significant financial commitment. The officer considers both the proportion and the absolute amount — neither factor alone determines the outcome."
+    },
+    {
+      "heading": "The Investment Must Be 'At Risk'",
+      "body": "The at-risk requirement is one of the most technically misunderstood aspects of the E-2 standard. Your funds must be irrevocably committed to the business and subject to partial or total loss if the enterprise fails. This means the money must already be deployed in real business expenses — not sitting in a designated bank account with no business activity attached to it. Qualifying uses of investment funds include: purchase of equipment and machinery, commercial lease deposits and advance rent payments, purchase of inventory and raw materials, franchise fees, construction and build-out costs, professional fees (legal, accounting, marketing) paid from the investment capital, and website and technology infrastructure. Non-qualifying uses include: funds in a business bank account not yet deployed, loans secured only by the business's own assets rather than the investor's personal assets, and any arrangement where the investment could be recovered regardless of business performance."
+    },
+    {
+      "heading": "Proportionality Examples — How Different Investments Are Evaluated",
+      "body": "To illustrate how officers apply the proportionality test in practice: a $20,000 investment in a $25,000 home-based consulting business (80%) is likely substantial for that business type. The same $20,000 in a $200,000 business (10%) would not qualify. An $80,000 investment in a $100,000 franchise (80%) is generally sufficient. A $150,000 investment in a $300,000 restaurant business (50%) is borderline and would need strong supporting documentation. A $500,000 investment in a $5,000,000 manufacturing facility (10%) may qualify because the absolute amount is significant even though the proportion is low. In each case, the officer also considers whether the amount is sufficient to ensure the business's success and whether a credible business plan demonstrates viability and non-marginality."
+    },
+    {
+      "heading": "Source of Funds — Where the Money Must Come From",
+      "body": "Beyond the amount itself, USCIS and consular officers scrutinize the source of your investment funds carefully. All investment capital must come from lawful sources — legal earnings, business profits, inheritance, sale of assets, or similar. You must be able to document the origin of every dollar invested. Wire transfer records, bank statements, tax returns, and asset sale documentation are standard. Borrowed funds can qualify if — and only if — the loan is secured by your personal assets (such as a mortgage on a home you own). A loan secured by the business's equipment, inventory, or property does not count as your investment because those assets could be repossessed by the lender, meaning the funds are not truly at risk."
+    },
+    {
+      "heading": "What USCIS Officers Look for in Practice",
+      "body": "Experienced E-2 immigration attorneys have observed consistent patterns in what distinguishes approved applications from denied ones. Strong applications typically include: clear evidence that investment funds have been deployed in tangible business expenses before filing; a business plan with realistic financial projections showing revenue beyond personal support; a hiring plan showing how U.S. jobs will be created within 5 years; documentation of the total business cost (purchase price for acquisitions, startup budget for new businesses) to establish the proportionality baseline; and consistent financial documentation across all submitted documents. Weak applications typically show: funds sitting in a bank account with no business activity; investment amounts that represent a small percentage of the business cost without explanation; business plans that only show revenue sufficient to support the investor; and inconsistency between the investment amount claimed and the documentation provided."
+    },
+    {
+      "heading": "How 'Substantial' Differs by Business Type",
+      "body": "What counts as substantial varies by the type of business being invested in. For service businesses with low overhead (consulting, IT services, creative agencies), total startup costs may be $50,000 to $150,000, and an investment representing 70% to 80% of that cost can qualify. For franchise investments, the investment typically equals the franchise fee plus build-out costs — total $150,000 to $500,000 depending on the brand. For restaurants and hospitality businesses, $200,000 to $500,000 is typical. For manufacturing or logistics businesses with significant equipment costs, investment amounts of $500,000 or more are common. The investment must be sufficient to make the specific business viable — not just to meet a general dollar threshold."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is there a minimum investment amount for the E-2 visa?",
+      "answer": "No fixed minimum exists in law. However, investments below $100,000 face much higher scrutiny and require particularly strong documentation. Most approved applications in 2025 involve investments of $100,000 to $300,000 for service and retail businesses."
+    },
+    {
+      "question": "What is the inverted sliding scale for E-2 investments?",
+      "answer": "The inverted sliding scale means that the lower the total cost of the business, the higher the percentage of your investment must be. For a $100,000 business, investing $80,000 (80%) is strong. For a $1,000,000 business, $200,000 (20%) may not be sufficient."
+    },
+    {
+      "question": "Can I fund my E-2 investment with a loan?",
+      "answer": "Only if the loan is secured by your personal assets — such as your home or personal savings. A loan secured solely by the business's equipment or property does not count because those assets are not truly at risk if the business fails."
+    },
+    {
+      "question": "Does the investment have to be spent before I apply?",
+      "answer": "Yes, the funds must be irrevocably committed — meaning already deployed in business expenses or placed in escrow for an imminent business purchase. An intention to invest funds is not sufficient; the capital must already be at risk."
+    },
+    {
+      "question": "What happens if USCIS decides my investment is not substantial?",
+      "answer": "Your application will be denied. You can address this by restructuring the investment — deploying more funds, showing clearer documentation of expenses, or choosing a business type where your investment amount represents a stronger proportion of the total cost — and then reapplying."
+    }
+  ],
+  "relatedPages": [
+    { "slug": "minimum-investment", "title": "How Much Do You Need to Invest for E-2?" },
+    { "slug": "denied", "title": "E-2 Visa Denied — What to Do Next" },
+    { "slug": "vs-eb5", "title": "E-2 vs EB-5 — Full Comparison" }
+  ]
+}

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import fs from 'fs/promises'
 import path from 'path'
+import Link from 'next/link'
 import JsonLd from '@/components/seo/JsonLd'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import VisaHero from '@/components/sections/VisaHero'
@@ -9,15 +10,26 @@ import FaqAccordion from '@/components/sections/FaqAccordion'
 import LeadCapture from '@/components/sections/LeadCapture'
 import { buildVisaPageSchema, buildBreadcrumbSchema } from '@/lib/schemas'
 
-interface TopicData {
+interface ComparisonTable {
+  headers: string[]
+  rows: string[][]
+}
+
+interface RelatedPage {
   slug: string
   title: string
+}
+
+interface TopicData {
+  slug: string
   metaTitle: string
   metaDescription: string
   h1: string
   intro: string
   sections: Array<{ heading: string; body: string }>
   faqs: Array<{ question: string; answer: string }>
+  comparisonTable?: ComparisonTable
+  relatedPages?: RelatedPage[]
 }
 
 async function getTopicData(slug: string): Promise<TopicData | null> {
@@ -62,12 +74,8 @@ export default async function E2GuidePage({ params }: { params: Promise<{ topic:
     { name: 'Home', path: '/' },
     { name: 'Visa Services', path: '/visas' },
     { name: 'E-2 Visa', path: '/visas/e-2' },
-    { name: data.title, path: `/visas/e-2/guide/${topic}` },
+    { name: data.h1, path: `/visas/e-2/guide/${topic}` },
   ]
-
-  const schemaFaqs = data.faqs.length > 0
-    ? data.faqs
-    : [{ question: `What should I know about ${data.title.toLowerCase()}?`, answer: `Watson Immigration Law advises E-2 investors on ${data.title.toLowerCase()}. Contact us for a consultation tailored to your situation.` }]
 
   return (
     <>
@@ -77,7 +85,7 @@ export default async function E2GuidePage({ params }: { params: Promise<{ topic:
           visaName: 'E-2 Visa',
           slug: `/visas/e-2/guide/${topic}`,
           description: data.metaDescription,
-          faqs: schemaFaqs,
+          faqs: data.faqs,
         })}
       />
 
@@ -85,9 +93,9 @@ export default async function E2GuidePage({ params }: { params: Promise<{ topic:
 
       <VisaHero
         headline={data.h1}
-        subheadline={data.intro || `Watson Immigration Law provides authoritative guidance on ${data.title.toLowerCase()} for E-2 Treaty Investor Visa applicants.`}
+        subheadline={data.intro}
         visaName="E-2 Visa"
-        locationName={data.title}
+        locationName="Guide"
       />
 
       <section className="py-section bg-white">
@@ -106,7 +114,51 @@ export default async function E2GuidePage({ params }: { params: Promise<{ topic:
                 </div>
               )}
 
+              {data.comparisonTable && (
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse">
+                    <thead>
+                      <tr className="bg-navy text-white">
+                        {data.comparisonTable.headers.map((header, i) => (
+                          <th key={i} className="text-left px-4 py-3 font-semibold first:rounded-tl-lg last:rounded-tr-lg">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.comparisonTable.rows.map((row, i) => (
+                        <tr key={i} className={i % 2 === 0 ? 'bg-cream' : 'bg-white'}>
+                          {row.map((cell, j) => (
+                            <td key={j} className={`px-4 py-3 text-charcoal/80 ${j === 0 ? 'font-medium text-navy' : ''}`}>
+                              {cell}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
               {data.faqs.length > 0 && <FaqAccordion faqs={data.faqs} />}
+
+              {data.relatedPages && data.relatedPages.length > 0 && (
+                <div>
+                  <h2 className="font-display text-display-sm text-navy mb-4">Related guides</h2>
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    {data.relatedPages.map((page) => (
+                      <Link
+                        key={page.slug}
+                        href={`/visas/e-2/guide/${page.slug}`}
+                        className="border rounded-xl2 p-4 hover:border-navy/40 transition-colors block"
+                      >
+                        <p className="font-medium text-navy text-sm">{page.title}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
 
             <div>
