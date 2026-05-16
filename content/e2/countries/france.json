@@ -1,0 +1,63 @@
+{
+  "slug": "france",
+  "name": "France",
+  "adjective": "French",
+  "treatyYear": 1960,
+  "visaValidity": "4 years",
+  "annualIssuances": 3574,
+  "consulate": "U.S. Embassy Paris",
+  "metaTitle": "E-2 Visa for French Nationals | Watson Immigration Law",
+  "metaDescription": "France issues over 3,500 E-2 visas annually. Guidance on the E-2 Treaty Investor Visa for French nationals — 4-year visa validity (updated Nov 2023), Paris consulate processing, hospitality and luxury goods investment focus.",
+  "h1": "E-2 Visa for French Investors",
+  "intro": "France is among the top five source countries for E-2 Treaty Investor Visa holders, with over 3,500 visas issued annually. French investors are particularly active in hospitality, luxury goods, food and beverage, fashion, and professional services — sectors where French business culture and brand value translate strongly into the U.S. market. Watson Immigration Law represents French nationals seeking to establish or expand U.S. business operations.",
+  "sections": [
+    {
+      "heading": "Treaty Status & Visa Validity Update",
+      "body": "France and the United States have maintained an E-2 treaty relationship since 1960. In November 2023, the U.S. extended visa stamp validity for French nationals from 25 months to 48 months (4 years), a significant improvement in the practical benefit of the visa. Each U.S. entry is typically granted for a 2-year admission period."
+    },
+    {
+      "heading": "Common Business Types for French E-2 Investors",
+      "body": "French investors in the United States most commonly invest in restaurants and food service (particularly French cuisine or French-branded concepts), wine and beverage distribution, luxury retail, fashion and apparel, hospitality (boutique hotels), and professional and creative services. The U.S. market's strong demand for French brands and expertise makes these sectors natural fits for E-2 investment."
+    },
+    {
+      "heading": "Paris Consulate Processing",
+      "body": "French nationals apply for E-2 at the U.S. Embassy in Paris. The Embassy handles a high volume of French E-2 applications and is experienced with the business documentation standards required. Processing after interview is typically 4–6 weeks. French-language documents must be submitted with certified English translation."
+    },
+    {
+      "heading": "Investment Considerations",
+      "body": "French investors typically invest in the $100,000–$500,000 range, depending on the business type. Hospitality and restaurant businesses often require higher investments due to build-out and equipment costs; service businesses may qualify with lower investment amounts. The investment must be irrevocably committed to the U.S. enterprise and at risk — not simply funds held in a U.S. bank account."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do French nationals qualify for the E-2 visa?",
+      "answer": "Yes. France has had an E-2 treaty with the United States since 1960. French nationals are among the top five E-2 issuance groups globally, with over 3,500 visas issued annually."
+    },
+    {
+      "question": "How long is the E-2 visa for French nationals?",
+      "answer": "French nationals now receive a 4-year (48-month) visa stamp as of November 2023, improved from the previous 25-month validity. Entry admissions are typically for 2 years per visit."
+    },
+    {
+      "question": "Can I open a French restaurant or food business in the U.S. on E-2?",
+      "answer": "Yes. Restaurant and food service businesses are among the most common E-2 investments by French nationals. The business must meet E-2 substantiality and non-marginality requirements — it must generate significantly more income than needed to support the investor alone and must have job creation capacity."
+    },
+    {
+      "question": "Can my spouse work in the U.S. under my E-2 visa?",
+      "answer": "Yes. Your spouse receives an E-2 dependent visa with automatic U.S. work authorization — no separate filing is required. This is particularly valuable for French dual-income households considering a U.S. relocation."
+    },
+    {
+      "question": "What is the minimum investment for a French E-2 applicant?",
+      "answer": "There is no statutory minimum. The investment must be substantial relative to the total cost of the enterprise. For a typical service business or restaurant, $100,000–$200,000 is a reasonable starting range. A higher-cost business (hotel, manufacturing facility) will require a larger investment to satisfy the proportionality standard."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "germany", "adjective": "German" },
+    { "slug": "italy", "adjective": "Italian" },
+    { "slug": "spain", "adjective": "Spanish" }
+  ],
+  "relatedCities": [
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "miami", "name": "Miami" },
+    { "slug": "los-angeles", "name": "Los Angeles" }
+  ]
+}

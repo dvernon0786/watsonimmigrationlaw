@@ -1,0 +1,63 @@
+{
+  "slug": "australia",
+  "name": "Australia",
+  "adjective": "Australian",
+  "treatyYear": 1991,
+  "visaValidity": "4 years",
+  "annualIssuances": 1100,
+  "consulate": "U.S. Embassy Canberra / U.S. Consulate Sydney",
+  "metaTitle": "E-2 Visa for Australian Nationals | Watson Immigration Law",
+  "metaDescription": "Australian nationals have access to both the E-2 investor visa and the unique E-3 specialty occupation visa. Guidance on E-2 vs E-3 for Australians, treaty terms, consulate options, and investment requirements.",
+  "h1": "E-2 Visa for Australian Investors",
+  "intro": "Australian nationals have a unique dual advantage in U.S. immigration: they are eligible for both the E-2 Treaty Investor Visa and the E-3 Specialty Occupation Visa — a visa type available exclusively to Australians. For Australians who are investing in a U.S. business, E-2 is typically the correct pathway. Watson Immigration Law advises Australian nationals on which visa category best fits their goals and helps investors structure their applications for success.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "Australia and the United States have maintained treaty commerce provisions since 1991. Australian nationals receive a 4-year E-2 visa stamp — one of the longer validities in the program. The U.S.-Australia economic relationship is robust, and Australian investors are active across a wide range of U.S. business sectors."
+    },
+    {
+      "heading": "E-2 vs. E-3 for Australians",
+      "body": "The E-3 visa — available only to Australian nationals — allows Australians to work in specialty occupation jobs (similar to H-1B) for a U.S. employer, with an annual cap of 10,500 visas. The E-3 is an employment visa and does not require investment or business ownership. If you are an Australian professional employed by a U.S. company, E-3 is likely the correct category. If you are investing in and operating your own U.S. business, E-2 is the correct pathway. Watson Immigration Law advises Australians on which category applies to their situation."
+    },
+    {
+      "heading": "Common Business Types for Australian E-2 Investors",
+      "body": "Australian E-2 investors are active in professional services, technology, hospitality (particularly in resort markets), mining and resources, agriculture, and creative industries. Australian investors frequently establish U.S. operations as extensions of Australian businesses, taking advantage of the Pacific Rim trade relationship and the large Australian expatriate community in the United States."
+    },
+    {
+      "heading": "Consulate Processing",
+      "body": "Australian nationals can apply for E-2 at the U.S. Embassy in Canberra or the U.S. Consulate General in Sydney. Processing times are typically 4–6 weeks after interview. Australians may also apply for change of status within the United States if already present on a valid nonimmigrant visa."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I apply for E-2 or E-3 as an Australian?",
+      "answer": "E-3 is for Australian professionals working for a U.S. employer in a specialty occupation. E-2 is for Australians who are investing in and operating their own U.S. business. If you own the business, E-2 is the correct category. If you are an employee, E-3 is typically appropriate. Many Australians hold E-3 while employed and later transition to E-2 when they start their own business."
+    },
+    {
+      "question": "How long is the E-2 visa for Australian nationals?",
+      "answer": "Australian nationals receive a 4-year visa stamp, with 2-year U.S. admission periods per entry. The visa is renewable indefinitely."
+    },
+    {
+      "question": "Do Australian nationals have any priority date backlogs for green cards?",
+      "answer": "Australian nationals face minimal EB-2 and EB-3 priority date backlogs — essentially no significant wait for most employment-based green card categories. This is a significant advantage compared to Indian or Chinese nationals who face decades-long waits in those categories."
+    },
+    {
+      "question": "Can Australians invest in any type of U.S. business for E-2?",
+      "answer": "Yes. Australians can invest in any type of U.S. business that meets the E-2 requirements — it must be a bona fide enterprise, the investment must be substantial, and the business must be more than marginal. There are no Australia-specific restrictions on business type."
+    },
+    {
+      "question": "My spouse is not Australian — can they get work authorization?",
+      "answer": "Your E-2 dependent spouse receives automatic U.S. work authorization regardless of their own nationality. They can work for any U.S. employer without filing a separate EAD application."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "united-kingdom", "adjective": "British" },
+    { "slug": "new-zealand", "adjective": "New Zealand" },
+    { "slug": "canada", "adjective": "Canadian" }
+  ],
+  "relatedCities": [
+    { "slug": "los-angeles", "name": "Los Angeles" },
+    { "slug": "seattle", "name": "Seattle" },
+    { "slug": "san-francisco", "name": "San Francisco" }
+  ]
+}

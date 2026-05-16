@@ -1,0 +1,67 @@
+{
+  "slug": "south-korea",
+  "name": "South Korea",
+  "adjective": "Korean",
+  "treatyYear": 1956,
+  "visaValidity": "5 years",
+  "annualIssuances": 5359,
+  "consulate": "U.S. Embassy Seoul",
+  "metaTitle": "E-2 Visa for Korean Nationals | Watson Immigration Law",
+  "metaDescription": "South Korea is the third-largest source of E-2 investors globally, with 165% growth since 2016. Guidance on E-2 Treaty Investor Visa for Korean nationals — treaty terms, Seoul consulate processing, investment requirements from Watson Immigration Law.",
+  "h1": "E-2 Visa for Korean Investors",
+  "intro": "South Korea is the third-largest source of E-2 Treaty Investor Visa holders globally, with issuances growing 165% since 2016. Korean nationals have E-2 treaty access through a treaty in force since 1956, and the Korean-American business community — particularly in the Pacific Northwest, Los Angeles, and New York — is one of the most active E-2 investor communities in the United States. Watson Immigration Law serves Korean investors across the United States from its Seattle base.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "South Korea and the United States have maintained a Treaty of Friendship, Commerce and Navigation since 1956. Korean nationals have full E-2 treaty access, and the program has seen dramatic growth — from fewer than 2,000 annual issuances a decade ago to over 5,000 today. This growth reflects Korean entrepreneurs' increasing appetite for U.S. business investment, particularly in technology, retail, and the service sector."
+    },
+    {
+      "heading": "Visa Validity for Korean Nationals",
+      "body": "Korean nationals receive a 5-year visa stamp. Each entry into the United States on E-2 status is typically for a 2-year period, renewable indefinitely. There is no limit on extensions as long as the underlying qualifying investment remains active."
+    },
+    {
+      "heading": "Common Investment Sectors for Korean E-2 Investors",
+      "body": "Korean investors in the United States most commonly invest in technology-oriented service businesses, Korean-American retail and restaurant operations, franchise businesses, and import/export companies. In the Pacific Northwest, the presence of Microsoft, Amazon, and other tech employers creates a strong market for Korean-owned IT consulting and staffing firms. Korean-owned franchise operations — particularly in food service — are also extremely common E-2 structures."
+    },
+    {
+      "heading": "Seoul Consulate Processing",
+      "body": "E-2 applications for Korean nationals are processed at the U.S. Embassy in Seoul. The Seoul Embassy handles a very high volume of E-2 applications and has extensive experience with Korean investor cases. Processing times after interview are typically 2–4 weeks. Korean-language support is available at the embassy, but all application documents must be submitted in English or with certified translation."
+    },
+    {
+      "heading": "Seattle & the Pacific Northwest for Korean Investors",
+      "body": "Seattle has one of the most established Korean-American business communities in the United States, anchored by the Bellevue and Lynnwood corridors. The Pacific Northwest's proximity to Seoul (direct flights, Pacific Rim trade ties) and the presence of major tech employers that employ Korean nationals make this market particularly active for Korean E-2 investors. Watson Immigration Law is deeply familiar with the specific business environments and investment opportunities that Korean investors encounter in this region."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Korean nationals qualify for the E-2 visa?",
+      "answer": "Yes. South Korea has had an E-2 treaty with the United States since 1956, giving Korean nationals full access to the E-2 Treaty Investor Visa program. South Korea is currently the third-largest source country for E-2 visas globally."
+    },
+    {
+      "question": "How long does the E-2 visa last for Korean nationals?",
+      "answer": "Korean nationals receive a 5-year visa stamp, with each U.S. entry typically granted for a 2-year admission period. The visa is renewable indefinitely as long as the qualifying business remains active."
+    },
+    {
+      "question": "What is the minimum investment for a Korean national to get E-2 status?",
+      "answer": "There is no statutory minimum. The investment must be 'substantial' relative to the total cost of the enterprise. For most retail, service, or franchise businesses, $100,000–$200,000 is a reasonable starting point. For businesses in higher-cost cities like New York or San Francisco, a higher investment amount may be expected."
+    },
+    {
+      "question": "Can Korean nationals transfer their E-2 visa to a different U.S. city?",
+      "answer": "E-2 status is tied to the qualifying investment, not a geographic location. If you move or restructure your business to a different city, you would typically need to notify USCIS and ensure the new business continues to meet E-2 requirements. Working with an immigration attorney during any business transition is strongly recommended."
+    },
+    {
+      "question": "Can my spouse work in the U.S. on E-2 status?",
+      "answer": "Yes. E-2 dependent spouses receive automatic work authorization — they may work for any U.S. employer without filing a separate EAD application. This is one of the most significant advantages of the E-2 visa for Korean families considering U.S. business investment."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "taiwan", "adjective": "Taiwanese" },
+    { "slug": "canada", "adjective": "Canadian" }
+  ],
+  "relatedCities": [
+    { "slug": "seattle", "name": "Seattle" },
+    { "slug": "los-angeles", "name": "Los Angeles" },
+    { "slug": "new-york", "name": "New York City" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "russia",
+  "name": "Russia",
+  "adjective": "Russian",
+  "metaTitle": "E-2 Visa for Russian Nationals — Not Eligible | Alternatives | Watson Immigration Law",
+  "metaDescription": "Russian nationals cannot apply for the E-2 visa — the U.S.-Russia treaty has been suspended. Explore EB-5, dual citizenship strategies, and other U.S. investor pathways. Watson Immigration Law advises Russian investors.",
+  "h1": "Can Russian Nationals Apply for the E-2 Visa?",
+  "intro": "Russia and the United States have a bilateral treaty that would technically create E-2 eligibility, but the treaty's operation has been suspended due to geopolitical circumstances — meaning Russian nationals cannot currently apply for E-2 status. Russian investors and entrepreneurs seeking U.S. business immigration have several alternative pathways, including EB-5 and dual citizenship strategies through treaty-country passports.",
+  "alternatives": [
+    {
+      "visaType": "EB-5 Immigrant Investor Visa",
+      "description": "Open to all nationalities regardless of treaty status. Requires $800,000 (TEA) or $1,050,000 investment. Leads directly to a U.S. green card. Russian nationals face no EB-5 backlog, meaning the process from petition to green card can be relatively efficient.",
+      "href": "/visas/eb-5"
+    },
+    {
+      "visaType": "O-1 Visa — Extraordinary Ability",
+      "description": "For Russian nationals with extraordinary ability in business, science, technology, the arts, or athletics. No investment required. Available to entrepreneurs, researchers, and accomplished professionals.",
+      "href": "/visas/o-1"
+    },
+    {
+      "visaType": "Dual Citizenship Strategy",
+      "description": "Russian nationals who legally hold citizenship in an E-2 treaty country can apply for E-2 using that passport. Many countries offer citizenship by descent, residency, or investment. An immigration attorney can advise on which treaty-country citizenship pathways are available given your specific background.",
+      "href": "/visas/e-2/guide/dual-citizenship"
+    },
+    {
+      "visaType": "L-1 Intracompany Transfer",
+      "description": "For Russian nationals who work for a company with qualifying U.S. operations. Allows transfer to the U.S. entity in an executive, managerial, or specialized knowledge role.",
+      "href": "/visas/l-1"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Russian nationals apply for the E-2 visa?",
+      "answer": "Not currently. While Russia and the United States technically have treaty provisions that could create E-2 eligibility, the treaty's operation has been suspended due to geopolitical circumstances. Russian nationals should consult with an immigration attorney for the most current information on their eligibility."
+    },
+    {
+      "question": "What are the best alternatives to E-2 for Russian investors?",
+      "answer": "EB-5 is the most common pathway for Russian investors who want to operate U.S. businesses and obtain green cards. O-1 is available to those with documented extraordinary achievement. A dual citizenship strategy through a treaty-country passport is also an option for those seeking E-2 specifically."
+    },
+    {
+      "question": "Can a Russian national with dual citizenship apply for E-2?",
+      "answer": "Yes. If a Russian national legally holds citizenship in an E-2 treaty country and has a valid passport from that country, they can apply for E-2 status using the treaty-country passport. The E-2 is based on nationality (passport), not country of birth or residence."
+    }
+  ],
+  "relatedPages": ["/visas/eb-5", "/visas/o-1", "/visas/l-1", "/visas/e-2/guide/dual-citizenship"]
+}

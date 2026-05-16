@@ -1,0 +1,63 @@
+{
+  "slug": "mexico",
+  "name": "Mexico",
+  "adjective": "Mexican",
+  "treatyYear": 1868,
+  "visaValidity": "1 year (renewable)",
+  "annualIssuances": 1739,
+  "consulate": "U.S. Embassy Mexico City / multiple consulates",
+  "metaTitle": "E-2 Visa for Mexican Nationals | Watson Immigration Law",
+  "metaDescription": "Mexican nationals have E-2 treaty access and USMCA TN eligibility. Guidance on the E-2 Treaty Investor Visa for Mexican nationals — 1-year visa validity, cross-border investment considerations, consulate processing, and TN vs E-2 comparison.",
+  "h1": "E-2 Visa for Mexican Investors",
+  "intro": "Mexico and the United States share one of the most active cross-border business relationships in the world, and Mexican nationals have E-2 treaty access dating to 1868. Mexican investors — particularly those investing in Texas, California, Arizona, and Florida — are among the most active E-2 applicants in the Western Hemisphere. Watson Immigration Law advises Mexican nationals on E-2 strategy, including the unique considerations that apply to Mexican applicants.",
+  "sections": [
+    {
+      "heading": "Treaty Status & Visa Validity",
+      "body": "Mexico's E-2 treaty relationship with the United States dates to 1868. However, Mexican nationals face a significant limitation compared to most treaty countries: the U.S.-Mexico treaty currently provides a 1-year visa stamp validity, requiring more frequent consulate renewals. Each U.S. entry is for a 2-year admission period — so time in the U.S. is not restricted — but the visa stamp must be renewed annually at a U.S. consulate in Mexico."
+    },
+    {
+      "heading": "E-2 vs. TN for Mexican Nationals",
+      "body": "Like Canadian nationals, Mexican investors have access to both the E-2 investor visa and the TN visa under USMCA. The TN is an employment visa for professionals in listed USMCA occupations working for a U.S. employer — it does not allow business ownership or self-employment. If you are investing in and operating your own U.S. business, E-2 is the correct category. If you are working as an employee in a listed profession, TN is typically appropriate."
+    },
+    {
+      "heading": "Cross-Border Investment Considerations",
+      "body": "Many Mexican investors have business operations on both sides of the border — Mexican parent companies with U.S. subsidiaries or affiliated distribution businesses. This cross-border structure can support E-2 eligibility if the Mexican investor owns at least 50% of the U.S. entity and actively manages it. Structuring cross-border investments to satisfy E-2 requirements requires careful planning and legal advice."
+    },
+    {
+      "heading": "Consulate Processing for Mexican Nationals",
+      "body": "Mexican nationals can apply at the U.S. Embassy in Mexico City or at U.S. consulates in Ciudad Juárez, Guadalajara, Monterrey, Hermosillo, Matamoros, Mérida, Nogales, Nuevo Laredo, or Tijuana. Processing times vary by location. Ciudad Juárez and Monterrey are often preferred for business visa applications due to their processing volume and experience with investor cases."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Mexican nationals qualify for the E-2 visa?",
+      "answer": "Yes. Mexico has had an E-2 treaty with the United States since 1868. Mexican nationals are among the most active E-2 applicants in the Western Hemisphere, with approximately 1,700 visas issued annually."
+    },
+    {
+      "question": "Why is the Mexican E-2 visa only valid for 1 year?",
+      "answer": "The 1-year validity reflects the current terms of the U.S.-Mexico bilateral treaty. This means Mexican E-2 holders must renew their visa stamp at a Mexican consulate annually. However, the U.S. admission period per entry is still 2 years — so you do not need to leave the U.S. every year."
+    },
+    {
+      "question": "Should a Mexican investor use E-2 or TN status?",
+      "answer": "E-2 for investors who own and operate a U.S. business. TN for professionals employed by a U.S. company in a listed USMCA occupation. If you own the business, E-2 is typically the only appropriate category. An immigration attorney can advise on the best strategy for your specific situation."
+    },
+    {
+      "question": "What businesses do Mexican E-2 investors most commonly open?",
+      "answer": "Mexican E-2 investors most commonly invest in restaurants and food service (particularly in border states), retail, logistics and freight, construction and contracting, and professional services. The Mexico-Texas and Mexico-California corridors are particularly active."
+    },
+    {
+      "question": "Can a Mexican national apply for E-2 at any U.S. consulate in Mexico?",
+      "answer": "Yes. Mexican nationals can apply at any of the nine U.S. consulates in Mexico plus the U.S. Embassy in Mexico City. Consulate choice can affect wait times and scheduling — an immigration attorney can advise on the best consulate for your case."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "colombia", "adjective": "Colombian" },
+    { "slug": "canada", "adjective": "Canadian" },
+    { "slug": "spain", "adjective": "Spanish" }
+  ],
+  "relatedCities": [
+    { "slug": "los-angeles", "name": "Los Angeles" },
+    { "slug": "houston", "name": "Houston" },
+    { "slug": "miami", "name": "Miami" }
+  ]
+}

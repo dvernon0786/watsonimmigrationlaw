@@ -1,0 +1,53 @@
+{
+  "slug": "los-angeles",
+  "name": "Los Angeles",
+  "state": "California",
+  "stateCode": "CA",
+  "metaTitle": "E-2 Visa Attorney in Los Angeles, CA | Watson Immigration Law",
+  "metaDescription": "Los Angeles has one of the most active E-2 investor communities in the U.S., driven by Korean, Japanese, and Latin American investors. Expert guidance on E-2 Treaty Investor Visa for LA-based investors from Watson Immigration Law.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Los Angeles, CA",
+  "intro": "Los Angeles is home to one of the most diverse and active international investor communities in the United States. The city's Korean-American business hub (Koreatown), the largest Japanese-American population in the continental U.S., a massive Latin American investor presence, and established communities from across the Pacific Rim make LA one of the top E-2 investment destinations nationally. Watson Immigration Law serves E-2 investors targeting the Los Angeles market.",
+  "sections": [
+    {
+      "heading": "International Investment Communities in Los Angeles",
+      "body": "Los Angeles hosts the largest Korean-American business community in the continental United States — centered in Koreatown but extending across the San Gabriel Valley, Cerritos, and Torrance. Japanese investors have a major presence in LA's garment district, manufacturing sector, and professional services. Latin American investors — particularly from Mexico, Colombia, and El Salvador — are active in retail, logistics, and food service. These established communities provide E-2 investors with ready-made business networks and market access."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Los Angeles",
+      "body": "Retail (particularly in Korean and Asian business corridors), restaurants and food service, entertainment and media-adjacent services, technology consulting, fashion and apparel, logistics, and healthcare staffing are the dominant E-2 business types in the LA area. Korean-owned franchise operations — particularly in food service, beauty, and retail — are extremely common E-2 structures."
+    },
+    {
+      "heading": "California Tax Environment",
+      "body": "California has the highest state income tax rate in the United States — up to 13.3% for high earners. E-2 investors should factor California's significant tax burden into their business planning and financial projections. Despite the high taxes, the sheer size of California's market and the density of international business communities in LA make it one of the most active E-2 markets in the country."
+    }
+  ],
+  "stateTax": "State income tax up to 13.3% (highest in the U.S.)",
+  "uscisOffice": "USCIS Los Angeles District Office",
+  "industries": ["Retail", "Food & Beverage", "Technology Consulting", "Fashion & Apparel", "Logistics", "Entertainment-Adjacent Services", "Healthcare Staffing"],
+  "topNationalities": [
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "taiwan", "adjective": "Taiwanese" },
+    { "slug": "colombia", "adjective": "Colombian" }
+  ],
+  "faqs": [
+    {
+      "question": "Is Koreatown in Los Angeles a good location for a Korean E-2 investor?",
+      "answer": "Koreatown is one of the most active markets for Korean E-2 investors in the United States. The established Korean business community, high foot traffic, and strong demand for Korean food, retail, and services make it a natural market. However, commercial rents have risen significantly — investment levels need to reflect current market costs to satisfy the E-2 substantiality requirement."
+    },
+    {
+      "question": "How does California's high income tax affect E-2 investors?",
+      "answer": "California's income tax (up to 13.3%) will reduce the net income your business generates. This affects your business plan projections and the financial feasibility analysis. An immigration attorney and accountant should work together on the business plan to ensure projections are realistic under California's tax environment."
+    },
+    {
+      "question": "Can I open a Korean franchise in Los Angeles on E-2?",
+      "answer": "Yes. Franchise businesses — including Korean food, beauty, and retail franchises — are among the most common E-2 structures in the LA market. The documented operating model and financial projections of established franchises often make the E-2 business plan easier to prepare and stronger in adjudication."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "san-francisco", "name": "San Francisco" },
+    { "slug": "san-diego", "name": "San Diego" },
+    { "slug": "las-vegas", "name": "Las Vegas" }
+  ]
+}

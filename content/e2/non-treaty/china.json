@@ -1,0 +1,50 @@
+{
+  "slug": "china",
+  "name": "China",
+  "adjective": "Chinese",
+  "metaTitle": "E-2 Visa for Chinese Nationals — Not Eligible | Alternatives | Watson Immigration Law",
+  "metaDescription": "Chinese nationals cannot apply for the E-2 visa — China has no bilateral treaty with the United States. Explore EB-5, O-1, and dual citizenship strategies. Watson Immigration Law advises Chinese investors on the right U.S. pathway.",
+  "h1": "Can Chinese Nationals Apply for the E-2 Visa?",
+  "intro": "China does not have a qualifying Treaty of Commerce and Navigation with the United States. Despite China being the world's second-largest economy and a major source of outbound investment, Chinese nationals cannot apply for the E-2 Treaty Investor Visa. The most common pathway for Chinese investors seeking U.S. business immigration is the EB-5 Immigrant Investor program, which has no treaty requirement and leads directly to a green card.",
+  "alternatives": [
+    {
+      "visaType": "EB-5 Immigrant Investor Visa",
+      "description": "The primary pathway for Chinese investors. Requires a qualifying investment of $800,000 (Targeted Employment Area) or $1,050,000 (standard). Leads directly to a U.S. green card. Chinese nationals currently face a significant EB-5 visa backlog due to high demand — consulting with an attorney about current wait times and filing strategies is essential.",
+      "href": "/visas/eb-5"
+    },
+    {
+      "visaType": "O-1 Visa — Extraordinary Ability",
+      "description": "For Chinese nationals with extraordinary ability or achievement in business, science, technology, arts, or athletics. No investment required. Available to entrepreneurs, researchers, tech founders, and accomplished professionals. No annual cap.",
+      "href": "/visas/o-1"
+    },
+    {
+      "visaType": "L-1 Intracompany Transfer",
+      "description": "For Chinese nationals who work for a Chinese company with a U.S. subsidiary, affiliate, or parent. Allows transfer to the U.S. entity in an executive, managerial, or specialized knowledge role.",
+      "href": "/visas/l-1"
+    },
+    {
+      "visaType": "Dual Citizenship Strategy",
+      "description": "Chinese nationals who obtain citizenship in a treaty country — such as Turkey (CBI ~$400,000 real estate), Grenada (CBI ~$235,000), or Portugal (Golden Visa) — can apply for E-2 using their new passport. Note that China does not officially recognize dual citizenship; consult with both U.S. and Chinese legal counsel before pursuing this strategy.",
+      "href": "/visas/e-2/guide/dual-citizenship"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Chinese nationals apply for the E-2 visa?",
+      "answer": "No. China does not have a qualifying Treaty of Friendship, Commerce and Navigation with the United States. Chinese nationals cannot apply for E-2 status regardless of their investment amount or business qualifications. The EB-5 program is the most common investor visa pathway for Chinese nationals."
+    },
+    {
+      "question": "What is the best alternative to E-2 for Chinese investors?",
+      "answer": "For most Chinese investors, the EB-5 Immigrant Investor program is the primary alternative. Unlike E-2, EB-5 leads directly to a U.S. green card and is open to all nationalities. Chinese nationals face an EB-5 backlog — an attorney can advise on current wait times and whether a direct EB-5 or regional center investment is more appropriate."
+    },
+    {
+      "question": "Is there an EB-5 backlog for Chinese nationals?",
+      "answer": "Yes. Chinese nationals face a significant EB-5 visa backlog due to high demand from Chinese applicants. The backlog means approved EB-5 petitions may wait years for a visa number to become available. An immigration attorney can advise on the current backlog status and strategies to manage the wait period."
+    },
+    {
+      "question": "Can Chinese nationals use dual citizenship to get E-2 eligibility?",
+      "answer": "Chinese nationals who legally obtain citizenship in an E-2 treaty country can apply for E-2 using that second passport. However, China officially does not recognize dual citizenship. Chinese nationals should carefully consult with both U.S. immigration counsel and Chinese legal counsel before pursuing a dual citizenship strategy, as it may have implications under Chinese law."
+    }
+  ],
+  "relatedPages": ["/visas/eb-5", "/visas/o-1", "/visas/l-1", "/visas/e-2/guide/dual-citizenship"]
+}

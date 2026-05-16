@@ -1,0 +1,46 @@
+{
+  "slug": "vietnam",
+  "name": "Vietnam",
+  "adjective": "Vietnamese",
+  "metaTitle": "E-2 Visa for Vietnamese Nationals — Not Eligible | Alternatives | Watson Immigration Law",
+  "metaDescription": "Vietnamese nationals cannot apply for the E-2 visa — Vietnam has no bilateral treaty with the United States. Explore EB-5 and other U.S. investor pathways. Watson Immigration Law advises Vietnamese investors on the right strategy.",
+  "h1": "Can Vietnamese Nationals Apply for the E-2 Visa?",
+  "intro": "Vietnam is one of Southeast Asia's fastest-growing economies, but Vietnam does not have a qualifying Treaty of Commerce and Navigation with the United States — meaning Vietnamese nationals cannot apply for the E-2 Treaty Investor Visa. Vietnamese investors and entrepreneurs seeking U.S. business immigration have several viable alternative pathways, most commonly the EB-5 Immigrant Investor program.",
+  "alternatives": [
+    {
+      "visaType": "EB-5 Immigrant Investor Visa",
+      "description": "Open to all nationalities. Requires $800,000 (TEA) or $1,050,000 investment. Leads directly to a U.S. green card. Vietnamese nationals face no significant EB-5 backlog, making this a practical and relatively efficient pathway to permanent residence.",
+      "href": "/visas/eb-5"
+    },
+    {
+      "visaType": "O-1 Visa — Extraordinary Ability",
+      "description": "For Vietnamese nationals with extraordinary ability or achievement in business, science, technology, arts, or athletics. No investment required. Available to accomplished entrepreneurs, researchers, and professionals.",
+      "href": "/visas/o-1"
+    },
+    {
+      "visaType": "L-1 Intracompany Transfer",
+      "description": "For Vietnamese nationals who work for a Vietnamese company with U.S. operations. Allows transfer to a U.S. subsidiary or affiliate in a managerial, executive, or specialized knowledge role.",
+      "href": "/visas/l-1"
+    },
+    {
+      "visaType": "Dual Citizenship Strategy",
+      "description": "Vietnamese nationals who obtain citizenship in an E-2 treaty country through investment or other legal means can apply for E-2 using that passport. An immigration attorney can advise on which citizenship pathways are available and appropriate.",
+      "href": "/visas/e-2/guide/dual-citizenship"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Vietnamese nationals apply for the E-2 visa?",
+      "answer": "No. Vietnam does not have a qualifying bilateral treaty with the United States. Vietnamese nationals cannot apply for E-2 status. The EB-5 Immigrant Investor program is the most common U.S. business immigration pathway for Vietnamese nationals."
+    },
+    {
+      "question": "What is the best U.S. visa option for a Vietnamese investor?",
+      "answer": "For most Vietnamese investors, EB-5 is the most direct pathway — it leads to a U.S. green card and is open to all nationalities. Vietnamese nationals face no significant EB-5 backlog. O-1 is an option for those with documented extraordinary achievement. L-1 works if you have an existing Vietnamese employer with U.S. operations."
+    },
+    {
+      "question": "Is there an EB-5 backlog for Vietnamese nationals?",
+      "answer": "Vietnamese nationals currently face minimal EB-5 backlog compared to Indian and Chinese nationals — approved petitions proceed to green card issuance relatively quickly. An immigration attorney can provide current backlog information."
+    }
+  ],
+  "relatedPages": ["/visas/eb-5", "/visas/o-1", "/visas/l-1", "/visas/e-2/guide/dual-citizenship"]
+}

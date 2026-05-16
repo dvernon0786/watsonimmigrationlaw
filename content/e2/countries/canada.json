@@ -1,0 +1,67 @@
+{
+  "slug": "canada",
+  "name": "Canada",
+  "adjective": "Canadian",
+  "treatyYear": 1989,
+  "visaValidity": "5 years",
+  "annualIssuances": 6779,
+  "consulate": "U.S. Consulate Toronto / Vancouver / Calgary",
+  "metaTitle": "E-2 Visa for Canadian Nationals | Watson Immigration Law",
+  "metaDescription": "Canada is the second-largest source of E-2 investors. Guidance on the E-2 Treaty Investor Visa for Canadian nationals — USMCA treaty status, cross-border investment, consulate options, and how E-2 compares to TN visa.",
+  "h1": "E-2 Visa for Canadian Investors",
+  "intro": "Canada is the second-largest source of E-2 Treaty Investor Visa holders, with approximately 6,800 visas issued annually. Canadian nationals have a long history of cross-border investment in the United States, and E-2 is one of several U.S. immigration pathways available to Canadians — alongside TN (under USMCA), E-1 (trade), and the standard immigrant visa routes. Watson Immigration Law advises Canadian investors on whether E-2 or another pathway best fits their specific situation.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "Canada's E-2 treaty access stems from the Treaty of Friendship, Commerce and Navigation and was further reinforced through trade agreements including NAFTA (now USMCA). Canadian nationals have had consistent E-2 access since 1989. Unlike TN visas — which are tied to specific USMCA-listed occupations — the E-2 is available to any Canadian national making a qualifying investment in a U.S. business, regardless of their profession."
+    },
+    {
+      "heading": "E-2 vs. TN Visa for Canadians",
+      "body": "Canadian investors often ask whether to pursue E-2 or TN status. The key distinction: TN is for Canadian professionals working for a U.S. employer in a listed USMCA occupation. E-2 is for Canadians who own and operate a U.S. business. If you are investing in and running your own U.S. company, E-2 is typically the correct visa. TN is an employment visa, not an investor visa. Many Canadian entrepreneurs start on TN status while employed, then transition to E-2 when they launch their own business."
+    },
+    {
+      "heading": "Visa Validity for Canadian Nationals",
+      "body": "Canadian nationals typically receive a 5-year E-2 visa stamp. Entry admissions are for 2-year periods, renewable indefinitely. Canadians also benefit from being able to enter the U.S. visa-free at land borders and airports for B-1/B-2 purposes, which simplifies initial business visits before E-2 status is established."
+    },
+    {
+      "heading": "Consulate Processing for Canadians",
+      "body": "Canadian nationals can apply for E-2 at U.S. consulates in Toronto, Vancouver, Calgary, or Montreal, among others. Canadians may also apply for a change of status within the United States if they are already lawfully present. Processing times vary by location — Vancouver and Toronto typically schedule interviews within 4–6 weeks. Canadians do not need a visa to enter the U.S. for short visits, but E-2 status is required for those intending to own and operate a business."
+    },
+    {
+      "heading": "Cross-Border Investment Considerations",
+      "body": "Canadian investors frequently structure businesses on both sides of the border — a Canadian parent company with a U.S. subsidiary or affiliate. This structure can support E-2 eligibility if the Canadian investor controls and operates the U.S. entity. Watson Immigration Law advises on both the immigration and business structuring aspects of cross-border investment."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Canadian nationals qualify for the E-2 visa?",
+      "answer": "Yes. Canada has had an E-2 treaty relationship with the United States since 1989, and Canadian nationals are the second-largest group of E-2 visa holders globally. Canadian nationals can apply at U.S. consulates in Canada or change status from within the United States."
+    },
+    {
+      "question": "How does E-2 compare to TN status for Canadians?",
+      "answer": "TN is an employment visa for Canadians working in listed USMCA professional occupations for a U.S. employer. E-2 is an investor visa for Canadians who own and operate a U.S. business. If you are starting or buying a U.S. company, E-2 is the right category. TN does not allow self-employment or business ownership."
+    },
+    {
+      "question": "Can I apply for E-2 at a Canadian consulate or from within the U.S.?",
+      "answer": "Both options are available to Canadians. If you are in Canada, you apply through a U.S. consulate (Toronto, Vancouver, Calgary, Montreal, etc.). If you are already in the U.S. with a valid nonimmigrant status, you may be able to file a change of status application with USCIS — though consular processing is often faster."
+    },
+    {
+      "question": "Can a Canadian company open a U.S. subsidiary and get E-2 status?",
+      "answer": "Yes. Canadian nationals who own at least 50% of a U.S. subsidiary can apply for E-2 status to manage that U.S. entity. The investment made into the U.S. entity must be substantial, at risk, and from the investor's own funds (or funds they are responsible for)."
+    },
+    {
+      "question": "Does my Canadian spouse get work authorization on E-2?",
+      "answer": "Yes. E-2 dependent spouses of Canadian investors receive automatic U.S. work authorization. They can work for any employer without filing a separate EAD application. This is a significant advantage for Canadian families who want both partners to work in the United States."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "united-kingdom", "adjective": "British" },
+    { "slug": "australia", "adjective": "Australian" },
+    { "slug": "mexico", "adjective": "Mexican" }
+  ],
+  "relatedCities": [
+    { "slug": "seattle", "name": "Seattle" },
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "miami", "name": "Miami" }
+  ]
+}

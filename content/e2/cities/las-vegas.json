@@ -1,0 +1,53 @@
+{
+  "slug": "las-vegas",
+  "name": "Las Vegas",
+  "state": "Nevada",
+  "stateCode": "NV",
+  "metaTitle": "E-2 Visa Attorney in Las Vegas, NV | Watson Immigration Law",
+  "metaDescription": "Las Vegas is a major E-2 investor market for hospitality, food service, and franchise businesses — no state income tax, 40+ million annual visitors, highly franchise-friendly market. Expert E-2 visa guidance for Las Vegas investors.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Las Vegas, NV",
+  "intro": "Las Vegas attracts more E-2 investors per capita than almost any other major U.S. city, driven by the city's hospitality-dominant economy, franchise-friendly business environment, and Nevada's no-income-tax advantage. With over 40 million visitors annually, Las Vegas creates constant consumer demand that makes the E-2 non-marginality requirement easier to satisfy than in many other markets. Korean, Japanese, and Asian investors are particularly active in Las Vegas's food service and retail sectors.",
+  "sections": [
+    {
+      "heading": "Why Las Vegas Works for E-2 Investment",
+      "body": "The combination of massive tourist volume (40+ million annual visitors), Nevada's no income tax, a franchise-friendly regulatory environment, and relatively lower commercial real estate costs than markets like Los Angeles or San Francisco make Las Vegas uniquely well-suited for E-2 investment. The city's hospitality and food service sectors are perpetually in demand, and franchise businesses — from food concepts to retail and services — are extremely common E-2 structures."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Las Vegas",
+      "body": "Food and beverage (restaurants, cafes, food court concepts, particularly Korean and Asian cuisine), retail (particularly in tourist corridors), beauty and wellness, franchise operations (all categories), and hospitality-adjacent services are the most active E-2 business types in Las Vegas. The Strip and adjacent neighborhoods are premium E-2 investment locations due to the tourist volume, though commercial costs are high. The broader Vegas valley — Henderson, North Las Vegas, Summerlin — offers E-2 investors a balance of market access and lower operating costs."
+    },
+    {
+      "heading": "Nevada Tax Environment",
+      "body": "Nevada has no state income tax, making it one of the most financially favorable states for E-2 investors. There is no tax on wages, salary, or business income at the state level. This is a major draw compared to neighboring California and is part of why Las Vegas has become an increasingly popular E-2 destination."
+    }
+  ],
+  "stateTax": "No state income tax",
+  "uscisOffice": "USCIS Las Vegas Field Office",
+  "industries": ["Food & Beverage", "Retail", "Beauty & Wellness", "Franchise Operations", "Hospitality-Adjacent Services", "Entertainment"],
+  "topNationalities": [
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "taiwan", "adjective": "Taiwanese" },
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "colombia", "adjective": "Colombian" }
+  ],
+  "faqs": [
+    {
+      "question": "Why is Las Vegas a popular E-2 investment destination?",
+      "answer": "Las Vegas combines high tourist volume (40+ million annual visitors), no state income tax, a franchise-friendly business environment, and lower commercial real estate costs than comparable markets. These factors make it easier to establish an E-2-qualifying business that meets the non-marginality requirement."
+    },
+    {
+      "question": "What franchise businesses work well for E-2 in Las Vegas?",
+      "answer": "Food service franchises, beauty and wellness franchises, retail franchises, and service-sector franchises all perform well in Las Vegas's high-consumer-traffic environment. The tourist economy creates consistent demand that supports the revenue projections needed for a successful E-2 business plan."
+    },
+    {
+      "question": "Is a Las Vegas restaurant a good E-2 investment?",
+      "answer": "Yes — Las Vegas's restaurant market is one of the most active in the country, with consistent tourist-driven demand. The non-marginality requirement is often easier to satisfy in Las Vegas than in lower-traffic markets because the tourist volume supports strong revenue projections. Investment levels for a full-service restaurant typically range from $200,000–$500,000."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "los-angeles", "name": "Los Angeles" },
+    { "slug": "phoenix", "name": "Phoenix" },
+    { "slug": "san-diego", "name": "San Diego" }
+  ]
+}

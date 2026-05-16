@@ -1,0 +1,63 @@
+{
+  "slug": "taiwan",
+  "name": "Taiwan",
+  "adjective": "Taiwanese",
+  "treatyYear": 1948,
+  "visaValidity": "5 years",
+  "annualIssuances": 2137,
+  "consulate": "American Institute in Taiwan (AIT), Taipei",
+  "metaTitle": "E-2 Visa for Taiwanese Nationals | Watson Immigration Law",
+  "metaDescription": "Taiwan's E-2 visa issuances have grown 362% over the past decade — the fastest growth of any nationality. Guidance on the E-2 Treaty Investor Visa for Taiwanese nationals — AIT processing, tech and semiconductor investment focus.",
+  "h1": "E-2 Visa for Taiwanese Investors",
+  "intro": "Taiwan's E-2 Treaty Investor Visa issuances have grown 362% over the past decade — the fastest growth rate of any nationality in the program. Taiwanese investors are particularly active in technology, semiconductor-adjacent businesses, manufacturing, and professional services — sectors where Taiwan's world-class industrial expertise creates natural U.S. market opportunities. Watson Immigration Law represents Taiwanese investors seeking to enter or expand in the U.S. market.",
+  "sections": [
+    {
+      "heading": "Treaty Status — The AIT Arrangement",
+      "body": "Taiwan's E-2 eligibility is unique in the program. Because the United States does not maintain formal diplomatic relations with Taiwan, E-2 access is provided through the Agreement on Commerce and Trade between the American Institute in Taiwan (AIT) and the Taipei Economic and Cultural Representative Office (TECRO) — effectively the U.S.-Taiwan bilateral commercial relationship. This arrangement has been in place since 1979 and provides the same E-2 benefits as a formal treaty. Taiwanese nationals holding Republic of China passports are eligible."
+    },
+    {
+      "heading": "AIT Processing in Taipei",
+      "body": "E-2 applications for Taiwanese nationals are filed through the American Institute in Taiwan in Taipei. AIT handles E-2 applications on behalf of the U.S. government and processes them through the standard consular interview and adjudication process. Processing times after interview are typically 3–6 weeks."
+    },
+    {
+      "heading": "Common Investment Types for Taiwanese E-2 Investors",
+      "body": "Taiwanese investors in the United States most commonly invest in technology consulting, semiconductor and electronics supply chain businesses, manufacturing operations, import/export companies, and professional services firms. The rapid growth in Taiwanese E-2 issuances reflects Taiwan's expanding tech sector and increasing appetite for U.S. market access — particularly in Silicon Valley, Seattle, and the Texas tech corridor."
+    },
+    {
+      "heading": "Visa Validity",
+      "body": "Taiwanese nationals receive a 5-year E-2 visa stamp. Each U.S. entry is typically for a 2-year admission period, renewable indefinitely. There is no cap on extensions as long as the qualifying investment remains active."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Taiwanese nationals qualify for the E-2 visa?",
+      "answer": "Yes. Despite the U.S. not maintaining formal diplomatic relations with Taiwan, Taiwanese nationals holding Republic of China (ROC) passports have E-2 eligibility through the AIT-TECRO commercial agreement. Taiwan's E-2 issuances have grown 362% over the past decade."
+    },
+    {
+      "question": "Where do Taiwanese nationals apply for E-2?",
+      "answer": "Taiwanese nationals apply through the American Institute in Taiwan (AIT) office in Taipei. AIT functions as the de facto U.S. consulate for Taiwan and processes E-2 applications through the standard interview and adjudication process."
+    },
+    {
+      "question": "What businesses are Taiwanese E-2 investors most active in?",
+      "answer": "Technology consulting, semiconductor and electronics supply chain, manufacturing, import/export, and professional services are the most common investment types for Taiwanese E-2 investors. The tech sector — particularly in Silicon Valley, Seattle, and Texas — is the primary destination."
+    },
+    {
+      "question": "How long does the E-2 visa last for Taiwanese nationals?",
+      "answer": "Taiwanese nationals receive a 5-year visa stamp with 2-year entry admissions, renewable indefinitely."
+    },
+    {
+      "question": "Can Taiwanese nationals apply for E-2 from within the United States?",
+      "answer": "Yes, if you are already in the U.S. on a valid nonimmigrant status, you may be able to file a change of status to E-2 with USCIS. This avoids the need to travel to Taipei for a consular interview. An immigration attorney can advise whether change of status or consular processing is more appropriate for your situation."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "singapore", "adjective": "Singaporean" }
+  ],
+  "relatedCities": [
+    { "slug": "san-francisco", "name": "San Francisco" },
+    { "slug": "san-jose", "name": "San Jose" },
+    { "slug": "seattle", "name": "Seattle" }
+  ]
+}

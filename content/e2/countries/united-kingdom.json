@@ -1,0 +1,67 @@
+{
+  "slug": "united-kingdom",
+  "name": "United Kingdom",
+  "adjective": "British",
+  "treatyYear": 1815,
+  "visaValidity": "5 years",
+  "annualIssuances": 2140,
+  "consulate": "U.S. Embassy London",
+  "metaTitle": "E-2 Visa for British Nationals | Watson Immigration Law",
+  "metaDescription": "British nationals have one of the oldest E-2 treaty relationships with the U.S., dating to 1815. Guidance on E-2 Treaty Investor Visa for UK nationals — visa validity, London consulate, post-Brexit passport considerations, investment requirements.",
+  "h1": "E-2 Visa for British Nationals",
+  "intro": "The United Kingdom has one of the longest-standing treaty relationships with the United States, with treaty commerce provisions dating back to 1815. British nationals enjoy 5-year E-2 visa stamps and a straightforward consular process at the U.S. Embassy in London. Watson Immigration Law regularly represents British entrepreneurs, investors, and business owners seeking to establish or expand operations in the United States.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "The U.S.-UK treaty relationship for E-2 purposes is rooted in the Treaty of Commerce and Navigation of 1815, one of the oldest bilateral treaties in the E-2 program. This long-standing relationship means British nationals have consistent, well-established E-2 access with no uncertainty about treaty eligibility."
+    },
+    {
+      "heading": "Post-Brexit Passport Considerations",
+      "body": "Following Brexit, British nationals retain full E-2 treaty access based on their UK nationality. The E-2 visa is based on nationality — not EU residency or EU passport status — so Brexit has no effect on UK nationals' E-2 eligibility. British nationals born in England, Scotland, Wales, Northern Ireland, or any British Overseas Territory (Gibraltar, British Virgin Islands, etc.) who hold UK passports are eligible. Dual UK-Irish nationals may apply on either passport."
+    },
+    {
+      "heading": "Visa Validity & Processing",
+      "body": "British nationals receive a 5-year E-2 visa stamp, with 2-year admissions per entry. The U.S. Embassy in London processes E-2 applications with typical interview scheduling of 4–8 weeks. Processing is generally predictable and efficient for well-documented applications."
+    },
+    {
+      "heading": "Common UK Investor Business Types",
+      "body": "British investors in the United States frequently invest in technology services, professional services, hospitality (particularly hotels and restaurants), creative industries, financial services, and franchises. The UK-US business relationship is among the world's most active, and many British entrepreneurs use E-2 as the vehicle for expanding an existing UK business into the U.S. market."
+    },
+    {
+      "heading": "UK-US Business Corridor",
+      "body": "The UK is the largest single source of foreign direct investment into the United States, and British entrepreneurs frequently establish U.S. operations as a natural extension of their existing UK businesses. E-2 is particularly well-suited for British founders who want to physically relocate to manage a U.S. entity. Watson Immigration Law advises on both the visa strategy and the business structuring needed to support a successful E-2 case."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Did Brexit affect British nationals' ability to apply for the E-2 visa?",
+      "answer": "No. Brexit had no effect on E-2 eligibility for British nationals. The E-2 visa is based on nationality (holding a UK passport), not EU membership or residence. British nationals continue to have full E-2 access under the longstanding U.S.-UK treaty relationship."
+    },
+    {
+      "question": "Do British nationals living in the EU qualify for E-2?",
+      "answer": "British nationals living anywhere in the world qualify for E-2 based on their UK passport. Residency location is irrelevant — the visa is based on nationality. You would typically apply at the nearest U.S. consulate, which could be London or a U.S. consulate in your country of residence."
+    },
+    {
+      "question": "How long does the E-2 visa last for British nationals?",
+      "answer": "British nationals receive a 5-year visa stamp, with each entry admission for 2 years. The visa is renewable indefinitely as long as the qualifying investment remains active."
+    },
+    {
+      "question": "Can I bring my existing UK business to the U.S. on E-2?",
+      "answer": "Yes. Many British E-2 investors establish a U.S. subsidiary or affiliate of their existing UK company. The investment into the U.S. entity must meet the substantiality test, and you must own at least 50% and intend to actively manage the U.S. business."
+    },
+    {
+      "question": "What if I hold dual UK and Irish nationality?",
+      "answer": "Both the UK and Ireland have E-2 treaties with the United States. You may apply using either passport. The practical differences (processing location, visa validity) may differ slightly — an immigration attorney can advise on which nationality produces the more favorable outcome for your specific case."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "ireland", "adjective": "Irish" },
+    { "slug": "australia", "adjective": "Australian" },
+    { "slug": "canada", "adjective": "Canadian" }
+  ],
+  "relatedCities": [
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "los-angeles", "name": "Los Angeles" },
+    { "slug": "miami", "name": "Miami" }
+  ]
+}

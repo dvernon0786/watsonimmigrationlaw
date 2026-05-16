@@ -1,0 +1,65 @@
+{
+  "slug": "new-york",
+  "name": "New York City",
+  "state": "New York",
+  "stateCode": "NY",
+  "metaTitle": "E-2 Visa Attorney in New York City | Watson Immigration Law",
+  "metaDescription": "New York City is the highest-volume E-2 investor city in the United States. Expert guidance on the E-2 Treaty Investor Visa for investors opening businesses in New York. Watson Immigration Law serves New York E-2 clients nationally.",
+  "h1": "E-2 Treaty Investor Visa for New York City Investors",
+  "intro": "New York City is the highest-volume E-2 investor destination in the United States, drawing more international investors than any other American city. With the world's most active finance, hospitality, retail, real estate services, and creative sectors, New York offers unmatched market opportunity — alongside the highest operating costs and most competitive market environment in the country. Watson Immigration Law represents E-2 investors targeting New York City and advises on the specific considerations that make New York E-2 cases distinct.",
+  "sections": [
+    {
+      "heading": "Why Investors Choose New York for E-2",
+      "body": "New York City's position as a global financial and cultural capital creates a market for virtually every type of business — from luxury retail and fine dining to technology consulting, logistics, and professional services. International investors are drawn by access to the world's largest urban consumer market, the established immigrant business communities across all five boroughs, and the sheer scale of commercial opportunity."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in New York",
+      "body": "Hospitality (restaurants and boutique hotels) is the dominant E-2 investment type in New York City, followed by retail, professional services, fashion and apparel, food and beverage distribution, technology consulting, logistics, and import/export. Korean, Italian, French, Israeli, and British investors are particularly active in the New York market."
+    },
+    {
+      "heading": "New York State Tax Environment",
+      "body": "New York has both state and city income tax — one of the highest combined tax burdens in the United States. New York State income tax ranges up to 10.9% for high earners, and New York City adds an additional 3.876% city income tax for residents. E-2 investors should factor this into their business planning and financial projections. The high tax environment does not make New York E-2 cases harder to approve, but it affects the net investment returns that must be projected in the business plan."
+    },
+    {
+      "heading": "What Does 'Substantial Investment' Mean in New York?",
+      "body": "Given New York's significantly higher real estate, build-out, and operating costs compared to most U.S. markets, 'substantial investment' typically requires more capital in New York than in other cities. A restaurant in Manhattan may require $500,000–$1,000,000 or more in investment to meet the proportionality test. A professional services firm with lower overhead might qualify with $150,000–$200,000. Watson Immigration Law works with New York investors to ensure the investment amount and business plan satisfy USCIS and consular standards for the specific business type."
+    },
+    {
+      "heading": "USCIS New York Field Office",
+      "body": "The USCIS New York District Office serves New York City and surrounding counties. For consular E-2 applicants, the relevant consulate is determined by nationality and country of residence — not the intended U.S. business location."
+    }
+  ],
+  "stateTax": "State income tax up to 10.9% + NYC city income tax up to 3.876%",
+  "uscisOffice": "USCIS New York District Office",
+  "industries": ["Hospitality", "Retail", "Professional Services", "Fashion & Apparel", "Technology Consulting", "Logistics", "Import/Export", "Finance-Adjacent Services"],
+  "topNationalities": [
+    { "slug": "italy", "adjective": "Italian" },
+    { "slug": "france", "adjective": "French" },
+    { "slug": "united-kingdom", "adjective": "British" },
+    { "slug": "israel", "adjective": "Israeli" },
+    { "slug": "south-korea", "adjective": "Korean" }
+  ],
+  "faqs": [
+    {
+      "question": "How much do I need to invest for an E-2 visa with a New York City business?",
+      "answer": "There is no fixed minimum, but New York's higher operating costs typically mean a larger investment is required to satisfy the proportionality test. For a Manhattan restaurant, $500,000–$1,000,000 is not unusual. For a professional services firm or consulting business with lower overhead, $150,000–$250,000 may be sufficient. The key is that the investment must be substantial relative to the total cost of establishing the specific enterprise."
+    },
+    {
+      "question": "Can Watson Immigration Law represent New York City E-2 investors?",
+      "answer": "Yes. Watson Immigration Law is Seattle-based but represents E-2 investors nationwide, including those whose businesses are located in New York City. We offer virtual consultations and handle cases remotely."
+    },
+    {
+      "question": "Do I need a New York business license before applying for E-2?",
+      "answer": "You typically need to have established or begun establishing the business before filing for E-2 — including having committed the investment funds, signed leases or purchase agreements, and obtained or applied for required licenses. The E-2 does not require the business to be fully operational before approval, but the investment must be 'irrevocably committed.'"
+    },
+    {
+      "question": "What is the process for a change of status to E-2 while in New York?",
+      "answer": "If you are already in the United States on a valid nonimmigrant visa (B-1/B-2, H-1B, etc.), you can file a change of status to E-2 with USCIS without leaving the country. USCIS standard processing is 4–6 months; premium processing is available for 15 business days at an additional fee."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "miami", "name": "Miami" },
+    { "slug": "boston", "name": "Boston" },
+    { "slug": "philadelphia", "name": "Philadelphia" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "atlanta",
+  "name": "Atlanta",
+  "state": "Georgia",
+  "stateCode": "GA",
+  "metaTitle": "E-2 Visa Attorney in Atlanta, GA | Watson Immigration Law",
+  "metaDescription": "Atlanta is the Southeast's international business hub with a growing Korean, Indian, and Latin American investor community. Expert E-2 Treaty Investor Visa guidance for Atlanta-based investors from Watson Immigration Law.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Atlanta, GA",
+  "intro": "Atlanta is the economic and cultural capital of the American Southeast, home to major corporations (Delta Air Lines, Coca-Cola, CNN, Home Depot), a thriving film and entertainment sector, and one of the fastest-growing international investor communities in the country. The city's Korean-American community — centered in the Gwinnett County corridor — is one of the most established in the Southeast and drives significant E-2 investment activity.",
+  "sections": [
+    {
+      "heading": "Atlanta's International Investment Community",
+      "body": "Atlanta has seen significant growth in its Korean, Indian, Chinese, and Latin American business communities over the past decade. Gwinnett County has one of the highest concentrations of Korean-owned businesses in the southeastern United States. The film and television production sector has attracted European and international creative industry investors. And the city's logistics position — anchored by Hartsfield-Jackson Atlanta International Airport, the busiest airport in the world — supports significant import/export and logistics investment."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Atlanta",
+      "body": "Food and beverage (particularly Korean, Asian, and Latin American cuisine), retail, logistics and freight, film/entertainment services, technology consulting, and professional services are the most active E-2 investment types in Atlanta. The city's franchise market is also strong — particularly for Korean food service and beauty franchises."
+    },
+    {
+      "heading": "Georgia Tax Environment",
+      "body": "Georgia has a flat state income tax of 5.49% (as of 2024, with further reductions planned). Combined with Atlanta's lower commercial real estate costs relative to coastal markets, this creates a favorable environment for E-2 investors seeking mid-sized market scale with lower overhead."
+    }
+  ],
+  "stateTax": "Flat state income tax of 5.49% (with reductions planned)",
+  "uscisOffice": "USCIS Atlanta District Office",
+  "industries": ["Food & Beverage", "Retail", "Logistics & Freight", "Film/Entertainment Services", "Technology Consulting", "Professional Services"],
+  "topNationalities": [
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "colombia", "adjective": "Colombian" },
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "united-kingdom", "adjective": "British" }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Atlanta a good location for Korean E-2 investors?",
+      "answer": "Atlanta has one of the largest and most established Korean-American business communities in the Southeast, centered in Gwinnett County (Duluth, Norcross, Suwanee). The established community provides business networks, suppliers, and customer bases for new Korean investors. Korean food, beauty, and retail franchises are particularly active."
+    },
+    {
+      "question": "What is the typical E-2 investment level in Atlanta?",
+      "answer": "Atlanta's commercial market is more affordable than coastal cities. A typical restaurant or retail E-2 investment ranges from $100,000–$300,000 depending on the location and concept. Gwinnett County Korean restaurant/retail investments often run $150,000–$250,000."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "charlotte", "name": "Charlotte" },
+    { "slug": "nashville", "name": "Nashville" },
+    { "slug": "miami", "name": "Miami" }
+  ]
+}

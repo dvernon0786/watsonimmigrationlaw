@@ -1,0 +1,38 @@
+{
+  "slug": "ghana",
+  "name": "Ghana",
+  "adjective": "Ghanaian",
+  "metaTitle": "E-2 Visa for Ghanaian Nationals — Not Eligible | Alternatives | Watson Immigration Law",
+  "metaDescription": "Ghana nationals cannot apply for the E-2 visa — there is no treaty between Ghana and the United States. Explore EB-5 Investor Visa and other pathways.",
+  "h1": "Can Ghanaian Nationals Apply for the E-2 Visa?",
+  "intro": "",
+  "alternatives": [
+    {
+      "visaType": "EB-5 Investor Visa",
+      "description": "Open to all nationalities. Requires a substantial investment ($800,000–$1,050,000 in a Targeted Employment Area). Leads directly to a green card.",
+      "href": "/visas/eb-5"
+    },
+    {
+      "visaType": "O-1 Visa — Extraordinary Ability",
+      "description": "For individuals with extraordinary ability or achievement in business, science, arts, or athletics. No investment required.",
+      "href": "/visas/o-1"
+    },
+    {
+      "visaType": "L-1 Intracompany Transfer",
+      "description": "Transfer from a foreign office or subsidiary to a U.S. branch. Requires an existing qualifying employer relationship.",
+      "href": "/visas/l-1"
+    },
+    {
+      "visaType": "Dual Citizenship Strategy",
+      "description": "Obtain citizenship in a treaty country (such as Grenada via CBI for ~$235,000) and then apply for the E-2 visa using that passport.",
+      "href": "/visas/e-2/guide/dual-citizenship"
+    }
+  ],
+  "faqs": [],
+  "relatedPages": [
+    "/visas/eb-5",
+    "/visas/o-1",
+    "/visas/l-1",
+    "/visas/e-2/guide/dual-citizenship"
+  ]
+}

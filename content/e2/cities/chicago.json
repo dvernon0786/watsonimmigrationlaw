@@ -1,0 +1,49 @@
+{
+  "slug": "chicago",
+  "name": "Chicago",
+  "state": "Illinois",
+  "stateCode": "IL",
+  "metaTitle": "E-2 Visa Attorney in Chicago, IL | Watson Immigration Law",
+  "metaDescription": "Chicago is the Midwest's premier international investment hub with active European, Asian, and Latin American investor communities. Expert E-2 Treaty Investor Visa guidance for Chicago-based investors from Watson Immigration Law.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Chicago, IL",
+  "intro": "Chicago is the commercial center of the Midwest and one of the most internationally diverse major cities in the United States. With a large German, Polish, Italian, Korean, and Latin American business community, Chicago is an active E-2 investor market — particularly for European investors establishing U.S. manufacturing, professional services, and food/hospitality operations. Watson Immigration Law represents E-2 investors targeting the Chicago metropolitan area.",
+  "sections": [
+    {
+      "heading": "Chicago's International Business Community",
+      "body": "Chicago has longstanding business ties to Germany (manufacturing and engineering), Poland (professional services and construction), Italy (hospitality and food), and increasingly to South Korea and Latin America. The city's position as the Midwest's logistics and financial hub makes it a natural destination for E-2 investors in manufacturing supply chains, logistics, professional services, and food distribution."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Chicago",
+      "body": "Manufacturing and engineering services (driven by German and European investors), food service and hospitality, logistics and freight, retail, technology consulting, and professional services are the most active E-2 investment types in Chicago. The city's manufacturing base and central geographic position within the U.S. logistics network create distinctive opportunities not available in coastal markets."
+    },
+    {
+      "heading": "Illinois Tax Environment",
+      "body": "Illinois has a flat state income tax rate of 4.95%, which is moderate compared to states like California or New York. Chicago also levies city taxes on certain businesses. E-2 investors should factor Illinois and Chicago tax obligations into their business plan projections."
+    }
+  ],
+  "stateTax": "Flat state income tax of 4.95%",
+  "uscisOffice": "USCIS Chicago Field Office",
+  "industries": ["Manufacturing", "Engineering Services", "Food & Beverage", "Logistics", "Professional Services", "Retail"],
+  "topNationalities": [
+    { "slug": "germany", "adjective": "German" },
+    { "slug": "poland", "adjective": "Polish" },
+    { "slug": "italy", "adjective": "Italian" },
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "mexico", "adjective": "Mexican" }
+  ],
+  "faqs": [
+    {
+      "question": "What types of businesses are German E-2 investors typically interested in Chicago?",
+      "answer": "German E-2 investors in Chicago most commonly establish manufacturing support operations, precision engineering services, automotive-adjacent businesses, and professional services firms. Chicago's manufacturing base and central U.S. position make it a natural hub for German industrial companies expanding into the American market."
+    },
+    {
+      "question": "What is the investment level typically needed for a Chicago E-2 business?",
+      "answer": "Chicago's commercial real estate is significantly less expensive than New York or San Francisco, though more expensive than Houston or Phoenix. A typical Chicago E-2 investment for a restaurant or retail business ranges from $150,000–$400,000. Manufacturing and industrial operations may require higher investment amounts."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "detroit", "name": "Detroit" },
+    { "slug": "minneapolis", "name": "Minneapolis" },
+    { "slug": "indianapolis", "name": "Indianapolis" }
+  ]
+}

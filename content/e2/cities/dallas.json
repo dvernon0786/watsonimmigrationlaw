@@ -1,0 +1,49 @@
+{
+  "slug": "dallas",
+  "name": "Dallas",
+  "state": "Texas",
+  "stateCode": "TX",
+  "metaTitle": "E-2 Visa Attorney in Dallas, TX | Watson Immigration Law",
+  "metaDescription": "Dallas is one of the fastest-growing E-2 investor markets in the U.S. — no state income tax, booming economy, diverse international business community. Expert E-2 visa guidance for Dallas-Fort Worth investors from Watson Immigration Law.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Dallas, TX",
+  "intro": "Dallas-Fort Worth is one of the fastest-growing metropolitan economies in the United States, attracting international investors from Asia, Latin America, and Europe with its no-income-tax environment, lower operating costs than coastal markets, and rapidly expanding consumer base. The DFW metroplex is a significant E-2 investor destination, with active Korean, Japanese, Mexican, and Indian (seeking non-E-2 pathways) investor communities.",
+  "sections": [
+    {
+      "heading": "Why Investors Choose Dallas-Fort Worth",
+      "body": "Dallas has been one of the fastest-growing U.S. metros for a decade, driven by corporate relocations from California and New York, a burgeoning technology sector, and a lower cost of doing business than most major markets. No state income tax, affordable commercial real estate relative to coastal cities, and access to a growing, diverse consumer market make DFW a compelling E-2 investment destination."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Dallas",
+      "body": "Technology services and consulting, food and beverage, retail, logistics (DFW Airport is a major cargo hub), healthcare services, franchises, and professional services are the most active E-2 investment types in the Dallas metro area. Korean-owned food service franchises, Japanese-owned automotive and technology businesses, and Latin American professional services firms are particularly common."
+    },
+    {
+      "heading": "Texas Tax Environment",
+      "body": "Texas has no state income tax, making Dallas an attractive alternative to California or New York for international investors who want the scale of a major U.S. market without the high personal income tax burden."
+    }
+  ],
+  "stateTax": "No state income tax",
+  "uscisOffice": "USCIS Dallas District Office",
+  "industries": ["Technology Services", "Food & Beverage", "Retail", "Logistics", "Healthcare Services", "Franchises", "Professional Services"],
+  "topNationalities": [
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "taiwan", "adjective": "Taiwanese" },
+    { "slug": "turkey", "adjective": "Turkish" }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Dallas a good choice for E-2 investment?",
+      "answer": "Dallas offers no state income tax, lower commercial real estate costs than coastal markets, a fast-growing consumer economy, and direct access to major U.S. markets via DFW Airport (one of the busiest airports in the world). The city's corporate growth — driven by relocations from California and New York — has created strong demand for business services."
+    },
+    {
+      "question": "What investment amount is typically required for a Dallas E-2 business?",
+      "answer": "Dallas's commercial market is more affordable than coastal cities. A typical restaurant or retail build-out in Dallas requires $100,000–$300,000 depending on location and concept. A technology consulting or professional services firm may qualify with $100,000–$150,000 given lower overhead requirements."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "houston", "name": "Houston" },
+    { "slug": "austin", "name": "Austin" },
+    { "slug": "denver", "name": "Denver" }
+  ]
+}

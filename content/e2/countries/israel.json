@@ -1,0 +1,63 @@
+{
+  "slug": "israel",
+  "name": "Israel",
+  "adjective": "Israeli",
+  "treatyYear": 2019,
+  "visaValidity": "3 months (renewable)",
+  "annualIssuances": 480,
+  "consulate": "U.S. Embassy Jerusalem",
+  "metaTitle": "E-2 Visa for Israeli Nationals | Watson Immigration Law",
+  "metaDescription": "Israel joined the E-2 treaty program in 2019. Guidance on the E-2 Treaty Investor Visa for Israeli nationals — limited visa validity, Jerusalem consulate, tech startup investment focus, and strategic considerations.",
+  "h1": "E-2 Visa for Israeli Investors",
+  "intro": "Israel joined the E-2 Treaty Investor Visa program in 2019, making it a relatively new entrant. Israeli investors — particularly in the technology and startup sectors — are among the most active E-2 applicants from the Middle East. However, Israeli nationals face a unique limitation: the U.S.-Israel treaty currently provides only a 3-month visa stamp, compared to 2–5 years for most other treaty countries. Watson Immigration Law advises Israeli investors on how to navigate this constraint strategically.",
+  "sections": [
+    {
+      "heading": "Treaty Status — Added 2019",
+      "body": "Israel was added to the E-2 treaty program in 2019 following years of advocacy from the Israeli business community. The treaty opened a new avenue for Israeli entrepreneurs to establish U.S. businesses — particularly in the technology sector where Israeli startups have long had strong ties to U.S. venture capital and accelerator ecosystems."
+    },
+    {
+      "heading": "The 3-Month Visa Limitation",
+      "body": "Unlike most E-2 treaty countries, the U.S.-Israel treaty currently provides Israeli nationals with only a 3-month visa stamp — significantly shorter than the 2–5 year stamps available to nationals of Germany, Japan, or the UK. Each time an Israeli E-2 holder enters the U.S., they are admitted for a 2-year period (which is standard) — but the underlying visa stamp needs to be renewed at the consulate every 3 months. This is a procedural burden but does not affect the ability to stay in the U.S. for the 2-year admission period between consulate visits."
+    },
+    {
+      "heading": "Israeli Tech Investors & Silicon Valley / Seattle",
+      "body": "Israeli E-2 investors are disproportionately active in the technology sector, particularly in software, cybersecurity, AI, and deep tech — areas where Israel's startup ecosystem has a global reputation. San Francisco, Seattle, New York, and Austin are the primary destination markets for Israeli E-2 investors. The Israeli-American tech community is well-established in all of these cities."
+    },
+    {
+      "heading": "Consulate Processing",
+      "body": "Israeli nationals apply for E-2 at the U.S. Embassy in Jerusalem. Given the 3-month visa validity, Israeli E-2 holders typically return to the Embassy in Jerusalem for stamp renewals while maintaining their 2-year U.S. admission status. This requires careful planning and coordination with an immigration attorney."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Israeli nationals qualify for the E-2 visa?",
+      "answer": "Yes. Israel joined the E-2 treaty program in 2019, giving Israeli nationals full E-2 eligibility. However, the current U.S.-Israel treaty provides a 3-month visa stamp validity — significantly shorter than most other E-2 treaty countries."
+    },
+    {
+      "question": "Why is the Israeli E-2 visa only valid for 3 months?",
+      "answer": "The 3-month validity reflects the current terms of the U.S.-Israel bilateral treaty as implemented. This is a limitation of the treaty terms, not the individual applicant's qualifications. Israeli E-2 holders still receive the standard 2-year U.S. admission per entry, but the visa stamp must be renewed at a consulate every 3 months."
+    },
+    {
+      "question": "Does the 3-month visa mean I have to leave the U.S. every 3 months?",
+      "answer": "No. The 3-month visa validity means the visa stamp expires 3 months after issuance. However, once you enter the U.S. on the visa, you are typically admitted for a 2-year period. You do not need to leave every 3 months — but you cannot re-enter after the visa stamp expires without obtaining a new stamp at the U.S. Embassy in Jerusalem."
+    },
+    {
+      "question": "What businesses are common for Israeli E-2 investors?",
+      "answer": "Israeli E-2 investors are predominantly active in technology — software, cybersecurity, AI, fintech, and related sectors. Professional services, consulting, and technology distribution businesses are also common. Israeli investors are particularly active in San Francisco, Seattle, New York, and Austin."
+    },
+    {
+      "question": "Is there advocacy to extend the Israeli E-2 visa to 5 years?",
+      "answer": "There has been ongoing advocacy within the Israeli-American business community for extending Israeli E-2 visa validity to match other treaty countries. This is a diplomatic and treaty matter. Watson Immigration Law monitors developments and advises Israeli clients on the most current treaty terms."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "jordan", "adjective": "Jordanian" },
+    { "slug": "turkey", "adjective": "Turkish" },
+    { "slug": "germany", "adjective": "German" }
+  ],
+  "relatedCities": [
+    { "slug": "san-francisco", "name": "San Francisco" },
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "austin", "name": "Austin" }
+  ]
+}

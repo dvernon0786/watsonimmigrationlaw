@@ -1,0 +1,59 @@
+{
+  "slug": "india",
+  "name": "India",
+  "adjective": "Indian",
+  "metaTitle": "E-2 Visa for Indian Nationals — Not Eligible | Alternatives | Watson Immigration Law",
+  "metaDescription": "Indian nationals cannot apply for the E-2 visa — India has no bilateral treaty with the United States. Explore EB-5, O-1, L-1, and dual citizenship strategies. Watson Immigration Law guides Indian investors to the right U.S. pathway.",
+  "h1": "Can Indian Nationals Apply for the E-2 Visa?",
+  "intro": "India does not have a qualifying Treaty of Commerce and Navigation with the United States, which means Indian nationals — regardless of investment amount or business strength — cannot apply for the E-2 Treaty Investor Visa. This is entirely a treaty eligibility issue, not a qualifications issue. However, Indian investors have several strong alternative pathways to U.S. business immigration, and Watson Immigration Law advises Indian clients on the best strategy for their specific situation.",
+  "alternatives": [
+    {
+      "visaType": "EB-5 Immigrant Investor Visa",
+      "description": "Open to all nationalities regardless of treaty status. Requires a qualifying investment of $800,000 (Targeted Employment Area) or $1,050,000 (standard). EB-5 leads directly to a U.S. green card — a significant advantage over E-2, which does not provide a path to permanent residence. Indian nationals face no EB-5 backlog (unlike EB-2 and EB-3, which have decades-long waits for Indian nationals).",
+      "href": "/visas/eb-5"
+    },
+    {
+      "visaType": "O-1 Visa — Extraordinary Ability",
+      "description": "For individuals with extraordinary ability in business, science, technology, the arts, or athletics. No investment required — the visa is based on documented achievement. The O-1 is a nonimmigrant visa with no annual cap and no lottery. It does not require employer sponsorship in the traditional sense and is available to self-employed individuals and business owners.",
+      "href": "/visas/o-1"
+    },
+    {
+      "visaType": "L-1 Intracompany Transfer",
+      "description": "For Indian nationals who work for an Indian company with a U.S. affiliate, subsidiary, or parent. The L-1 allows transfer to the U.S. entity in a managerial, executive, or specialized knowledge role. The L-1A (for executives and managers) can support a green card through EB-1C without a priority date backlog — an important planning consideration for Indian nationals.",
+      "href": "/visas/l-1"
+    },
+    {
+      "visaType": "Dual Citizenship Strategy — Grenada CBI",
+      "description": "Indian nationals who obtain citizenship in a treaty country through a citizenship-by-investment program become eligible for E-2 using their new passport. Grenada offers citizenship for approximately $235,000 (donation to the National Transformation Fund) with no residency requirement. After receiving Grenadian citizenship, the investor can apply for E-2 using their Grenada passport. Grenada has an E-2 treaty with the United States.",
+      "href": "/visas/e-2/guide/dual-citizenship"
+    },
+    {
+      "visaType": "Portugal Golden Visa + E-2",
+      "description": "Portuguese citizenship (obtainable through investment under Portugal's Golden Visa program) gives access to E-2 status as of March 2025, when Portugal was added to the E-2 treaty. This is a longer-term strategy but produces EU citizenship in addition to E-2 eligibility.",
+      "href": "/visas/e-2/for/portugal"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Indian nationals apply for the E-2 visa?",
+      "answer": "No. India does not have a qualifying bilateral treaty with the United States. This is not a reflection of the individual investor's qualifications — it is a matter of national treaty status. Indian nationals with strong investment credentials must pursue alternative pathways such as EB-5, O-1, or a dual citizenship strategy."
+    },
+    {
+      "question": "Why doesn't India have an E-2 treaty with the United States?",
+      "answer": "The United States has E-2 treaties with approximately 80 countries, but these treaties are bilateral agreements that must be negotiated and ratified individually. India and the U.S. have not entered into the specific type of Treaty of Friendship, Commerce and Navigation that creates E-2 eligibility. This is a diplomatic and trade policy matter, not related to India's economic strength."
+    },
+    {
+      "question": "What is the best visa option for an Indian investor who wants to start a U.S. business?",
+      "answer": "The best option depends on your investment capacity, professional background, and long-term goals. EB-5 is the most direct route to a green card for investors with $800,000+. O-1 is ideal for individuals with documented extraordinary achievement. L-1 works if you have an existing Indian employer with U.S. operations. The Grenada CBI + E-2 strategy works for those who want E-2 specifically but need to first obtain a treaty-country passport."
+    },
+    {
+      "question": "Can I get E-2 eligibility through Grenada citizenship?",
+      "answer": "Yes. Indian nationals who obtain Grenadian citizenship through Grenada's citizenship-by-investment program (approximately $235,000 donation or $220,000 real estate investment) can then apply for E-2 status using their Grenada passport. There is no residency requirement for Grenadian CBI. The E-2 application can typically be filed within 3–6 months of receiving Grenadian citizenship."
+    },
+    {
+      "question": "Is EB-5 better than E-2 for Indian nationals?",
+      "answer": "For Indian nationals, EB-5 offers a significant advantage E-2 does not: a direct path to a U.S. green card. E-2 is a temporary (non-immigrant) visa with no built-in green card pathway. Indian nationals often choose EB-5 for this reason, despite the higher investment threshold. An immigration attorney can compare the two strategies in detail based on your specific situation."
+    }
+  ],
+  "relatedPages": ["/visas/eb-5", "/visas/o-1", "/visas/l-1", "/visas/e-2/guide/dual-citizenship", "/visas/e-2/for/portugal"]
+}

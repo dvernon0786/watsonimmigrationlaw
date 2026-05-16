@@ -1,0 +1,61 @@
+{
+  "slug": "miami",
+  "name": "Miami",
+  "state": "Florida",
+  "stateCode": "FL",
+  "metaTitle": "E-2 Visa Attorney in Miami, FL | Watson Immigration Law",
+  "metaDescription": "Miami is the gateway for Latin American E-2 investors — no state income tax, large Spanish-speaking business community, direct flights to all of Latin America. Expert E-2 visa guidance for Miami-based investors from Watson Immigration Law.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Miami, FL",
+  "intro": "Miami is the Latin American gateway to the United States — a city where more than 60% of the population speaks Spanish at home and where investors from Colombia, Venezuela, Argentina, Brazil, and across Latin America have built one of the most active international business communities in the country. Combined with Florida's no state income tax environment and direct flights to virtually every major Latin American city, Miami has become one of the top three E-2 investor destinations in the United States.",
+  "sections": [
+    {
+      "heading": "Miami as the Latin American E-2 Hub",
+      "body": "No U.S. city has a stronger connection to Latin American investment than Miami. The city functions as the de facto commercial capital of Latin America — headquarters to thousands of multinational companies, regional offices, and international trade operations. For investors from treaty-eligible Latin American countries — Colombia, Mexico, Argentina, Chile, Costa Rica, Honduras, Jamaica, and others — Miami is the natural first choice for E-2 investment."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Miami",
+      "body": "Restaurants and food service (particularly Latin American cuisine), retail, logistics and freight, beauty and wellness, professional services (accounting, consulting, legal support), hospitality (boutique hotels, short-term rentals), and import/export are the dominant E-2 business types in Miami. Colombian, Venezuelan, and Argentine investors are particularly active in the Miami food, logistics, and professional services sectors."
+    },
+    {
+      "heading": "Florida State Tax Environment",
+      "body": "Florida has no state income tax — one of the most significant financial advantages for E-2 investors choosing between Miami and higher-tax markets. There is no tax on wages, salary, or business income in Florida. This is a major draw for Latin American investors who are accustomed to high-tax environments in their home countries and want to maximize the return on their U.S. business investment."
+    },
+    {
+      "heading": "What Does 'Substantial Investment' Mean in Miami?",
+      "body": "Miami's commercial real estate market has become significantly more expensive in recent years, particularly in desirable neighborhoods like Brickell, Wynwood, and Coral Gables. Restaurant and retail build-out costs have risen accordingly. A typical Miami E-2 investment for a restaurant or retail store now frequently requires $150,000–$400,000, depending on the location and concept. A professional services firm with lower overhead may qualify with $100,000–$150,000."
+    }
+  ],
+  "stateTax": "No state income tax",
+  "uscisOffice": "USCIS Miami Field Office",
+  "industries": ["Food & Beverage", "Retail", "Logistics & Freight", "Beauty & Wellness", "Professional Services", "Hospitality", "Import/Export"],
+  "topNationalities": [
+    { "slug": "colombia", "adjective": "Colombian" },
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "argentina", "adjective": "Argentine" },
+    { "slug": "spain", "adjective": "Spanish" },
+    { "slug": "italy", "adjective": "Italian" }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Miami a good choice for Latin American E-2 investors?",
+      "answer": "Miami's Spanish-speaking business community, proximity to Latin America, no state income tax, and established immigrant business networks make it the natural choice for investors from treaty-eligible Latin American countries. The city's infrastructure supports international trade, and Miami International Airport provides direct access to virtually every Latin American market."
+    },
+    {
+      "question": "Which Latin American nationalities qualify for E-2 investment in Miami?",
+      "answer": "Treaty-eligible Latin American nationalities for E-2 include Colombia, Mexico, Argentina, Chile, Costa Rica, Honduras, Panama, Ecuador, Jamaica, Trinidad & Tobago, Suriname, and others. Brazil, Venezuela, Peru, Bolivia, and some others do NOT have E-2 treaties and must pursue alternative pathways."
+    },
+    {
+      "question": "What is the typical investment amount for a Miami restaurant on E-2?",
+      "answer": "A restaurant build-out in Miami typically requires $150,000–$400,000 depending on the neighborhood, size, and concept. Higher-end locations (Brickell, Coral Gables) and larger spaces will require more investment. The investment must be substantial relative to the total cost of the enterprise — an attorney can assess the appropriate investment level for your specific restaurant concept."
+    },
+    {
+      "question": "Can I apply for E-2 if my spouse is from Brazil (non-treaty) but I am Colombian?",
+      "answer": "Yes. E-2 eligibility is based on the investor's nationality, not the spouse's. If you are a Colombian national with E-2 treaty access, your Brazilian spouse can accompany you as an E-2 dependent and receive U.S. work authorization — even though Brazil itself has no E-2 treaty."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "orlando", "name": "Orlando" },
+    { "slug": "tampa", "name": "Tampa" },
+    { "slug": "houston", "name": "Houston" }
+  ]
+}

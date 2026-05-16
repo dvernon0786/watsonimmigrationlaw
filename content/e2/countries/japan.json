@@ -1,0 +1,67 @@
+{
+  "slug": "japan",
+  "name": "Japan",
+  "adjective": "Japanese",
+  "treatyYear": 1953,
+  "visaValidity": "5 years",
+  "annualIssuances": 15367,
+  "consulate": "U.S. Embassy Tokyo",
+  "metaTitle": "E-2 Visa for Japanese Nationals | Watson Immigration Law",
+  "metaDescription": "Japan accounts for 30% of all E-2 visas issued globally. Comprehensive guidance on the E-2 Treaty Investor Visa for Japanese nationals — treaty history, visa validity, investment requirements, and consulate processing from Watson Immigration Law.",
+  "h1": "E-2 Visa for Japanese Investors",
+  "intro": "Japan is the single largest source of E-2 Treaty Investor Visa holders, accounting for approximately 30% of all E-2 visas issued globally each year. With a treaty relationship dating to 1953 and a deeply embedded tradition of cross-Pacific investment, Japanese nationals have more E-2 experience — and more established pathways — than any other nationality. Watson Immigration Law has extensive experience representing Japanese investors seeking to establish or acquire businesses in the United States.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "Japan and the United States have maintained a Treaty of Friendship, Commerce and Navigation since 1953, giving Japanese nationals uninterrupted access to the E-2 investor visa program. Japan's treaty relationship with the U.S. is one of the oldest and most well-established in the program, and Japanese nationals receive consistent, predictable treatment in the consular process."
+    },
+    {
+      "heading": "Visa Validity for Japanese Nationals",
+      "body": "Japanese nationals receive a 5-year visa stamp, one of the longest available in the E-2 program. Each entry is typically granted for a 2-year stay, which is renewable indefinitely as long as the qualifying business remains operational and non-marginal. There is no cap on the number of renewals."
+    },
+    {
+      "heading": "Investment Profile & Common Business Types",
+      "body": "Japanese investors in the United States most commonly invest in retail, hospitality, food service, technology services, and manufacturing. Japanese corporate expansion into the U.S. market is a major driver — subsidiary operations, franchise acquisitions, and distribution businesses are all common structures. Investments typically range from $150,000 to $500,000+ depending on the business type and location, though there is no statutory minimum."
+    },
+    {
+      "heading": "Consulate Processing",
+      "body": "E-2 applications for Japanese nationals are filed at the U.S. Embassy in Tokyo. Processing times are typically 4–8 weeks after the interview is scheduled. Japanese applicants should note that all supporting documents must be submitted in English (or with certified translation), and the business plan must meet U.S. immigration standards — not just Japanese business documentation norms. Watson Immigration Law prepares comprehensive application packages that meet these standards."
+    },
+    {
+      "heading": "Seattle & the Pacific Northwest Connection",
+      "body": "Seattle has one of the largest Japanese-American business communities in the continental United States, and the Pacific Northwest has deep trade and cultural ties with Japan. Japanese investors opening businesses in Seattle, Bellevue, and the surrounding region benefit from an established Japanese business network, Japan-Pacific trade relationships, and Watson Immigration Law's location-specific expertise in this market."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does the E-2 visa last for Japanese nationals?",
+      "answer": "Japanese nationals receive a 5-year visa stamp. Each time you enter the United States on E-2 status, you are typically admitted for 2 years. This is renewable indefinitely — there is no maximum number of renewals as long as your qualifying business remains active and non-marginal."
+    },
+    {
+      "question": "How much must a Japanese investor invest to qualify for E-2?",
+      "answer": "There is no statutory minimum investment. USCIS and consular officers apply a proportionality test — the investment must be substantial relative to the total cost of establishing the enterprise. In practice, investments of $100,000–$200,000 or more are typical for service or retail businesses, while manufacturing or technology companies may require more. The investment must be irrevocably committed and at risk."
+    },
+    {
+      "question": "Can a Japanese corporation apply for E-2?",
+      "answer": "Yes. Japanese nationals who own at least 50% of a U.S. enterprise — whether through a U.S. corporation, LLC, or other entity — can apply for E-2 status. Japanese companies expanding their U.S. operations often structure this as a subsidiary with Japanese national key employees holding E-2 status."
+    },
+    {
+      "question": "What businesses do Japanese E-2 investors typically start or acquire in the U.S.?",
+      "answer": "Japanese E-2 investors in the U.S. most commonly invest in retail stores, restaurants, technology consulting firms, manufacturing operations, import/export businesses, and franchise operations. In the Pacific Northwest, technology services, hospitality, and trade-oriented businesses are particularly common."
+    },
+    {
+      "question": "Can my spouse and children accompany me on E-2?",
+      "answer": "Yes. Your spouse automatically receives an E-2 dependent visa with full U.S. work authorization — no separate EAD application is required. Children under 21 may accompany you as E-2 dependents. Your spouse can work for any U.S. employer; children may study but may not work."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "taiwan", "adjective": "Taiwanese" },
+    { "slug": "australia", "adjective": "Australian" }
+  ],
+  "relatedCities": [
+    { "slug": "seattle", "name": "Seattle" },
+    { "slug": "los-angeles", "name": "Los Angeles" },
+    { "slug": "san-francisco", "name": "San Francisco" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "brazil",
+  "name": "Brazil",
+  "adjective": "Brazilian",
+  "metaTitle": "E-2 Visa for Brazilian Nationals — Not Eligible | Alternatives | Watson Immigration Law",
+  "metaDescription": "Brazilian nationals cannot apply for the E-2 visa — Brazil has no bilateral treaty with the United States. Explore EB-5, O-1, and dual citizenship alternatives including Portugal Golden Visa. Watson Immigration Law advises Brazilian investors.",
+  "h1": "Can Brazilian Nationals Apply for the E-2 Visa?",
+  "intro": "Brazil is the largest economy in Latin America and has millions of citizens with strong ties to the United States, but Brazil does not have a qualifying Treaty of Commerce and Navigation with the U.S. — meaning Brazilian nationals cannot apply for the E-2 Treaty Investor Visa. However, Brazilian investors have several strong alternative pathways, and the addition of Portugal to the E-2 program in March 2025 has opened a particularly attractive dual-strategy route.",
+  "alternatives": [
+    {
+      "visaType": "EB-5 Immigrant Investor Visa",
+      "description": "Open to all nationalities. Requires $800,000 (TEA) or $1,050,000 investment. Leads directly to a U.S. green card. Brazilian nationals face no EB-5 backlog — unlike Indian and Chinese nationals — meaning approved petitions can result in faster green card issuance.",
+      "href": "/visas/eb-5"
+    },
+    {
+      "visaType": "O-1 Visa — Extraordinary Ability",
+      "description": "For Brazilians with extraordinary ability or achievement in business, science, arts, athletics, or education. No investment required. Particularly relevant for Brazilian tech founders, artists, and accomplished executives.",
+      "href": "/visas/o-1"
+    },
+    {
+      "visaType": "L-1 Intracompany Transfer",
+      "description": "For Brazilians who work for a Brazilian company with a U.S. subsidiary or affiliate. Allows transfer to the U.S. entity in a managerial, executive, or specialized knowledge role.",
+      "href": "/visas/l-1"
+    },
+    {
+      "visaType": "Portugal Golden Visa + E-2 (New in 2025)",
+      "description": "Brazil has strong cultural and linguistic ties to Portugal. Portuguese citizenship (obtainable through Portugal's Golden Visa program via investment) gives access to E-2 status as of March 2025. This dual-strategy produces both EU citizenship and E-2 eligibility — a particularly compelling option for Brazilians given the shared language and cultural familiarity with Portugal.",
+      "href": "/visas/e-2/for/portugal"
+    },
+    {
+      "visaType": "Dual Citizenship — Grenada CBI",
+      "description": "Grenada's citizenship-by-investment program (approximately $235,000 donation) provides an alternative treaty-country passport for E-2 eligibility. Grenada has an E-2 treaty with the U.S. and no residency requirement for CBI applicants.",
+      "href": "/visas/e-2/guide/dual-citizenship"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Brazilian nationals apply for the E-2 visa?",
+      "answer": "No. Brazil does not have a qualifying bilateral treaty with the United States. Brazilian nationals cannot apply for E-2 status regardless of investment amount or business type."
+    },
+    {
+      "question": "Can Brazilians get E-2 eligibility through Portuguese citizenship?",
+      "answer": "Yes. Portugal was added to the E-2 treaty program in March 2025. Brazilian nationals who obtain Portuguese citizenship — through Portugal's Golden Visa or through the simplified Portuguese naturalization process available to Brazilians who have lived in Portugal for 2+ years — can then apply for E-2 using their Portuguese passport."
+    },
+    {
+      "question": "Do Brazilian nationals have an EB-5 backlog?",
+      "answer": "No. Unlike Indian and Chinese nationals, Brazilian nationals face essentially no EB-5 backlog — approved petitions can proceed to green card issuance without significant delay. This makes EB-5 a more practical and faster option for Brazilian investors than it is for nationals of high-demand countries."
+    },
+    {
+      "question": "What is the Portugal Golden Visa for Brazilians?",
+      "answer": "Portugal's Golden Visa program allows investment-based residency, which after 5 years can lead to Portuguese citizenship. Brazil and Portugal have a special simplified naturalization treaty that may allow Brazilians to obtain Portuguese citizenship more quickly. Once Portuguese citizenship is obtained, the investor can apply for E-2 using their Portuguese passport."
+    }
+  ],
+  "relatedPages": ["/visas/eb-5", "/visas/o-1", "/visas/l-1", "/visas/e-2/guide/dual-citizenship", "/visas/e-2/for/portugal"]
+}

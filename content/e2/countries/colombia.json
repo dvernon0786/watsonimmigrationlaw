@@ -1,0 +1,63 @@
+{
+  "slug": "colombia",
+  "name": "Colombia",
+  "adjective": "Colombian",
+  "treatyYear": 1848,
+  "visaValidity": "2 years",
+  "annualIssuances": 623,
+  "consulate": "U.S. Embassy Bogotá",
+  "metaTitle": "E-2 Visa for Colombian Nationals | Watson Immigration Law",
+  "metaDescription": "Colombian E-2 visa issuances have surged 73% post-pandemic. Guidance on the E-2 Treaty Investor Visa for Colombian nationals — Bogotá consulate processing, Miami investment corridor, and what Colombians need to qualify.",
+  "h1": "E-2 Visa for Colombian Investors",
+  "intro": "Colombian E-2 Treaty Investor Visa issuances have surged 73% since the pandemic, reflecting a growing wave of Colombian entrepreneurs and investors seeking U.S. business opportunities. Colombia's treaty relationship with the United States dates to 1848, and the Colombia-Miami corridor is one of the most active E-2 investment pipelines in the Western Hemisphere. Watson Immigration Law represents Colombian investors, particularly those targeting Florida, Texas, and the Southeast U.S. market.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "Colombia and the United States have maintained treaty commerce provisions since 1848, giving Colombian nationals longstanding E-2 access. The visa validity for Colombian nationals is 2 years — shorter than many other treaty countries — meaning renewals are more frequent. Each application is an opportunity to document the business's ongoing viability and growth."
+    },
+    {
+      "heading": "The Colombia-Miami Corridor",
+      "body": "Miami is the primary destination for Colombian E-2 investors, who are drawn by the city's large Colombian community, Spanish-language business environment, proximity to Colombia, and Florida's no state income tax advantage. Colombian investors in Miami most commonly invest in restaurants, retail, logistics, real estate services, beauty and wellness businesses, and professional services firms."
+    },
+    {
+      "heading": "Bogotá Consulate Processing",
+      "body": "Colombian nationals apply for E-2 at the U.S. Embassy in Bogotá. The Embassy handles a growing volume of Colombian E-2 applications. Processing times vary — scheduling an interview can take 4–8 weeks, with adjudication typically within 2–3 weeks of the interview. Consular officers scrutinize source of funds documentation carefully for Colombian applicants, so thorough documentation of investment funds is critical."
+    },
+    {
+      "heading": "Investment Considerations for Colombian Investors",
+      "body": "Colombian investors typically invest $100,000–$300,000, depending on the business type. In Miami, restaurant buildouts and retail operations are common structures. Source of funds documentation — showing that the investment capital comes from legitimate, traceable sources — is a particularly important component of the Colombian E-2 application and must be carefully prepared."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Colombian nationals qualify for the E-2 visa?",
+      "answer": "Yes. Colombia has had an E-2 treaty relationship with the United States since 1848. Colombian E-2 issuances have grown 73% since the pandemic, with the Colombia-Miami investment corridor being one of the most active in the program."
+    },
+    {
+      "question": "How long is the E-2 visa for Colombian nationals?",
+      "answer": "Colombian nationals typically receive a 2-year visa stamp, with 2-year admission periods per entry. The visa is renewable; Colombian investors often renew every 2 years as long as the qualifying business remains active."
+    },
+    {
+      "question": "What do Colombian E-2 applicants need to prove about their investment funds?",
+      "answer": "The source of investment funds must be fully documented — showing the origin, movement, and current position of all investment capital. U.S. consular officers in Bogotá apply careful scrutiny to source of funds for Colombian applicants. Working with an experienced immigration attorney to prepare this documentation is strongly recommended."
+    },
+    {
+      "question": "What businesses are most common for Colombian E-2 investors in Miami?",
+      "answer": "In Miami, Colombian E-2 investors most commonly invest in restaurants, beauty and wellness businesses, retail stores, logistics companies, and professional services firms. The Miami market is ideal for Colombian entrepreneurs given the established Colombian community and Spanish-language business environment."
+    },
+    {
+      "question": "Can my spouse work in the U.S. under my E-2 visa?",
+      "answer": "Yes. Your E-2 dependent spouse receives automatic U.S. work authorization and can work for any employer. This is one of the most valuable benefits of the E-2 visa for Colombian families considering a U.S. relocation."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "argentina", "adjective": "Argentine" },
+    { "slug": "spain", "adjective": "Spanish" }
+  ],
+  "relatedCities": [
+    { "slug": "miami", "name": "Miami" },
+    { "slug": "houston", "name": "Houston" },
+    { "slug": "orlando", "name": "Orlando" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "turkey",
+  "name": "Turkey",
+  "adjective": "Turkish",
+  "treatyYear": 1930,
+  "visaValidity": "2 years",
+  "annualIssuances": 950,
+  "consulate": "U.S. Embassy Ankara / U.S. Consulate Istanbul",
+  "metaTitle": "E-2 Visa for Turkish Nationals | Watson Immigration Law",
+  "metaDescription": "Turkish nationals have E-2 treaty access plus citizenship-by-investment options that make Turkey uniquely valuable in dual-strategy immigration planning. Guidance on E-2 visa for Turkish nationals from Watson Immigration Law.",
+  "h1": "E-2 Visa for Turkish Investors",
+  "intro": "Turkey occupies a unique position in the E-2 landscape: Turkish nationals have both direct E-2 treaty access (since 1930) and access to one of the world's most attractive citizenship-by-investment programs, which allows nationals from non-E-2 countries to obtain Turkish citizenship as a stepping stone to E-2 eligibility. Watson Immigration Law advises Turkish investors on direct E-2 applications and advises investors from other countries on the Turkey CBI + E-2 dual-strategy pathway.",
+  "sections": [
+    {
+      "heading": "Direct E-2 Access for Turkish Nationals",
+      "body": "Turkey and the United States have maintained treaty commerce provisions since 1930, giving Turkish nationals full E-2 access. Turkish investors receive a 2-year visa stamp, with 2-year U.S. admission periods per entry. Turkish entrepreneurs are active in retail, food service, textile and apparel, professional services, and technology sectors."
+    },
+    {
+      "heading": "Turkey as a CBI Gateway to E-2",
+      "body": "Turkey's citizenship-by-investment program — which grants Turkish citizenship in exchange for a qualifying investment (typically $400,000 in real estate) — has become a popular pathway for nationals of non-E-2 countries, particularly from the Middle East, South Asia, and Central Asia. Once Turkish citizenship is obtained, the investor holds a Turkish passport and is eligible for E-2 status. This dual-strategy is particularly common for nationals of countries like Saudi Arabia, the UAE, Pakistan, and Kazakhstan."
+    },
+    {
+      "heading": "Processing for Turkish Nationals",
+      "body": "Turkish nationals apply at the U.S. Embassy in Ankara or the U.S. Consulate General in Istanbul. Istanbul processes a higher volume of business visa applications. Processing times vary but are typically 4–8 weeks after interview."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Turkish nationals qualify for the E-2 visa?",
+      "answer": "Yes. Turkey has had an E-2 treaty with the United States since 1930. Turkish nationals are eligible for E-2 status and receive a 2-year visa stamp."
+    },
+    {
+      "question": "Can a person from a non-E-2 country get E-2 eligibility through Turkish citizenship?",
+      "answer": "Yes. Turkey's citizenship-by-investment program allows investors to obtain Turkish citizenship through qualifying investment (typically $400,000 in real estate). Once you hold a Turkish passport, you are eligible for E-2 status. This is a well-established dual-strategy pathway that Watson Immigration Law advises on."
+    },
+    {
+      "question": "How long does the Turkey CBI + E-2 process take?",
+      "answer": "Turkish citizenship through CBI typically takes 3–6 months to obtain. After receiving your Turkish passport, you can then apply for E-2 status at the U.S. Embassy. The full process from CBI investment to E-2 approval is typically 12–18 months."
+    },
+    {
+      "question": "What types of businesses do Turkish E-2 investors typically open in the U.S.?",
+      "answer": "Turkish E-2 investors commonly invest in food service, retail, textile and apparel businesses, professional services, and import/export companies. Turkish investors are active in New York, Chicago, Houston, and the Southeast U.S."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "germany", "adjective": "German" },
+    { "slug": "greece", "adjective": "Greek" },
+    { "slug": "grenada", "adjective": "Grenadian" }
+  ],
+  "relatedCities": [
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "chicago", "name": "Chicago" },
+    { "slug": "houston", "name": "Houston" }
+  ]
+}

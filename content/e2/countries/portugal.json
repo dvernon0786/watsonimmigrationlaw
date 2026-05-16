@@ -1,0 +1,62 @@
+{
+  "slug": "portugal",
+  "name": "Portugal",
+  "adjective": "Portuguese",
+  "treatyYear": 2025,
+  "visaValidity": "2 years",
+  "consulate": "U.S. Embassy Lisbon",
+  "metaTitle": "E-2 Visa for Portuguese Nationals | Watson Immigration Law",
+  "metaDescription": "Portugal was added to the E-2 treaty program in March 2025 — one of the newest eligible countries with almost zero competition for search traffic. Guidance on the E-2 visa for Portuguese nationals from Watson Immigration Law.",
+  "h1": "E-2 Visa for Portuguese Nationals — New in 2025",
+  "intro": "Portugal was added to the E-2 Treaty Investor Visa program in March 2025, making it one of the newest treaty countries. This creates an extraordinary opportunity: Portuguese nationals now have direct E-2 access for the first time, and there is currently almost no established immigration infrastructure or online content targeting this market. Watson Immigration Law is positioned to help Portuguese nationals and Portugal-based investors take advantage of this new pathway.",
+  "sections": [
+    {
+      "heading": "Portugal's New E-2 Treaty — March 2025",
+      "body": "The Treaty of Friendship and Commerce between Portugal and the United States entered into force for E-2 purposes in March 2025. This is a significant development: Portugal had long been excluded from the E-2 program despite being a small, stable European economy with strong ties to the United States. Portuguese nationals can now apply for E-2 status at the U.S. Embassy in Lisbon or at any U.S. consulate where they have legal residency."
+    },
+    {
+      "heading": "The Portugal Opportunity — Golden Visa + E-2",
+      "body": "Portugal's Golden Visa program — which grants Portuguese residency (and after 5 years, citizenship) in exchange for qualifying investment — has long attracted investors from non-E-2 countries like India, China, and Brazil who sought a European pathway. With Portugal now added to the E-2 treaty, investors who obtained Portuguese citizenship through the Golden Visa program can now apply for E-2 status using their Portuguese passport. This creates a powerful dual-strategy: non-treaty nationals who obtained Portuguese citizenship are now E-2 eligible."
+    },
+    {
+      "heading": "Who Benefits Most from Portugal's E-2 Addition",
+      "body": "Three groups benefit most from Portugal's new E-2 treaty status: (1) Portuguese-born nationals who always wanted U.S. business access; (2) investors from non-E-2 countries who obtained Portuguese citizenship via the Golden Visa and can now use that passport for E-2; (3) dual Portuguese-EU nationals who are now E-2 eligible through their Portuguese passport in addition to any other E-2 treaty they may hold."
+    },
+    {
+      "heading": "Consulate Processing",
+      "body": "Portuguese nationals apply for E-2 at the U.S. Embassy in Lisbon. As this is a new treaty, consular officers are still developing consistent adjudication practices for Portuguese E-2 cases. Working with an attorney who can present a thorough, well-documented application is particularly important in the early months of this new treaty's operation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When did Portugal become eligible for the E-2 visa?",
+      "answer": "Portugal was added to the E-2 Treaty Investor Visa program in March 2025, making it one of the newest eligible countries. Portuguese nationals can now apply for E-2 status for the first time."
+    },
+    {
+      "question": "Can someone who obtained Portuguese citizenship through the Golden Visa apply for E-2?",
+      "answer": "Yes. If you obtained Portuguese citizenship through Portugal's Golden Visa program — or through any other legal pathway — and hold a valid Portuguese passport, you are eligible for the E-2 visa. The E-2 visa is based on nationality (passport), not where or how you became a citizen."
+    },
+    {
+      "question": "What is the visa validity for Portuguese E-2 holders?",
+      "answer": "Portuguese nationals typically receive a 2-year visa stamp under the new treaty, with 2-year admission periods per U.S. entry. As this is a new treaty, exact validity terms may evolve as the consular process matures."
+    },
+    {
+      "question": "What types of businesses can Portuguese E-2 investors establish in the U.S.?",
+      "answer": "All business types that meet the E-2 requirements are eligible — there are no Portugal-specific restrictions. Technology, hospitality, retail, professional services, and manufacturing are all viable. The investment must be substantial, at risk, and the business must be more than marginal."
+    },
+    {
+      "question": "Does this affect Brazilian or Indian investors who obtained Portuguese citizenship?",
+      "answer": "Yes. Brazilian and Indian nationals who obtained Portuguese citizenship through the Golden Visa or other naturalization pathways are now eligible for E-2 status using their Portuguese passport. This is a significant development for nationals of large non-treaty countries seeking U.S. investor visa access."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "spain", "adjective": "Spanish" },
+    { "slug": "france", "adjective": "French" },
+    { "slug": "ireland", "adjective": "Irish" }
+  ],
+  "relatedCities": [
+    { "slug": "miami", "name": "Miami" },
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "boston", "name": "Boston" }
+  ]
+}

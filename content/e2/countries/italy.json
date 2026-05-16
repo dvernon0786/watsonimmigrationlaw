@@ -1,0 +1,55 @@
+{
+  "slug": "italy",
+  "name": "Italy",
+  "adjective": "Italian",
+  "treatyYear": 1961,
+  "visaValidity": "5 years",
+  "annualIssuances": 1241,
+  "consulate": "U.S. Embassy Rome",
+  "metaTitle": "E-2 Visa for Italian Nationals | Watson Immigration Law",
+  "metaDescription": "Italy issues over 1,200 E-2 visas annually. Guidance on the E-2 Treaty Investor Visa for Italian nationals — 5-year visa validity, Rome consulate processing, hospitality and fashion investment focus.",
+  "h1": "E-2 Visa for Italian Investors",
+  "intro": "Italy is a significant source of E-2 Treaty Investor Visa holders, with over 1,200 visas issued annually. Italian investors are particularly active in hospitality, food and beverage, fashion and luxury goods, design, and professional services — sectors where Italy's world-class reputation creates immediate credibility in the U.S. market. Watson Immigration Law represents Italian entrepreneurs and investors seeking to establish or expand U.S. operations.",
+  "sections": [
+    {
+      "heading": "Treaty Status & History",
+      "body": "Italy and the United States have maintained a Treaty of Friendship, Commerce and Navigation since 1961. Italian nationals receive a 5-year visa stamp — one of the longest available in the E-2 program — with 2-year U.S. admission periods per entry."
+    },
+    {
+      "heading": "Common Business Types for Italian E-2 Investors",
+      "body": "Italian investors in the United States most commonly invest in Italian restaurants and food concepts, wine and spirits importing/distribution, luxury retail and fashion boutiques, design studios, and professional services firms. The strong U.S. appetite for Italian brands and cuisine makes these sectors natural fits for E-2 investment. Italian investors are particularly active in New York, Miami, Chicago, and Los Angeles."
+    },
+    {
+      "heading": "Rome Consulate Processing",
+      "body": "Italian nationals apply for E-2 at the U.S. Embassy in Rome or the U.S. Consulate General in Naples, Milan, or Florence. The Rome Embassy handles the majority of Italian E-2 applications. Processing times are typically 6–10 weeks after interview scheduling. All supporting documents must be submitted in English or with certified translation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do Italian nationals qualify for the E-2 visa?",
+      "answer": "Yes. Italy has had an E-2 treaty with the United States since 1961. Italian nationals receive a 5-year visa stamp and are among the top 10 E-2 source countries globally."
+    },
+    {
+      "question": "Can I open an Italian restaurant in the U.S. on an E-2 visa?",
+      "answer": "Yes. Restaurants and food service businesses are among the most common E-2 investments by Italian nationals. The business must meet E-2 substantiality and non-marginality requirements — the restaurant must generate significantly more than the investor's living income and have hiring capacity."
+    },
+    {
+      "question": "How long does the E-2 visa last for Italian nationals?",
+      "answer": "Italian nationals receive a 5-year visa stamp with 2-year U.S. entry admissions, renewable indefinitely."
+    },
+    {
+      "question": "Can my spouse work in the U.S. under my E-2 visa?",
+      "answer": "Yes. E-2 dependent spouses receive automatic U.S. work authorization — no separate EAD application is required."
+    }
+  ],
+  "relatedCountries": [
+    { "slug": "france", "adjective": "French" },
+    { "slug": "spain", "adjective": "Spanish" },
+    { "slug": "germany", "adjective": "German" }
+  ],
+  "relatedCities": [
+    { "slug": "new-york", "name": "New York City" },
+    { "slug": "miami", "name": "Miami" },
+    { "slug": "chicago", "name": "Chicago" }
+  ]
+}

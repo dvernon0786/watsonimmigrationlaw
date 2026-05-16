@@ -1,0 +1,70 @@
+{
+  "slug": "seattle",
+  "name": "Seattle",
+  "state": "Washington",
+  "stateCode": "WA",
+  "metaTitle": "E-2 Visa Attorney in Seattle, WA | Watson Immigration Law",
+  "metaDescription": "Watson Immigration Law is Seattle's E-2 Treaty Investor Visa firm. Expert guidance for international investors opening or acquiring businesses in Seattle — the Pacific Rim's gateway city for foreign investment.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Seattle, WA",
+  "intro": "Seattle is one of the most active E-2 investor markets in the United States, drawing international investors through its position as the Pacific Rim's premier U.S. gateway city. Home to Amazon, Microsoft, Boeing, and one of the world's most vibrant technology economies, Seattle offers international investors access to a world-class talent pool, an established immigrant business community, and Washington State's no-income-tax environment. Watson Immigration Law is Seattle-based and has deep expertise in the E-2 cases that flow through the Seattle market.",
+  "sections": [
+    {
+      "heading": "Why International Investors Choose Seattle",
+      "body": "Seattle's position at the intersection of Pacific Rim trade and U.S. technology leadership makes it uniquely attractive for international investors. Direct flights to Tokyo, Seoul, Beijing, and Hong Kong connect Seattle to Asia's largest business centers. The city's established Korean-American, Japanese-American, and Chinese-American business communities provide on-the-ground support networks for new investors. And the presence of major technology employers creates consistent demand for business services, professional consulting, and technology-adjacent investments — ideal E-2 business structures."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Seattle",
+      "body": "Technology services and IT consulting are the dominant E-2 investment types in the Seattle metro area, driven by the proximity to Amazon, Microsoft, Google, and hundreds of startup-stage technology companies. Retail and food service — particularly Korean, Japanese, and other Asian-cuisine restaurant concepts — are also extremely active. Professional services, healthcare staffing, logistics, and e-commerce operations round out the most common Seattle E-2 business types."
+    },
+    {
+      "heading": "Washington State Tax Environment",
+      "body": "Washington State has no personal income tax — a significant financial advantage for E-2 investors who are drawing income from their U.S. business. There is no tax on wages, salary, or business income in Washington State. The state does have a business and occupation (B&O) tax on gross receipts, but the overall tax environment is still highly favorable compared to states like California, New York, or Oregon."
+    },
+    {
+      "heading": "USCIS Field Office — Seattle",
+      "body": "For E-2 applicants who are already in the United States and wish to change status rather than apply at a consulate abroad, the USCIS Seattle Field Office serves King, Pierce, Snohomish, and surrounding counties. For consular E-2 applicants, the relevant consulate is determined by your nationality and country of residence — not your intended U.S. city of business."
+    },
+    {
+      "heading": "What Does 'Substantial Investment' Mean in Seattle?",
+      "body": "E-2 requires a 'substantial' investment — meaning proportional to the total cost of establishing the enterprise, not an absolute dollar amount. In Seattle's market, a technology consulting firm or small retail operation may qualify with $100,000–$150,000. A restaurant, hospitality business, or retail store in a premium Seattle location will typically require $200,000–$500,000 or more due to higher build-out, equipment, and lease costs. Watson Immigration Law assesses the investment level appropriate for your specific Seattle business type."
+    }
+  ],
+  "stateTax": "No state income tax",
+  "uscisOffice": "USCIS Seattle Field Office (serves King, Pierce, Snohomish counties)",
+  "industries": ["Technology Services", "IT Consulting", "Food & Beverage", "Retail", "Professional Services", "Logistics", "Healthcare Staffing"],
+  "topNationalities": [
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "canada", "adjective": "Canadian" },
+    { "slug": "united-kingdom", "adjective": "British" },
+    { "slug": "taiwan", "adjective": "Taiwanese" }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need a Seattle-based attorney for my E-2 visa?",
+      "answer": "You are not legally required to use a Seattle-based attorney — immigration law is federal, and any licensed U.S. immigration attorney can handle your case regardless of location. However, Watson Immigration Law is Seattle-based and deeply familiar with the local business environment, investment landscape, and what consular officers and USCIS look for in E-2 cases from Pacific Northwest investors. We offer virtual consultations and represent clients across the U.S. and internationally."
+    },
+    {
+      "question": "What types of businesses are most common for E-2 investors in Seattle?",
+      "answer": "Technology consulting, IT services, Korean and Japanese restaurants, retail stores, professional services firms, and logistics companies are the most common E-2 business types in the Seattle metro area. The technology ecosystem also supports niche E-2 businesses — software testing, IT staffing, digital marketing agencies — that serve Amazon, Microsoft, and the broader tech community."
+    },
+    {
+      "question": "Can I open a franchise business in Seattle on an E-2 visa?",
+      "answer": "Yes. Franchise businesses are one of the most common E-2 investment structures because the documented business plan and established operating model make it easier to satisfy the E-2 substantiality and non-marginality requirements. The Seattle metro has active franchise markets in food service, fitness, home services, and retail."
+    },
+    {
+      "question": "How long does E-2 processing take for Seattle-area applicants?",
+      "answer": "Processing time depends on whether you apply through a U.S. consulate (typically 4–8 weeks after interview) or via change of status with USCIS (typically 4–6 months for standard processing, or 15 business days for premium processing at an additional fee). Watson Immigration Law advises on the fastest and most appropriate filing method for your situation."
+    },
+    {
+      "question": "Does Watson Immigration Law represent clients outside of Seattle?",
+      "answer": "Yes. Watson Immigration Law is Seattle-based but represents E-2 investors across the United States and internationally. We handle cases for investors whose businesses are located in New York, Miami, Los Angeles, Chicago, and other markets. We offer virtual consultations and have no geographic restriction on client representation."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "bellevue", "name": "Bellevue" },
+    { "slug": "redmond", "name": "Redmond" },
+    { "slug": "tacoma", "name": "Tacoma" },
+    { "slug": "portland", "name": "Portland" }
+  ]
+}

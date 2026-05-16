@@ -1,0 +1,49 @@
+{
+  "slug": "houston",
+  "name": "Houston",
+  "state": "Texas",
+  "stateCode": "TX",
+  "metaTitle": "E-2 Visa Attorney in Houston, TX | Watson Immigration Law",
+  "metaDescription": "Houston is the energy capital of the U.S. and a major E-2 investor market — no state income tax, large Latin American and Asian investor community, fast-growing economy. Expert E-2 visa guidance for Houston investors.",
+  "h1": "E-2 Treaty Investor Visa Attorney in Houston, TX",
+  "intro": "Houston is the energy capital of the United States and one of the fastest-growing major economies in the country. As the most ethnically diverse major city in the United States, Houston has large and established business communities from Latin America, South Asia, the Middle East, and East Asia — all of which contribute to an extremely active E-2 investment market. Texas has no state income tax, making Houston a financially attractive destination for international investors.",
+  "sections": [
+    {
+      "heading": "Why Investors Choose Houston for E-2",
+      "body": "Houston's economic diversity — spanning energy, healthcare, aerospace, port logistics, and professional services — creates opportunity across virtually every E-2 business type. The city's lower cost of living compared to coastal markets, no state income tax, and established immigrant business communities make it an attractive alternative to more expensive markets like New York or Los Angeles."
+    },
+    {
+      "heading": "Top E-2 Investment Sectors in Houston",
+      "body": "Energy services and consulting, food and beverage (particularly Latin American and South Asian cuisines), healthcare staffing, logistics and freight, retail, and professional services are the most active E-2 investment sectors in Houston. Mexican, Colombian, Indian (seeking non-E-2 alternatives), and Korean investors are particularly active."
+    },
+    {
+      "heading": "Texas Tax Environment",
+      "body": "Texas has no state income tax — a significant advantage for E-2 investors drawing income from their businesses. Texas does have a franchise tax (margin tax) on businesses, but the overall tax environment is far more favorable than California, New York, or New Jersey."
+    }
+  ],
+  "stateTax": "No state income tax",
+  "uscisOffice": "USCIS Houston Field Office",
+  "industries": ["Energy Services", "Food & Beverage", "Healthcare Staffing", "Logistics & Freight", "Retail", "Professional Services"],
+  "topNationalities": [
+    { "slug": "mexico", "adjective": "Mexican" },
+    { "slug": "colombia", "adjective": "Colombian" },
+    { "slug": "south-korea", "adjective": "Korean" },
+    { "slug": "japan", "adjective": "Japanese" },
+    { "slug": "turkey", "adjective": "Turkish" }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Houston attractive for E-2 investors?",
+      "answer": "Houston offers no state income tax, a lower cost of living than coastal cities, a diverse economy with opportunity across multiple sectors, and one of the most ethnically diverse business communities in the United States. The city's energy sector creates constant demand for business services and consulting."
+    },
+    {
+      "question": "What investment amount is typically needed for an E-2 business in Houston?",
+      "answer": "Houston's lower real estate and operating costs compared to New York or San Francisco mean that E-2 businesses can often be established for $100,000–$250,000. Restaurants and retail stores in desirable Houston neighborhoods may require $150,000–$400,000. An attorney can assess the appropriate investment level for your specific business type and Houston location."
+    }
+  ],
+  "relatedCities": [
+    { "slug": "dallas", "name": "Dallas" },
+    { "slug": "austin", "name": "Austin" },
+    { "slug": "san-antonio", "name": "San Antonio" }
+  ]
+}
