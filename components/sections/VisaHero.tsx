@@ -4,7 +4,7 @@ interface VisaHeroProps {
   headline: string
   subheadline: string
   visaName: string
-  locationName: string
+  locationName?: string
 }
 
 export default function VisaHero({ headline, subheadline, visaName, locationName }: VisaHeroProps) {
@@ -14,7 +14,7 @@ export default function VisaHero({ headline, subheadline, visaName, locationName
         <div className="max-w-4xl">
           {/* Badge */}
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-gold-400 text-navy text-sm font-semibold mb-6">
-            {visaName} · {locationName}
+            {visaName}{locationName ? ` · ${locationName}` : ''}
           </div>
 
           {/* Headline */}

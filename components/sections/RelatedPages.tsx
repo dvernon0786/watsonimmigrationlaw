@@ -59,21 +59,19 @@ export default function RelatedPages({ visa, location, country, industry, pages 
   }
 
   // Generate related page suggestions based on current page context
-  const relatedPages = []
+  const relatedPages: Array<{ title: string; href: string }> = []
 
   if (visa && location) {
-    // On city page: show country and industry pages for same visa
     relatedPages.push(
-      { title: `${visa} for ${country || 'Indian'} Nationals`, path: `/visas/${visa}/for/${country || 'india'}` },
-      { title: `${visa} for ${industry || 'Tech'} Professionals`, path: `/visas/${visa}/industry/${industry || 'tech'}` },
-      { title: `${visa} in ${location === 'seattle' ? 'New York' : 'Seattle'}`, path: `/visas/${visa}/${location === 'seattle' ? 'new-york' : 'seattle'}` }
+      { title: `${visa} for ${country || 'Indian'} Nationals`, href: `/visas/${visa}/for/${country || 'india'}` },
+      { title: `${visa} for ${industry || 'Tech'} Professionals`, href: `/visas/${visa}/industry/${industry || 'tech'}` },
+      { title: `${visa} in ${location === 'seattle' ? 'New York' : 'Seattle'}`, href: `/visas/${visa}/${location === 'seattle' ? 'new-york' : 'seattle'}` }
     )
   } else if (visa) {
-    // On visa overview: show popular city pages
     relatedPages.push(
-      { title: `${visa} in Seattle`, path: `/visas/${visa}/seattle` },
-      { title: `${visa} in New York`, path: `/visas/${visa}/new-york` },
-      { title: `${visa} in San Francisco`, path: `/visas/${visa}/san-francisco` }
+      { title: `${visa} in Seattle`, href: `/visas/${visa}/seattle` },
+      { title: `${visa} in New York`, href: `/visas/${visa}/new-york` },
+      { title: `${visa} in San Francisco`, href: `/visas/${visa}/san-francisco` }
     )
   }
 
@@ -89,7 +87,7 @@ export default function RelatedPages({ visa, location, country, industry, pages 
           {relatedPages.map((page, index) => (
             <Link
               key={index}
-              href={page.path}
+              href={page.href}
               className="group bg-white rounded-xl2 border border-border shadow-card hover:shadow-card-hover transition-all p-6 block"
             >
               <h3 className="font-semibold text-navy group-hover:text-gold-400 transition-colors mb-2">

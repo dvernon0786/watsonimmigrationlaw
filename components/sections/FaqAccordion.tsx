@@ -14,6 +14,8 @@ interface FaqAccordionProps {
 export default function FaqAccordion({ faqs }: FaqAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
+  if (faqs.length === 0) return null
+
   return (
     <section className="py-section bg-cream">
       <div className="max-w-content mx-auto px-6">
